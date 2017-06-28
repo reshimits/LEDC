@@ -1,0 +1,2353 @@
+	
+	<!-- MODAL: LOGIN -->
+	<div id="login" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	    <div class="modal-dialog">
+	      	<div class="modal-content">
+	        	<div class="modal-header">
+	          		<div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
+	          		<h3 class="modal-title text-primary" id="myModalLabel">Login/Register</h3>
+                    <hr>
+	        	</div>
+                <div class="modal-body">
+                    <div class="modal-body-titlecopy">
+                        <h5>Returning Customer</h5>
+                    </div>
+	          		<form class="form-horizontal">
+                        <fieldset>
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-6">
+                                    <input type="text" class="form-control" id="inputDefault" value="Email">
+                                </div>
+                                <div class="col-xs-12 col-sm-6">
+                                    <input type="text" class="form-control" id="inputDefault" value="Password">
+                                </div>
+                                <div class="col-xs-12">
+                                	
+                               	</div>
+                            </div>
+                            <hr>
+                            <div class="form-group">
+                                <div class="col-xs-12">
+                                    <div class="small" style="float:left;"><a href="/client/TRS/2016/account/forgotpassword.php">Forgot Password</a></div>
+                                    <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-arrowRcircle-fff icon-after"></span> Login</div>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                    <hr class="aligncenter first">
+                </div>
+                
+	        	<div class="modal-body modal-body-alt">
+	        		<div class="modal-body-titlecopy">
+                        <h5>New Customer Registration</h5>
+                        <p class="lead">Login with an existing username and password (above), or please create a new account.</p>
+                        <p class="small">With an account, we'll save your contact and shipping information so that you can take always advantage of a more convenient shopping experience. Sign up today!</p>
+                    </div>
+	          		<form class="form-horizontal">
+                        <fieldset>
+                            <div class="form-group">
+                                <div class="col-xs-12">
+                                    <input type="text" class="form-control" id="inputDefault" value="Email">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-6">
+                                    <input type="text" class="form-control" id="inputDefault" value="Password">
+                                </div>
+                                <div class="col-xs-12 col-sm-6">
+                                    <input type="text" class="form-control" id="inputDefault" value="Confirm Password">
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-6">
+                                    <input type="text" class="form-control" id="inputDefault" value="First Name">
+                                </div>
+                                <div class="col-xs-12 col-sm-6">
+                                    <input type="text" class="form-control" id="inputDefault" value="Last Name">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-xs-12">
+                                    <input type="text" class="form-control" id="inputDefault" value="Company Name">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-6">
+                                    <input type="text" class="form-control" id="inputDefault" value="Street Address 1">
+                                </div>
+                                <div class="col-xs-12 col-sm-6">
+                                    <input type="text" class="form-control" id="inputDefault" value="Street Address 2">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-6">
+                                    <input type="text" class="form-control" id="inputDefault" value="City">
+                                </div>
+                                <div class="col-xs-12 col-sm-6">
+                                    <input type="text" class="form-control" id="inputDefault" value="Region/State">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-6">
+                                    <select class="form-control drop validate-select" id="select">
+                                        <option value="">Country</option>
+                                        <option value="#">#</option>
+                                        <option value="#">#</option>
+                                        <option value="#">#</option>
+                                        <option value="#">#</option>
+                                        <option value="#">#</option>
+                                    </select>
+                                </div>
+                                <div class="col-xs-12 col-sm-6">
+                                    <input type="text" class="form-control" id="inputDefault" value="Postal Code">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-6">
+                                    <input type="text" class="form-control" id="inputDefault" value="Phone">
+                                </div>
+                            </div>                            
+                            <hr>
+                            <div class="form-group">
+                                <div class="col-xs-12">
+                                    <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-arrowRcircle-fff icon-after"></span> Register</div>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+	        	</div>
+	      	</div><!-- /.modal-content -->
+	    </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+    <!-- MODAL: SEARCH -->
+    <div id="search" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
+                    <h3 class="modal-title text-primary" id="myModalLabel">Search</h3>
+                    <hr>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body-titlecopy">
+                        <h5>What can we help you find today?</h5>
+                    </div>
+                    <form class="form-horizontal">
+                        <fieldset>
+                            <div class="form-group has-suggestions">
+                                <div class="col-xs-12">
+                                    <input type="text" class="form-control" id="inputSuggestions" placeholder="Search...">
+                                    <!-- <ul class="dropdown-menu" role="menu">
+                                        <li>Suggestion</li>
+                                        <li>Another suggestion</li>
+                                        <li>Some other suggestion</li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="form-group">
+                                <div class="col-xs-12">
+                                    <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-search icon-before"></span> Search</div>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
+    <!-- MY ACCOUNT MODALS -->
+
+	<!-- MODAL: EDIT ACCOUNT INFO / CHANGE PASSWORD -->
+    <div id="editaccount" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
+                    <h3 class="modal-title text-primary" id="myModalLabel">Edit Account Info</h3>
+                    <hr>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal">
+                        <fieldset>
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-6">
+                                    <input type="text" class="form-control" id="inputDefault" value="First Name">
+                                </div>
+                                <div class="col-xs-12 col-sm-6">
+                                    <input type="text" class="form-control" id="inputDefault" value="Last Name">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-xs-12">
+                                    <input type="text" class="form-control" id="inputDefault" value="Email Address">
+                                </div>
+                            </div>
+                            <div class="change-password">
+	                            <div class="form-group">
+	                            	<hr>
+	                                <div class="col-xs-12">
+	                                    <input type="text" class="form-control" id="inputDefault" value="Current Password">
+	                                </div>
+	                            </div>
+	                            <div class="form-group">    
+	                                <div class="col-xs-12 col-sm-6">
+	                                    <input type="text" class="form-control" id="inputDefault" value="New Password">
+	                                </div>
+	                                <div class="col-xs-12 col-sm-6">
+	                                    <input type="text" class="form-control" id="inputDefault" value="Confirm New Password">
+	                                </div>
+	                            </div>
+	                        </div>    
+                            <hr>
+                            <div class="form-group">
+                                <div class="col-xs-12">
+                                    <div type="button" class="btn btn-default" data-toggle="modal" data-target="#cancelorder">Cancel</div>
+                                    <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-arrowRcircle-fff icon-after"></span> Save</div>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- MODAL: ACCOUNT EDIT ADDRESSES -->
+    <div id="editaddress" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
+                    <h3 class="modal-title text-primary" id="myModalLabel">Edit Address</h3>
+                    <hr>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal">
+                        <fieldset>
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-6">
+                                    <input type="text" class="form-control" id="inputDefault" value="First Name">
+                                </div>
+                                <div class="col-xs-12 col-sm-6">
+                                    <input type="text" class="form-control" id="inputDefault" value="Last Name">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-xs-12">
+                                    <input type="text" class="form-control" id="inputDefault" value="Company Name">
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-6">
+                                    <input type="text" class="form-control" id="inputDefault" value="Street Address 1">
+                                </div>
+                                <div class="col-xs-12 col-sm-6">
+                                    <input type="text" class="form-control" id="inputDefault" value="Street Address 2">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-6">
+                                    <input type="text" class="form-control" id="inputDefault" value="City">
+                                </div>
+                                <div class="col-xs-12 col-sm-6">
+                                    <input type="text" class="form-control" id="inputDefault" value="Region/State">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-6">
+                                    <select class="form-control drop" id="select">
+                                        <option value="">Country</option>
+                                        <option value="#">#</option>
+                                        <option value="#">#</option>
+                                        <option value="#">#</option>
+                                        <option value="#">#</option>
+                                        <option value="#">#</option>
+                                    </select>
+                                </div>
+                                <div class="col-xs-12 col-sm-6">
+                                    <input type="text" class="form-control" id="inputDefault" value="Postal Code">
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-6">
+                                    <input type="text" class="form-control" id="inputDefault" value="Email Address">
+                                </div>
+                                <div class="col-xs-12 col-sm-6">
+                                    <input type="text" class="form-control" id="inputDefault" value="Phone">
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-6">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox"> <span class="small">Make Default Billing Address</span>
+                                        </label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox"> <span class="small">Make Default Shipping Address</span>
+                                        </label>
+                                    </div>
+                                </div>    
+                                <div class="col-xs-12 col-sm-6">
+                                    <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-arrowRcircle-fff icon-after"></span> Save</div>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- MODAL: ACCOUNT REMOVE CREDIT CARD -->
+    <div id="removecard" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
+                    <h3 class="modal-title text-primary" id="myModalLabel">Remove Credit Card</h3>
+                    <hr>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body-titlecopy">
+                        <p class="lead">Are you sure you want to remove this card?</p>
+                        <hr class="aligncenter first">
+                    </div>
+                    <div class="section half">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-4 col-sm-offset-2">
+                                <a type="button" data-dismiss="modal" class="btn btn-default btn-block">No</a>
+                            </div>
+                            <div class="col-xs-6 col-sm-4">
+                                <a type="button" href="#" class="btn btn-primary btn-block">Yes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- MODAL: ORDER DETAILS -->
+    <div id="orderdetails" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-lg modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
+                    <h3 class="modal-title text-primary" id="myModalLabel">#100057922 Order Details</h3>
+                    <hr>
+                </div>
+
+                <div class="modal-body">
+                    <div class="section wrap">
+                        <div class="modal-body-titlecopy">
+                            <h5>Billing / Shipping Information</h5>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Shipping Address</p>
+                                    <hr class="aligncenter first">
+                                    <p><span class="lead">Robert Shimits</span><br>
+                                    747 Quaker Ridge Ct. <br>
+                                    Columbus, OH, 43235<br>
+                                    United States<br>
+                                    440.666.8214
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Shipping Method</p>
+                                    <hr class="aligncenter first">
+                                    <p><span class="lead">USPS</span><br>
+                                    First Class Mail - Package <br>
+                                    1-3 business days<br>
+                                    $24.63<br>
+                                    Tracking #: <a href="#" class="text-primary">9400111988223468835993</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Billing Address</p>
+                                    <hr class="aligncenter first">
+                                    <p><span class="lead">Robert Shimits</span><br>
+                                    747 Quaker Ridge Ct. <br>
+                                    Columbus, OH, 43235<br>
+                                    United States<br>
+                                    440.666.8214
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Billing Method</p>
+                                    <hr class="aligncenter first">
+                                    <p><span class="lead">Store Credit</span><br>
+                                    $100</p>
+                                    <p><span class="lead">Credit Card</span> - MasterCard<br>
+                                    XXXX-XXXX-XXXX-4466
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xs-12"><div class="row"><hr class="aligncenter first"></div></div>
+
+                    <div class="section half last">
+                        <div class="modal-body-titlecopy">
+                            <h5>Order Extra Information</h5>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Purchase Order Details</p>
+                                    <hr class="aligncenter first">
+                                    <p><span class="lead">Drop Ship</span><br>
+                                    P.O. #: 59781B</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Promo Code</p>
+                                    <hr class="aligncenter first">
+                                    <p><span class="lead">TRS2016BlackFriday</span><br>
+                                    10% Off 
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Special Requests / Comments</p>
+                                    <hr class="aligncenter first">
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut lagret dolore magna aliquam erat volutpat. Ut wisi enim ad minim venom, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea comido consequat. Duis autem vel rum iriure dolor in hendrerit in vulputate veilt esse molestie consegua, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et giusto odio degnissima qui blandi present luptatum zirli delenit augue dus dolore te fegati nulla faciliti.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12"><div class="row"><hr class="aligncenter first"></div></div>
+
+                    <div class="section half">
+                        <div class="modal-body-titlecopy">
+                            <h5>Order Items</h5>
+                        </div>
+                        <div class="section first cart-product">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <h3>BI-XENON: LEXUS RX350</h3>
+                                    <hr class="aligncenter first">
+                                </div>
+                                <div class="col-xs-12 col-sm-4">
+                                    <img class="img-responsive" src="../img/temp--Morimoto XB35 AMP Ballast 4.jpg" alt="" border="0"/>
+                                </div>
+                                <div class="col-xs-12 col-sm-8">
+                                    <ul class="list-group">
+                                        <li class="list-group-item active"><p class="small"><span class="lead text-gray2">Bi-Xenon Projectors:</span> 2 x Morimoto Mini H1 6.0 (LHD) <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                        <li class="list-group-item"><p class="small"><span class="lead text-gray2">Compatible Ballasts:</span> 2 x Morimoto XB35 (35W) <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                        <li class="list-group-item active"><p class="small"><span class="lead text-gray2">Ballast Igniters (required):</span> 2 x Morimoto XB Igniter (AMP) <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                        <li class="list-group-item"><p class="small"><span class="lead text-gray2">H1 HID Bulbs:</span> 2 x H1: XB 4500K <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                        <li class="list-group-item active"><p class="small"><span class="lead text-gray2">Shroud Style:</span> 2 x Mini Gatling Gun <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                        <li class="list-group-item"><p class="small"><span class="lead text-gray2">Wire Harness:</span> 1 x HD Relay <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                        <li class="list-group-item active"><p class="small"><span class="lead text-gray2">LED Halos:</span> 2 x 70mm XSB Switchback <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                        <li class="list-group-item"><p class="small"><span class="lead text-gray2">Headlight Sealant:</span> 1 x Gray: RetroRubber <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-12 cta">
+                                    <div class="panel panel-empty">
+                                        <div class="panel-body">
+                                            <div class="col-xs-12">
+                                                <div class="row">
+                                                    <div class="form-group">
+                                                        <div class="col-xs-12 col-sm-4">
+                                                            <div class="section wrap">
+                                                                <p><span class="lead">Item Price:</span> <span class="retail text-muted">$439.99</span></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-12 col-sm-4">
+                                                            <div class="section wrap">
+                                                                <p><span class="lead">Order QTY:</span> <span class="retail text-muted">1</span></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-12 col-sm-4">
+                                                            <div class="section wrap">
+                                                                <p><span class="lead">Sub-Total:</span> <span class="retail text-primary">$439.99</span></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+
+                        <div class="section wrap cart-product">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <h3>BI-XENON Long Title MORIMOTO MINI STAGE III (D2S) Kit</h3>
+                                    <hr class="aligncenter first">
+                                    <ul class="messages"><li class="error-msg"><ul><li><span>OUT OF STOCK! All or part of this item is current sold out. More are expected in stock by 12-12-16 </span></li></ul></li></ul>
+                                </div>
+                                <div class="col-xs-12 col-sm-4">
+                                    <img class="img-responsive" src="../img/temp--Morimoto XB35 AMP Ballast 6.jpg" alt="" border="0"/>
+                                </div>
+                                <div class="col-xs-12 col-sm-8">
+                                    <ul class="list-group">
+                                        <li class="list-group-item active"><p class="small"><span class="lead text-gray2">Compatible Ballasts:</span> 2 x Morimoto XB35 (35W) <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                        <li class="list-group-item"><p class="small"><span class="lead text-gray2">Ballast Igniters (required):</span> 2 x Morimoto XB Igniter (AMP) <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                        <li class="list-group-item active"><p class="small"><span class="lead text-gray2">H1 HID Bulbs:</span> 2 x H1: XB 4500K <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                        <li class="list-group-item"><p class="small"><span class="lead text-gray2">Wire Harness:</span> 1 x HD Relay <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-12 cta">
+                                    <div class="panel panel-empty">
+                                        <div class="panel-body">
+                                            <div class="col-xs-12">
+                                                <div class="row">
+                                                    <div class="form-group">
+                                                        <div class="col-xs-12 col-sm-4">
+                                                            <div class="section wrap">
+                                                                <p><span class="lead">Item Price:</span> <span class="retail text-muted">$439.99</span></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-12 col-sm-4">
+                                                            <div class="section wrap">
+                                                                <p><span class="lead">Order QTY:</span> <span class="retail text-muted">2</span></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-12 col-sm-4">
+                                                            <div class="section wrap">
+                                                                <p><span class="lead">Sub-Total:</span> <span class="retail text-primary">$879.98</span></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <div class="section modal-scrollUnder"></div>
+                <div class="modal-footer">
+                    <div class="section half last">
+                        <div class="modal-body-titlecopy">
+                            <h5>Order Summary</h5>
+                        </div>
+                        <div class="row">
+                        <div class="section wrap">
+                            <div class="col-xs-12">
+                                <h4>Subtotal: <span class="pull-right">$399.99</span></h4>
+                            </div>
+                            
+                            <div class="col-xs-12">
+                                <h4>Promo Code: <span class="pull-right">-$39.99</span></h4>
+                            </div>
+                            
+                            <div class="col-xs-12">
+                                <h4>Shipping &amp; Handling: <span class="pull-right">$24.04</span></h4>
+                            </div>
+                            
+                            <div class="col-xs-12">
+                                <h4>Sales Tax: <span class="pull-right">$16.38</span></h4>
+                            </div>
+                            
+                            <div class="col-xs-12">
+                                <hr>
+                                <h3 class="text-primary">Total: <span class="pull-right">$840.40</span></h3>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- MODAL: ACCOUNT MODIFY ORDER -->
+    <div id="modifyorder" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
+                    <h3 class="modal-title text-primary" id="myModalLabel">Modify Order</h3>
+                    <hr>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body-titlecopy">
+                        <p class="lead">Are you sure you want to modify this order?</p>
+                        <hr class="aligncenter first">
+                    </div>
+                    <div class="section half">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-4 col-sm-offset-2">
+                                <a type="button" data-dismiss="modal" class="btn btn-default btn-block">No</a>
+                            </div>
+                            <div class="col-xs-6 col-sm-4">
+                                <a type="button" href="#" class="btn btn-primary btn-block">Yes</a>
+                                <!-- If yes, then order will be cancelled and all parts will be back in their shopping cart (take to shopping cart page) -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- MODAL: ACCOUNT CANCEL ORDER -->
+    <div id="cancelorder" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
+                    <h3 class="modal-title text-primary" id="myModalLabel">Cancel Order</h3>
+                    <hr>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body-titlecopy">
+                        <p class="lead">Are you sure you want to cancel this order?</p>
+                        <hr class="aligncenter first">
+                    </div>
+                    <div class="section half">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-4 col-sm-offset-2">
+                                <a type="button" data-dismiss="modal" class="btn btn-default btn-block">No</a>
+                            </div>
+                            <div class="col-xs-6 col-sm-4">
+                                <a type="button" href="#" class="btn btn-primary btn-block">Yes</a>
+                                <!-- If yes, then order will be cancelled in the system and take back to their account page showing the order grid and a “cancelled” status -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- MODAL: ORDER RETURN -->
+    <div id="orderreturn" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-lg modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
+                    <h3 class="modal-title text-primary" id="myModalLabel">Return/Exchange Application for Order #100057922</h3>
+                    <hr>
+                </div>
+
+                <div class="modal-body">
+                    <div class="modal-body-titlecopy">
+                        <h5>Contact Details</h5>
+                    </div>
+                    <form class="form-horizontal">
+                        <fieldset>
+                            <div class="form-group">
+                                <div class="col-xs-12">
+                                    <select class="form-control drop validate-select" id="select">
+                                        <option value="">Return Address</option>
+                                        <option value="#">#</option>
+                                        <option value="#">#</option>
+                                        <option value="#">#</option>
+                                        <option value="#">#</option>
+                                        <option value="#">#</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-6">
+                                    <input type="text" class="form-control" id="inputDefault" value="Email">
+                                </div>
+                                <div class="col-xs-12 col-sm-6">
+                                    <input type="text" class="form-control" id="inputDefault" value="Phone">
+                                </div>
+                            </div> 
+                            
+                            <div class="form-group">
+                                <div class="col-xs-12">
+                                    <p class="small"><span class="text-uppercase">General comments regarding your Return/Exchange</span></p>
+                                    <textarea class="form-control" rows="5" id="textArea" placeholder="Message..."></textarea>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                    
+                    <div class="col-xs-12"><div class="row"><hr class="aligncenter first"></div></div>
+
+                    <div class="section half last">
+                        <div class="modal-body-titlecopy">
+                            <h5>Return Details</h5>
+                        </div>
+                        <div class="section first cart-product">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <h3>BI-XENON: LEXUS RX350</h3>
+                                    <hr class="aligncenter first">
+                                </div>
+                                <div class="col-xs-12 col-sm-4">
+                                    <img class="img-responsive" src="../img/temp--Morimoto XB35 AMP Ballast 4.jpg" alt="" border="0"/>
+                                </div>
+                                <div class="col-xs-12 col-sm-8">
+                                    <form class="form-horizontal">
+                                        <fieldset>
+                                            <div class="form-group">
+                                                <div class="col-xs-12 col-sm-6">
+                                                    <select class="form-control drop validate-select" id="select">
+                                                        <option value="">Return/Exchange</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-6">
+                                                    <select class="form-control drop validate-select" id="select">
+                                                        <option value="">Quantity</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="col-xs-12 col-sm-6">
+                                                    <select class="form-control drop validate-select" id="select">
+                                                        <option value="">Product Condition</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-6">
+                                                    <select class="form-control drop validate-select" id="select">
+                                                        <option value="">Packaging Condition</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="col-xs-12">
+                                                    <p class="small"><span class="text-uppercase">Briefly explain reason for Return/Exchange on this item:</span></p>
+                                                    <textarea class="form-control" rows="5" id="textArea" placeholder="*NOTE: If product is not brand new and in original packaging, please accurately describe what will be sent back."></textarea>
+                                                    <p class="small"><span class="text-uppercase">Estimated Restocking Fee: <span class="text-weightBold">$0.00</span></span></p>
+                                                </div>
+                                            </div>
+                                        </fieldset>
+                                    </form>
+                                </div>
+                            </div>
+                        </div> 
+
+                        <div class="section wrap cart-product">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <h3>BI-XENON: LEXUS RX350</h3>
+                                    <hr class="aligncenter first">
+                                </div>
+                                <div class="col-xs-12 col-sm-4">
+                                    <img class="img-responsive" src="../img/temp--Morimoto XB35 AMP Ballast 4.jpg" alt="" border="0"/>
+                                </div>
+                                <div class="col-xs-12 col-sm-8">
+                                    <form class="form-horizontal">
+                                        <fieldset>
+                                            <div class="form-group">
+                                                <div class="col-xs-12 col-sm-6">
+                                                    <select class="form-control drop validate-select" id="select">
+                                                        <option value="">Return/Exchange</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-6">
+                                                    <select class="form-control drop validate-select" id="select">
+                                                        <option value="">Quantity</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="col-xs-12 col-sm-6">
+                                                    <select class="form-control drop validate-select" id="select">
+                                                        <option value="">Product Condition</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-6">
+                                                    <select class="form-control drop validate-select" id="select">
+                                                        <option value="">Packaging Condition</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                        <option value="#">#</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="col-xs-12">
+                                                    <p class="small"><span class="text-uppercase">Briefly explain reason for Return/Exchange on this item:</span></p>
+                                                    <textarea class="form-control" rows="5" id="textArea" placeholder="*NOTE: If product is not brand new and in original packaging, please accurately describe what will be sent back."></textarea>
+                                                    <p class="small"><span class="text-uppercase">Estimated Restocking Fee: <span class="text-weightBold">$0.00</span></span></p>
+                                                </div>
+                                            </div>
+                                        </fieldset>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12"><div class="row"><hr class="aligncenter first"></div></div>
+
+                    <div class="section wrap">
+                        <h5>Return Policies</h5>
+                        <p>1. Customer is responsible for all shipping charges. Original shipping costs are non-refundable.<br>
+                        2. Your total restocking fee is subject to change if actual condition varies from your above statements. <br>
+                        3. Orders are eligible for a refund within 45 days from the original purchase date. After 45 days a refund will be given only in the form of store credit.<br>
+                        4. For our complete and more detailed list of Terms &amp; Conditions, please visit the <a href="">Help Desk</a>.
+                        </p>
+                        <form class="form-horizontal">
+                        <fieldset>
+                            <div class="form-group">
+                                <div class="col-xs-12">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">
+                                            <p class="small"><span class="text-uppercase">I have read, understand, and agree to all terms on making a Return or Exchange.</span></p>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="section wrap">
+                        <div class="modal-body-titlecopy">
+                            <h5>Estimated Return Fee: <span class="text-primary">$0.00</span></h5>
+                        </div>
+                    </div>
+                    <div type="button" class="btn btn-default back pull-left" data-dismiss="modal"><span class="icon icon-arrowLcircle-999 icon-before"></span> Cancel</div>
+                    <div type="button" class="btn btn-primary continue"><span class="icon icon-arrowRcircle-fff icon-after"></span> Submit</div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
+    <!-- PRODUCT CATEGORY MODALS -->
+
+    <!-- MODAL: QUICK ADD TO CART -->
+    <div id="quickAddtoCart" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
+                    <h3 class="modal-title text-primary" id="myModalLabel">Quick Add to Cart</h3>
+                    <hr>
+                </div>
+                <div class="modal-body">
+                <div class="section wrap">
+                        <h5>MOPAR SPEC: 13-14 DODGE RAM LOW BEAM HARNESS </h5>
+                        <a type="button" href="#" class="btn btn-empty btn-xs"><span class="text-weightBold">// View Product Details</span></a>
+                    </div>
+                    <div class="col-xs-12"><div class="row"><hr class="aligncenter first"></div></div>
+
+                    <div class="section wrap">
+                        <form class="form-horizontal">
+                            <fieldset>
+                                <div class="form-group">
+                                    <div class="col-xs-12 col-sm-6">
+                                        <select class="form-control drop validate-select" id="select">
+                                            <option value="">Topic</option>
+                                            <option value="#">#</option>
+                                            <option value="#">#</option>
+                                            <option value="#">#</option>
+                                            <option value="#">#</option>
+                                            <option value="#">#</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6">
+                                        <select class="form-control drop validate-select" id="select">
+                                            <option value="">Topic</option>
+                                            <option value="#">#</option>
+                                            <option value="#">#</option>
+                                            <option value="#">#</option>
+                                            <option value="#">#</option>
+                                            <option value="#">#</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-xs-12 col-sm-6">
+                                        <select class="form-control drop validate-select" id="select">
+                                            <option value="">Topic</option>
+                                            <option value="#">#</option>
+                                            <option value="#">#</option>
+                                            <option value="#">#</option>
+                                            <option value="#">#</option>
+                                            <option value="#">#</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6">
+                                        <select class="form-control drop validate-select" id="select">
+                                            <option value="">Topic</option>
+                                            <option value="#">#</option>
+                                            <option value="#">#</option>
+                                            <option value="#">#</option>
+                                            <option value="#">#</option>
+                                            <option value="#">#</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="section wrap">
+                        <div class="modal-body-titlecopy">
+                            <h5>Sub-Total: <span class="text-primary">$0.00</span></h5>
+                        </div>
+                    </div>
+                    <div type="button" class="btn btn-default back pull-left" data-dismiss="modal"><span class="icon icon-arrowLcircle-999 icon-before"></span> Cancel</div>
+                    <div type="button" class="btn btn-primary continue"><span class="icon icon-arrowRcircle-fff icon-after"></span> Add to Cart</div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- MODAL: BUYERS GUIDE VEHICLE SELECTION -->
+    <div id="buyersGuide-vehicle" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
+                    <h3 class="modal-title text-primary" id="myModalLabel">Buyers Guide</h3>
+                    <hr>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body-titlecopy">
+                        <h5>Vehicle Selection</h5>
+                    </div>
+                    <form class="form-horizontal">
+                        <fieldset>
+                            <div class="form-group">
+                                <div class="col-xs-4 col-sm-2">
+                                    <select class="form-control drop required" id="select">
+                                        <option value="">YEAR</option>
+                                        <option value="2016">2016</option>
+                                
+                                    </select>
+                                </div>
+                                <div class="col-xs-8 col-sm-5">
+                                    <select class="form-control drop required" id="select">
+                                        <option value="">MAKE</option>
+                                        
+                                    </select>
+                                </div>
+                                <div class="col-xs-12 col-sm-5">
+                                    <select class="form-control drop required" id="select">
+                                        <option value="">MODEL</option>
+                                        
+                                    </select>
+                                </div>
+                            </div>      
+                        </fieldset>
+                    </form> 
+                </div>
+                <div class="modal-footer">
+                    <div type="submit" class="btn btn-default pull-left" data-dismiss="modal">Reset</div>
+                    <div type="button" class="btn btn-primary"><span class="icon icon-arrowRcircle-fff icon-after"></span> Continue</div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- MODAL: BUYERS GUIDE -->
+    <div id="buyersGuide" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
+                    <h3 class="modal-title text-primary" id="myModalLabel">Buyers Guide</h3>
+                    <hr>
+                </div>
+                <ul class="modal-bodyWrap">
+                    
+                    <li class="modal-body" id="buyersGuide-reflectorsize">
+                        <div class="modal-body-titlecopy">
+                            <h5>Reflector Size</h5>
+                            <p class="lead text-primary">What is the approximate height &amp; depth of your headlight reflector?</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 wellWrap">
+                                <div class="well disabled">
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/projectors-reflectorsize.svg" alt="Buyers Guide Diagram" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Tiny <span class="icon icon-check pull-right"></span></p>
+                                    <p>Height: 55-75mm</br>
+                                        Depth: 106-136mm
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Small <span class="icon icon-check pull-right"></span></p>
+                                    <p>Height: 75-80mm</br>
+                                        Depth: 136-138mm
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Medium <span class="icon icon-check pull-right"></span></p>
+                                    <p>Height: 80-95mm</br>
+                                        Depth: 138-149mm
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Large <span class="icon icon-check pull-right"></span></p>
+                                    <p>Height: 95mm +</br>
+                                        Depth: 149mm +
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="modal-body" id="buyersGuide-performance">
+                        <div class="modal-body-titlecopy">
+                            <h5>Performance vs. Ease of Install</h5>
+                            <p class="lead text-primary">What are your performance vs ease-of-install requirements?</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 wellWrap">
+                                <div class="well disabled">
+                                    <p class="lead text-gray2">Baseline (Stock) <span class="icon icon-check pull-right"></span></p>
+                                    <p class="note"><span class="lead">Light Output Performance:</span> 3/10</br>
+                                        <span class="lead">Cutoff Sharpness:</span> 5/10
+                                    </p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/projectors-performance-stock.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Matchbox <span class="icon icon-check pull-right"></span></p>
+                                    <p class="note"><span class="lead">Light Output Performance:</span> 3/10</br>
+                                        <span class="lead">Cutoff Sharpness:</span> 5/10</br>
+                                        <span class="lead">Install Difficulty:</span> 5/10
+                                    </p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/projectors-performance-matchbox.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Mini H1 <span class="icon icon-check pull-right"></span></p>
+                                    <p class="note"><span class="lead">Light Output Performance:</span> 6/10</br>
+                                        <span class="lead">Cutoff Sharpness:</span> 8/10</br>
+                                        <span class="lead">Install Difficulty:</span> 7/10
+                                    </p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/projectors-performance-h1.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Mini D2S <span class="icon icon-check pull-right"></span></p>
+                                    <p class="note"><span class="lead">Light Output Performance:</span> 7/10</br>
+                                        <span class="lead">Cutoff Sharpness:</span> 9/10</br>
+                                        <span class="lead">Install Difficulty:</span> 8/10
+                                    </p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/projectors-performance-d2s.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">FX-R 3.0 <span class="icon icon-check pull-right"></span></p>
+                                    <p class="note"><span class="lead">Light Output Performance:</span> 9/10</br>
+                                        <span class="lead">Cutoff Sharpness:</span> 10/10</br>
+                                        <span class="lead">Install Difficulty:</span> 10/10
+                                    </p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/projectors-performance-fxr.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="modal-body" id="buyersGuide-beampattern">
+                        <div class="modal-body-titlecopy">
+                            <h5>Beam Pattern</h5>
+                            <p class="lead text-primary">What beam pattern do you need?</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Left Hand Drive (LHD) <span class="icon icon-check pull-right"></span></p>
+                                    <p>Oncoming traffic drives on the left side of you.</br>
+                                        <em>United States</em>
+                                    </p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/projectors-beampattern-left.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Right Hand Drive (RHD) <span class="icon icon-check pull-right"></span></p>
+                                    <p>Oncoming traffic drives on the right side of you.</br>
+                                        <em>UK, Australia, India, Japan</em>
+                                    </p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/projectors-beampattern-right.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="modal-body" id="buyersGuide-reflectorshape">
+                        <div class="modal-body-titlecopy">
+                            <h5>Reflector Shape</h5>
+                            <p class="lead text-primary">What is the overall size/shape of your headlight reflector?</p>
+                            <p>This will give you a good idea what shrouds would look best, but overall, the choice is purely aesthetic. Please note that trimming shrouds in retrofits is very common.</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Round <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/projectors-reflectorshape-round.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Oval <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/projectors-reflectorshape-oval.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Flat-Sided <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/projectors-reflectorshape-flatsided.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Large <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/projectors-reflectorshape-large.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Compact/Odd <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/projectors-reflectorshape-compact.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="modal-body" id="buyersGuide-lightoutput">
+                        <div class="modal-body-titlecopy">
+                            <h5>Light Output</h5>
+                            <p class="lead text-primary">How much light output do you need?</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">35 Watt Ballast <span class="icon icon-check pull-right"></span></p>
+                                    <p>More efficient, longer lasting. Industry Standard in all vehicles that come factory-equipped with HID headlights. Best for use on vehicles with Canbus systems or weaker than average electrical systems (old vehicles, motorcycles, etc).</p>
+                                    <p class="note"><span class="lead">Lumens:</span> <em>5800-6200</em></br>
+                                    <span class="lead">Lifespan:</span> <em>~2,000 hrs</em></br>
+                                    <span class="lead">Power Consumption:</span> <em>Average</em></br>
+                                    <span class="lead">Color Shift:</span> <em>None</em>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">55 Watt Ballast <span class="icon icon-check pull-right"></span></p>
+                                    <p>Brighter, more power hungry, lesser lifespan. Produces more output compared to all factory-installed HID headlight ballasts. Not recommended without the use of a relayed wire harness or in smaller projector and/or housings (fog lights).</p>
+                                    <p class="note"><span class="lead">Lumens:</span> <em>9100-9700</em></br>
+                                    <span class="lead">Lifespan:</span> <em>~1,500 hrs</em></br>
+                                    <span class="lead">Power Consumption:</span> <em>Above Average</em></br>
+                                    <span class="lead">Color Shift:</span> <em>Yes</em>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="modal-body" id="buyersGuide-kelvin">
+                        <div class="modal-body-titlecopy">
+                            <h5>Light Color</h5>
+                            <p class="lead text-primary">What color is right for you?</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">3000k (Golden Yellow) <span class="icon icon-check pull-right"></span></p>
+                                    <p>Recommended for fog lights only, the yellow light cuts through particles in the air more effectively than white light does. Great for poor weather.</br>
+                                        <span class="note"><span class="lead">~2800 lumens (35w)</span></span>
+                                    </p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/kelvin-3000k.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">4500k (Warm White) <span class="icon icon-check pull-right"></span></p>
+                                    <p>Vehicles with factory installed xenon headlights use 4300K. Best for all-season driving (mix of clear and poor weather).</br>
+                                        <span class="note"><span class="lead">~3400 lumens (35w)</span></span>
+                                    </p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/kelvin-4500k.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">5500k (Pure White) <span class="icon icon-check pull-right"></span></p>
+                                    <p>Our most popular, though slightly less lumens, most people find the increase in contrast at from the whiter light improves overall vision.</br>
+                                        <span class="note"><span class="lead">~3300 lumens (35w)</span></span>
+                                    </p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/kelvin-5500k.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">6500k (Blue Tinge) <span class="icon icon-check pull-right"></span></p>
+                                    <p>For those looking seeking a more stand-out look compared to stock, without over-compromising the amount of useful light output.</br>
+                                        <span class="note"><span class="lead">~3100 lumens (35w)</span></span>
+                                    </p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/kelvin-6500k.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="modal-body" id="buyersGuide-bulbs">
+                        <div class="modal-body-titlecopy">
+                            <h5>HID Bulbs</h5>
+                            <p class="lead text-primary">What HID bulbs will you be running with the ballasts?</p>
+                            <p>This will determine whether you need them for "AMP" or "D2" Fitment.</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">D1S <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/bulbs-D1S.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">D2S <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/bulbs-D2S.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">D3S <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/bulbs-D3S.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">D4S <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/bulbs-D4S.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">D2R <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/bulbs-D2R.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">D2H <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/bulbs-D2H.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">H1 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/bulbs-h1.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">H3 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/bulbs-h3.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">H4 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/bulbs-h4.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">H7 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/bulbs-h7.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">H8 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/bulbs-h8.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">H9 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/bulbs-h9.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">H10 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/bulbs-h10.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">H11 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/bulbs-h11.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">H13 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/bulbs-h13.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">H16 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/bulbs-h16.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">880 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/bulbs-880.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">9005 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/bulbs-9005.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">9006 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/bulbs-9006.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">9007 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/bulbs-9007.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">9012 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/bulbs-9012.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="modal-body" id="buyersGuide-projectors">
+                        <div class="modal-body-titlecopy">
+                            <h5>Projector Shrouds</h5>
+                            <p class="lead text-primary">What projectors are you using?</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Matchbox <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/projectors-matchbox.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Mini H1 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/projectors-h1.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Mini D2S <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/projectors-D2S-4.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">FX-R 3.0 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/projectors-FXR.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Other <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="/client/TRS/2016/img/buyersguide/projectors-other.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="modal-body" id="buyersGuide-loading">
+                        <div class="modal-body-titlecopy">
+                            <h5>Loading...</h5>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 wellWrap">
+                                <div class="well disabled">
+                                    <img class="img-responsive" src="/client/TRS/2016/img/loaderPie.svg" alt="Loading..." border="0">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="modal-body" id="buyersGuide-completeFit">
+                        <div class="modal-body-titlecopy">
+                            <h5>Roll Out!</h5>
+                            <p class="lead text-primary">That's it! Check out your compatible products.</p>
+                            <p>Note: We recommend consulting your owner's manual or <a href="#contact">contacting us</a> to verify fitment for your vehicle. The recommendation below is based on the most accurate information we have about your application, but we are not responsible for misinformation. Modification may be necessary for installation.</p>
+                        </div>
+                    </li>
+                    <li class="modal-body" id="buyersGuide-completeNoFit">
+                        <div class="modal-body-titlecopy">
+                            <h5>Mind. Blown!</h5>
+                            <p class="lead text-primary">You just blew our computer's mind, but that doesn't mean we've got nothing for you!</p>
+                            <p>Please <a href="#contact">contact us</a> for a human recommendation.</p>
+                        </div>
+                    </li>
+
+                </ul><!-- /.modal-bodyWrap -->
+                <div class="section modal-scrollUnder"></div>
+                <div class="modal-footer">
+                    <div type="button" class="btn btn-default back pull-left" data-dismiss="modal"><span class="icon icon-arrowLcircle-999 icon-before"></span> Back</div>
+                    <div type="submit" class="btn btn-default disabled" data-dismiss="modal">Reset</div>
+                    <div type="button" class="btn btn-primary continue disabled"><span class="icon icon-arrowRcircle-fff icon-after"></span> Continue</div>
+                </div>
+            </div><!-- /.modal-content -->
+
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
+    <!-- UTILITY MODALS -->
+
+    <!-- MODAL: PHOTO LIGHTBOX -->
+    <div id="photoLightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-lg modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
+                    <h3 class="modal-title text-primary" id="myModalLabel">Porsche 911</h3>
+                    <hr>
+                </div>
+
+                <!-- If only a single image is opening it will use same HTML structure, it just wont need to have the extra slides (obviously) nor the Controls/Indicators -->
+                <!-- <div class="modal-body">
+                    <div class="carousel slide article-slide" id="trsGalleryCarousel">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="/client/TRS/2016/img/temp-gallery1.png" class="img-responsive" alt="" border="none">
+                                <div class="carousel-caption">
+                                    <div class="col-xs-12">
+                                        <h5>Tags:</h5>
+                                        <ul class="list-group tags">
+                                            <li class="list-group-item"><p>#Porsche</p></li>
+                                            <li class="list-group-item"><p>#911</p></li>
+                                            <li class="list-group-item"><p>#Rauh</p></li>
+                                            <li class="list-group-item"><p>#RuahWelt</p></li>
+                                            <li class="list-group-item"><p>#idlers</p></li>
+                                            <li class="list-group-item"><p>#silver</p></li>
+                                            <li class="list-group-item"><p>#martini</p></li>
+                                            <li class="list-group-item"><p>#orange</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div> -->
+
+                <div class="modal-body">
+                    <div class="carousel slide article-slide" id="trsGalleryCarousel">
+                        <!-- Carousel Slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="/client/TRS/2016/img/temp-gallery1.png" class="img-responsive" alt="" border="none">
+                                <div class="carousel-caption">
+                                    <div class="col-xs-12">
+                                        <h5>Tags:</h5>
+                                        <ul class="list-group tags">
+                                            <li class="list-group-item"><p>#Porsche</p></li>
+                                            <li class="list-group-item"><p>#911</p></li>
+                                            <li class="list-group-item"><p>#Rauh</p></li>
+                                            <li class="list-group-item"><p>#RuahWelt</p></li>
+                                            <li class="list-group-item"><p>#idlers</p></li>
+                                            <li class="list-group-item"><p>#silver</p></li>
+                                            <li class="list-group-item"><p>#martini</p></li>
+                                            <li class="list-group-item"><p>#orange</p></li>
+                                        </ul>
+                                    </div>
+                                    <!-- <div class="col-xs-12 col-sm-8">
+                                        <ul class="list-group parts">
+                                            <li class="list-group-item"><h5>Parts List:</h5>
+                                                <ul>
+                                                    <li class="list-group-item"><p><span class="lead">Projector:</span> FX-R 3.0</p></li>
+                                                    <li class="list-group-item"><p><span class="lead">Ballasts:</span> Morimoto 3Five Ballasts (35w)</p></li>
+                                                    <li class="list-group-item"><p><span class="lead">Bulbs:</span> D2S: Philips 85122</p></li>
+                                                    <li class="list-group-item"><p><span class="lead">Shrouds:</span> E46-R (Extended)</p></li>
+                                                    <li class="list-group-item"><p><span class="lead">Wire Harnesses:</span> Bi-xenon: 'MotoControl 9003/H4/HB2</p></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="/client/TRS/2016/img/temp-gallery2.png" class="img-responsive" alt="" border="none">
+                                <div class="carousel-caption">
+                                    <div class="col-xs-12">
+                                        <h5>Tags:</h5>
+                                        <ul class="list-group tags">
+                                            <li class="list-group-item"><p>#Toyota</p></li>
+                                            <li class="list-group-item"><p>#truck</p></li>
+                                            <li class="list-group-item"><p>#pickup</p></li>
+                                            <li class="list-group-item"><p>#white</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="item">
+                                <img src="/client/TRS/2016/img/temp-gallery3.png" class="img-responsive" alt="" border="none">
+                                <div class="carousel-caption">
+                                    <div class="col-xs-12">
+                                        <h5>Tags:</h5>
+                                        <ul class="list-group tags">
+                                            <li class="list-group-item"><p>No Tags</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="item">
+                                <img src="/client/TRS/2016/img/temp-gallery4.png" class="img-responsive" alt="" border="none">
+                                <div class="carousel-caption">
+                                    <div class="col-xs-12">
+                                        <h5>Tags:</h5>
+                                        <ul class="list-group tags">
+                                            <li class="list-group-item"><p>No Tags</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Nav Controls --> 
+                        <a class="left carousel-control" href="#trsGalleryCarousel" role="button" data-slide="prev"><span class="icon icon-carouselPrev"></span></a>
+                        <a class="right carousel-control" href="#trsGalleryCarousel" role="button" data-slide="next"><span class="icon icon-carouselNext"></span></a> 
+                        
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators col-xs-12 hidden-xs">
+                            <li class="active" data-slide-to="0" data-target="#trsGalleryCarousel"></li>
+                            <li data-slide-to="1" data-target="#trsGalleryCarousel"></li>
+                            <li data-slide-to="2" data-target="#trsGalleryCarousel"></li>  
+                            <li data-slide-to="3" data-target="#trsGalleryCarousel"></li>             
+                        </ol>  
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- MODAL: PHOTO LIGHTBOX non Large for products -->
+    <div id="photoLightbox4products" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
+                    <h3 class="modal-title text-primary" id="myModalLabel">Porsche 911</h3>
+                    <hr>
+                </div>
+
+                <!-- If only a single image is opening it will use same HTML structure, it just wont need to have the extra slides (obviously) nor the Controls/Indicators -->
+                <!-- <div class="modal-body">
+                    <div class="carousel slide article-slide" id="trsGalleryCarousel1b">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="/client/TRS/2016/img/temp-gallery1.png" class="img-responsive" alt="" border="none">
+                                <div class="carousel-caption">
+                                    <div class="col-xs-12">
+                                        <h5>Tags:</h5>
+                                        <ul class="list-group tags">
+                                            <li class="list-group-item"><p>#Porsche</p></li>
+                                            <li class="list-group-item"><p>#911</p></li>
+                                            <li class="list-group-item"><p>#Rauh</p></li>
+                                            <li class="list-group-item"><p>#RuahWelt</p></li>
+                                            <li class="list-group-item"><p>#idlers</p></li>
+                                            <li class="list-group-item"><p>#silver</p></li>
+                                            <li class="list-group-item"><p>#martini</p></li>
+                                            <li class="list-group-item"><p>#orange</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div> -->
+
+                <div class="modal-body">
+                    <div class="carousel slide article-slide" id="trsGalleryCarousel1b">
+                        <!-- Carousel Slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="/client/TRS/2016/img/temp-gallery1.png" class="img-responsive" alt="" border="none">
+                                <div class="carousel-caption">
+                                    <div class="col-xs-12">
+                                        <h5>Tags:</h5>
+                                        <ul class="list-group tags">
+                                            <li class="list-group-item"><p>#Porsche</p></li>
+                                            <li class="list-group-item"><p>#911</p></li>
+                                            <li class="list-group-item"><p>#Rauh</p></li>
+                                            <li class="list-group-item"><p>#RuahWelt</p></li>
+                                            <li class="list-group-item"><p>#idlers</p></li>
+                                            <li class="list-group-item"><p>#silver</p></li>
+                                            <li class="list-group-item"><p>#martini</p></li>
+                                            <li class="list-group-item"><p>#orange</p></li>
+                                        </ul>
+                                    </div>
+                                    <!-- <div class="col-xs-12 col-sm-8">
+                                        <ul class="list-group parts">
+                                            <li class="list-group-item"><h5>Parts List:</h5>
+                                                <ul>
+                                                    <li class="list-group-item"><p><span class="lead">Projector:</span> FX-R 3.0</p></li>
+                                                    <li class="list-group-item"><p><span class="lead">Ballasts:</span> Morimoto 3Five Ballasts (35w)</p></li>
+                                                    <li class="list-group-item"><p><span class="lead">Bulbs:</span> D2S: Philips 85122</p></li>
+                                                    <li class="list-group-item"><p><span class="lead">Shrouds:</span> E46-R (Extended)</p></li>
+                                                    <li class="list-group-item"><p><span class="lead">Wire Harnesses:</span> Bi-xenon: 'MotoControl 9003/H4/HB2</p></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="/client/TRS/2016/img/temp-gallery2.png" class="img-responsive" alt="" border="none">
+                                <div class="carousel-caption">
+                                    <div class="col-xs-12">
+                                        <h5>Tags:</h5>
+                                        <ul class="list-group tags">
+                                            <li class="list-group-item"><p>#Toyota</p></li>
+                                            <li class="list-group-item"><p>#truck</p></li>
+                                            <li class="list-group-item"><p>#pickup</p></li>
+                                            <li class="list-group-item"><p>#white</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="item">
+                                <img src="/client/TRS/2016/img/temp-gallery3.png" class="img-responsive" alt="" border="none">
+                                <div class="carousel-caption">
+                                    <div class="col-xs-12">
+                                        <h5>Tags:</h5>
+                                        <ul class="list-group tags">
+                                            <li class="list-group-item"><p>No Tags</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="item">
+                                <img src="/client/TRS/2016/img/temp-gallery4.png" class="img-responsive" alt="" border="none">
+                                <div class="carousel-caption">
+                                    <div class="col-xs-12">
+                                        <h5>Tags:</h5>
+                                        <ul class="list-group tags">
+                                            <li class="list-group-item"><p>No Tags</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Nav Controls --> 
+                        <a class="left carousel-control" href="#trsGalleryCarousel1b" role="button" data-slide="prev"><span class="icon icon-carouselPrev"></span></a>
+                        <a class="right carousel-control" href="#trsGalleryCarousel1b" role="button" data-slide="next"><span class="icon icon-carouselNext"></span></a> 
+                        
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators col-xs-12 hidden-xs">
+                            <li class="active" data-slide-to="0" data-target="#trsGalleryCarousel1b"></li>
+                            <li data-slide-to="1" data-target="#trsGalleryCarousel1b"></li>
+                            <li data-slide-to="2" data-target="#trsGalleryCarousel1b"></li>  
+                            <li data-slide-to="3" data-target="#trsGalleryCarousel1b"></li>             
+                        </ol>  
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- MODAL: ADVANCED PHOTO LIGHTBOX -->
+    <div id="advancedPhotoLightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-lg modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
+                    <h3 class="modal-title text-primary" id="myModalLabel"><span class="hidden-xs hidden-sm">Application Example: </span>Pop Up Headlight Retrofit</h3>
+                    <hr>
+                </div>
+
+                <div class="modal-body">
+                    <div class="carousel slide article-slide" id="trsGalleryCarousel2">
+                        <!-- Carousel Slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="/client/TRS/2016/img/temp-gallery1.png" class="img-responsive" alt="" border="none">
+                                <div class="carousel-caption">
+                                    <div class="col-xs-12">
+                                        <h5>Caption:</h5>
+                                        <ul class="list-group tags">
+                                            <li class="list-group-item"><p>BMW E36 M3 Winter Rally Retrofit</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="/client/TRS/2016/img/temp-gallery2.png" class="img-responsive" alt="" border="none">
+                                <div class="carousel-caption">
+                                    <div class="col-xs-12">
+                                        <h5>Caption:</h5>
+                                        <ul class="list-group tags">
+                                            <li class="list-group-item"><p>BMW E36 M3 Retrofit under construction</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="item">
+                                <img src="/client/TRS/2016/img/temp-gallery3.png" class="img-responsive" alt="" border="none">
+                                <div class="carousel-caption">
+                                    <div class="col-xs-12">
+                                        <h5>Caption:</h5>
+                                        <ul class="list-group tags">
+                                            <li class="list-group-item"><p>BMW E36 Winter Rally car in action</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="item">
+                                <img src="/client/TRS/2016/img/temp-gallery4.png" class="img-responsive" alt="" border="none">
+                                <div class="carousel-caption">
+                                    <div class="col-xs-12">
+                                        <h5>Caption:</h5>
+                                        <ul class="list-group tags">
+                                            <li class="list-group-item"><p>Demonstrating the light output on a clean path</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Nav Controls --> 
+                        <a class="left carousel-control" href="#trsGalleryCarousel2" role="button" data-slide="prev"><span class="icon icon-carouselPrev"></span></a>
+                        <a class="right carousel-control" href="#trsGalleryCarousel2" role="button" data-slide="next"><span class="icon icon-carouselNext"></span></a> 
+                        
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators col-xs-12 hidden-xs">
+                            <li class="active" data-slide-to="0" data-target="#trsGalleryCarousel2"></li>
+                            <li data-slide-to="1" data-target="#trsGalleryCarousel2"></li>
+                            <li data-slide-to="2" data-target="#trsGalleryCarousel2"></li>  
+                            <li data-slide-to="3" data-target="#trsGalleryCarousel2"></li>             
+                        </ol>  
+                    </div>
+
+                    <div class="col-xs-12 hidden-md hidden-lg"><div class="row"><hr class="aligncenter"></div></div>
+                    <div class="section wrap">
+                        <h5>Vehicle Build Info:</h5>
+                        <p><span class="lead">Projector:</span> FX-R 3.0</p>
+                        <p><span class="lead">Ballasts:</span> Morimoto 3Five Ballasts (35w)</p>
+                        <p><span class="lead">Bulbs:</span> D2S: Philips 85122</p>
+                        <p><span class="lead">Shrouds:</span> E46-R (Extended)</p>
+                        <p><span class="lead">Wire Harnesses:</span> Bi-xenon: 'MotoControl 9003/H4/HB2</p>
+                    </div>
+                    <div class="col-xs-12"><div class="row"><hr class="aligncenter first"></div></div>
+                    <div class="section wrap">
+                        <h5>Owner Comments:</h5>
+                        <p>Could not be happier with this set-up, it absolutely blows any other lighting set-up out of the water! I was preparing my car for the 2012 Alcan 5000 Winter Rally, and we were faced with a number of challenges fitting the car with a bright enough lighting set-up without compromising vehicle cooling characteristics. This may seem like an odd thing to go hand-in-hand, however, after doing some testing ourselves and discussing with a few folks who have arctic BMW experience, we found out that the E36 cars do not have any problem whatsoever keeping at temperature in the harsh arctic environments we would be facing. While this is great from a performance point of view, the challenge we had was that by fitting traditional auxiliary lights on the car in front of the grille like on most other rally cars, we would cause the car to overheat. Roof mounted solutions were banned by regulations, and a hood pod was out of the question for aerodynamic reasons. By being able to combine the low and high beams into one of the two areas of the OEM housing, I was able to free up the old high beam spot to build my own, integrated, auxiliary lamps. Since the majority of the rally would be in pitch black, blowing snow, or extreme low-visibility situations, I needed to get the widest and longest throwing projector available, with the brightest set-up. The 4300K with 55W ballasts is super bright in both low and high be am configurations, and the 3000K bulbs in the auxiliary's cut through fog and snow like no other. A nice thing about the super sharp cut-off and even beam pattern in the FX-R's are that they don't glare back at you as much as regular reflector bowl halogens do in decreasing weather conditions. Reliability was extremely important as well, as nobody wants to be fixing broken headlights (or anything for that matter) at -40 below. Never encountered any sort of problems at all. Would definitely fit these again, they don't even compare to most OEM HID set-ups or aftermarket options. Our TRS retrofit was brighter and more reliable than anybody else's set-up on the Alcan 5000, even when compared to some of the very expensive rally-spec'd lighting pods some people had!</p>
+                    </div>
+                    <div class="col-xs-12"><div class="row"><hr class="aligncenter first"></div></div>
+                    <div class="section wrap">
+                        <h5>TRS Build Notes:</h5>
+                        <p>The mission: cross the finish line in the Alcan 5000 winter rally race in record time and in one piece. Not an easy feat! So when our customer Daniel began prepping his BMW M3 for the journey, he knew a set of high performance lights were a must. Having retrofitted his street car with parts from TRS, he was already familiar with the power of a proper projector system. We've suggested the FX-R bi-xenon projectors to many E36 BMW owners over the years, and knew they;'d be just the ticket for the job. Spec'd with the Morimoto 5Five 50w Ballasts and 5Five 4300K D2S bulbs, this setup produced over 8000 lumens of reliable and controlled light output.</p>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- MODAL: DEALER DETAIL -->
+    <div id="partnersDetail" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-lg modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
+                    <h3 class="modal-title text-primary" id="myModalLabel">Black Flame Customs</h3>
+                    <hr>
+                </div>
+
+                <div class="modal-body">
+                    <div class="section half first">
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="row">
+                                <img src="/client/TRS/2016/img/partners-blackflamecustoms_logo.png" class="img-responsive" alt="" border="none">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-7 col-md-offset-1">
+                            <p><span class="lead">Business Hours:</span> M-F 9am - 4pm MST Sat/Sun - eMails/support</p>
+                            <p><span class="lead">Address:</span>Fort Collins, CO 80526</p>
+                            <p><span class="lead">Web:</span><a href="http://www.BlackFlameCustoms.com" target="_blank">www.BlackFlameCustoms.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12"><div class="row"><hr class="aligncenter first"></div></div>
+                    
+                    <div class="section half">
+                        <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <div class="modal-body-titlecopy">
+                                <h5>About Black Flame Customs</h5>
+                            </div>
+                            <p class="lead">Black Flame Customs brings top level custom automotive lighting to life. We pride ourselves on the design, integration &amp; fabrication of high performance HID components into all types of headlight applications.</p>
+                            <p>With ten plus years of experience &amp; hundreds upon hundreds of HID Projector Retrofit conversions completed, we step up to every headlight build with the confidence and professionalism you deserve. By putting your lights in our hands we guarantee youíll enjoy the finished product.</p>
+                            <p>All of our projects are built from scratch. This ensures that the combination of our skills with your lighting goals yields the best possible outcome. Better than OEM quality HID lighting is what we strive for in each and every build. We use the best components, innovative fabrication techniques &amp; work with you (our valued customers) on all the details. From a simple clear lens upgrade to a full turnkey HID projector retrofit package with custom paint ñ weíve got you covered.</p>
+                            <p>With our ever-growing knowledge base, lifetime craftsmanship guarantee &amp; post-sales support we stand behind our work with excellent customer service.</p>
+                        </div>
+                    
+                        <div class="col-xs-12 col-md-6">
+                            <div class="modal-body-titlecopy">
+                                <h5>Email Black Flame Customs</h5>
+                            </div>
+                            <form class="form-horizontal">
+                                <fieldset>
+                                    <p class="lead">Personal Information</p>
+                                    <div class="form-group">
+                                        <div class="col-xs-12 col-sm-6">
+                                            <input type="text" class="form-control" id="inputDefault" value="First Name">
+                                        </div>
+                                        <div class="col-xs-12 col-sm-6">
+                                            <input type="text" class="form-control" id="inputDefault" value="Last Name">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-xs-12 col-sm-6">
+                                            <input type="text" class="form-control" id="inputDefault" value="Email">
+                                        </div>
+                                        <div class="col-xs-12 col-sm-6">
+                                            <input type="text" class="form-control" id="inputDefault" value="Phone">
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    
+                                    <p class="lead">Vehicle Information</p>                                    
+                                    <div class="form-group">
+                                        <div class="col-xs-12 col-sm-6">
+                                            <select class="form-control drop validate-select" id="select">
+                                                <option value="">Year</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-6">
+                                            <select class="form-control drop validate-select" id="select">
+                                                <option value="">Make</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-xs-12">
+                                            <select class="form-control drop validate-select" id="select">
+                                                <option value="">Model</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    
+                                    <p class="lead">Message</p> 
+                                    <div class="form-group">
+                                        <div class="col-xs-12 col-sm-6">
+                                            <select class="form-control drop validate-select" id="select">
+                                                <option value="">Topic</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-6">
+                                            <input type="text" class="form-control" id="inputDefault" value="Subject">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-xs-12">
+                                            <textarea class="form-control" rows="5" id="textArea" placeholder="Message..."></textarea>
+                                        </div>  
+                                    </div>
+
+                                    <hr>
+                                    <div class="form-group">
+                                        <div class="col-xs-12">
+                                            <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-arrowRcircle-fff icon-after"></span> Send</div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="section wrap">
+                        <div class="carousel slide article-slide" id="trsPartnersCarousel">
+                            <!-- Carousel Slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="/client/TRS/2016/img/temp-gallery1.png" class="img-responsive" alt="" border="none">
+                                    <div class="carousel-caption">
+                                        <div class="col-xs-12">
+                                            <h5>Caption:</h5>
+                                            <ul class="list-group tags">
+                                                <li class="list-group-item"><p>BMW E36 M3 Winter Rally Retrofit</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="/client/TRS/2016/img/temp-gallery2.png" class="img-responsive" alt="" border="none">
+                                    <div class="carousel-caption">
+                                        <div class="col-xs-12">
+                                            <h5>Caption:</h5>
+                                            <ul class="list-group tags">
+                                                <li class="list-group-item"><p>BMW E36 M3 Retrofit under construction</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="item">
+                                    <img src="/client/TRS/2016/img/temp-gallery3.png" class="img-responsive" alt="" border="none">
+                                    <div class="carousel-caption">
+                                        <div class="col-xs-12">
+                                            <h5>Caption:</h5>
+                                            <ul class="list-group tags">
+                                                <li class="list-group-item"><p>BMW E36 Winter Rally car in action</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="item">
+                                    <img src="/client/TRS/2016/img/temp-gallery4.png" class="img-responsive" alt="" border="none">
+                                    <div class="carousel-caption">
+                                        <div class="col-xs-12">
+                                            <h5>Caption:</h5>
+                                            <ul class="list-group tags">
+                                                <li class="list-group-item"><p>Demonstrating the light output on a clean path</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Carousel Nav Controls --> 
+                            <a class="left carousel-control" href="#trsPartnersCarousel" role="button" data-slide="prev"><span class="icon icon-carouselPrev"></span></a>
+                            <a class="right carousel-control" href="#trsPartnersCarousel" role="button" data-slide="next"><span class="icon icon-carouselNext"></span></a> 
+                            
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators col-xs-12 hidden-xs">
+                                <li class="active" data-slide-to="0" data-target="#trsPartnersCarousel"></li>
+                                <li data-slide-to="1" data-target="#trsPartnersCarousel"></li>
+                                <li data-slide-to="2" data-target="#trsPartnersCarousel"></li>  
+                                <li data-slide-to="3" data-target="#trsPartnersCarousel"></li>             
+                            </ol>  
+                        </div>
+                    </div>
+
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- MODAL: IMAGE UPLOADER -->
+    <div id="sharePhotos" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-lg modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
+                    <h3 class="modal-title text-primary" id="myModalLabel">Share Photos</h3>
+                    <hr>
+                </div>
+
+                <div class="modal-body">
+                    <div class="section wrap">
+                        <div class="modal-body-titlecopy">
+                            <h5>We want you!</h5>
+                        </div>
+                        <p class="lead">Well, really we just want to see your ride. If you’ve used our products and want to share the results with the world, then join our customer gallery!</p>
+                        <p>Upload up to 5 photos and include tags that others can use to find ‘em later.  (ex. #MiniH1, #Morimoto #Panamera #Subaru #Tacoma)</p>
+                        <p>Within a few days, your photos will be glorified forever in our galleries for others to enjoy and take inspiration from. </p>
+                    </div>
+                    
+                    <div class="col-xs-12"><div class="row"><hr class="aligncenter first"></div></div>
+
+                    <div class="section half">
+                        <div class="modal-body-titlecopy">
+                            <h5>Upload up to 5 images at a time</h5>
+                        </div>
+                        <form class="form-horizontal">
+                            <fieldset>
+                                <div class="section wrap">
+                                    <p class="lead text-primary">Image 1</p>
+                                    <div class="form-group">
+                                        <div class="col-xs-12 col-sm-6">
+                                            <input type="file" name="pic" accept="image/*">
+                                        </div>
+                                    </div>
+                                    <div class="form-groupWrap">
+                                        <p class="lead">Image 1 Vehicle Information</p>                                    
+                                        <div class="form-group">
+                                            <div class="col-xs-12 col-sm-6">
+                                                <select class="form-control drop validate-select" id="select">
+                                                    <option value="">Make</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6">
+                                                <select class="form-control drop validate-select" id="select">
+                                                    <option value="">Model</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <p class="lead">Image 1 Searchable Tags <span class="note">(Please be sure to include "#" before each entry, and include a space between entries.)</span> </p>
+                                    <div class="form-group">
+                                        <div class="col-xs-12">
+                                            <input type="text" class="form-control" id="inputDefault" value="Tags">
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </div>
+
+                                <div class="section wrap">
+                                    <p class="lead text-primary">Image 2</p>
+                                    <div class="form-group">
+                                        <div class="col-xs-12 col-sm-6">
+                                            <input type="file" name="pic" accept="image/*">
+                                        </div>
+                                    </div>
+                                    <div class="form-groupWrap">
+                                        <p class="lead">Image 2 Vehicle Information</p>                                    
+                                        <div class="form-group">
+                                            <div class="col-xs-12 col-sm-6">
+                                                <select class="form-control drop validate-select" id="select">
+                                                    <option value="">Make</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6">
+                                                <select class="form-control drop validate-select" id="select">
+                                                    <option value="">Model</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <p class="lead">Image 2 Searchable Tags <span class="note">(Please be sure to include "#" before each entry, and include a space between entries.)</span> </p>
+                                    <div class="form-group">
+                                        <div class="col-xs-12">
+                                            <input type="text" class="form-control" id="inputDefault" value="Tags">
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </div>
+
+                                <div class="section wrap">
+                                    <p class="lead text-primary">Image 3</p>
+                                    <div class="form-group">
+                                        <div class="col-xs-12 col-sm-6">
+                                            <input type="file" name="pic" accept="image/*">
+                                        </div>
+                                    </div>
+                                    <div class="form-groupWrap">
+                                        <p class="lead">Image 3 Vehicle Information</p>                                    
+                                        <div class="form-group">
+                                            <div class="col-xs-12 col-sm-6">
+                                                <select class="form-control drop validate-select" id="select">
+                                                    <option value="">Make</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6">
+                                                <select class="form-control drop validate-select" id="select">
+                                                    <option value="">Model</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <p class="lead">Image 3 Searchable Tags <span class="note">(Please be sure to include "#" before each entry, and include a space between entries.)</span> </p>
+                                    <div class="form-group">
+                                        <div class="col-xs-12">
+                                            <input type="text" class="form-control" id="inputDefault" value="Tags">
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </div>
+
+                                <div class="section wrap">
+                                    <p class="lead text-primary">Image 4</p>
+                                    <div class="form-group">
+                                        <div class="col-xs-12 col-sm-6">
+                                            <input type="file" name="pic" accept="image/*">
+                                        </div>
+                                    </div>
+                                    <div class="form-groupWrap">
+                                        <p class="lead">Image 4 Vehicle Information</p>                                    
+                                        <div class="form-group">
+                                            <div class="col-xs-12 col-sm-6">
+                                                <select class="form-control drop validate-select" id="select">
+                                                    <option value="">Make</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6">
+                                                <select class="form-control drop validate-select" id="select">
+                                                    <option value="">Model</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <p class="lead">Image 4 Searchable Tags <span class="note">(Please be sure to include "#" before each entry, and include a space between entries.)</span> </p>
+                                    <div class="form-group">
+                                        <div class="col-xs-12">
+                                            <input type="text" class="form-control" id="inputDefault" value="Tags">
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </div>
+
+                                <div class="section wrap">
+                                    <p class="lead text-primary">Image 5</p>
+                                    <div class="form-group">
+                                        <div class="col-xs-12 col-sm-6">
+                                            <input type="file" name="pic" accept="image/*">
+                                        </div>
+                                    </div>
+                                    <div class="form-groupWrap">
+                                        <p class="lead">Image 5 Vehicle Information</p>                                    
+                                        <div class="form-group">
+                                            <div class="col-xs-12 col-sm-6">
+                                                <select class="form-control drop validate-select" id="select">
+                                                    <option value="">Make</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6">
+                                                <select class="form-control drop validate-select" id="select">
+                                                    <option value="">Model</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <p class="lead">Image 5 Searchable Tags <span class="note">(Please be sure to include "#" before each entry, and include a space between entries.)</span> </p>
+                                    <div class="form-group">
+                                        <div class="col-xs-12">
+                                            <input type="text" class="form-control" id="inputDefault" value="Tags">
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-xs-12">
+                                        <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-arrowRcircle-fff icon-after"></span> Submit</div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                    
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- MODAL: WRITE REVIEW -->
+    <div id="writereview" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
+                    <!-- For Product Review -->
+                    <h3 class="modal-title text-primary" id="myModalLabel">Write a Review</h3>
+                    <!-- For TRS Testimonial -->
+                    <!-- <h3 class="modal-title text-primary" id="myModalLabel">Write a Testimonial</h3> -->
+                    <hr>
+                </div>
+
+                <div class="modal-body">
+                    <div class="section wrap">
+                        <div class="modal-body-titlecopy">
+                            <!-- For Product Review -->
+                            <h5>Your Review for BI-XENON: MORIMOTO MINI H1 7.0</h5>
+                            <!-- For TRS Testimonial -->
+                            <!-- <h5>Your Testimonial for the TRS Experience</h5> -->
+                        </div>
+                        <p class="lead">Whether you're just getting started by dealing with our excellent customer service or you're already comfortably cruising on that dark road at night, you'll be glad you dealt with The Retrofit Source. </p>
+                        <p>We will make every customer happy without exception to uphold the reputation that we've worked so hard to build, and hope that you share that feeling with us. Your thoughts, opinions, compliments and criticisms will help us do everything we do, better - so we encourage you to share them here.</p>
+                        <div class="col-xs-12"><div class="row"><hr class="aligncenter first"></div></div>
+                    </div>
+                    <div class="section last">
+                        <form class="form-horizontal">
+                            <fieldset>
+                                <div class="form-group">
+                                    <div class="btn-group btn-rating">   
+                                        <div class="col-xs-12 col-sm-3">
+                                            <p class="lead"><span class="text-primary">Star Rating:</span></p>
+                                        </div>  
+                                        <!-- <div class="col-xs-12 col-sm-9">
+                                            <div type="button" class="btn btn-empty btn-xs active disabled"><span class="icon icon-reviewstar"></span></div>
+                                            <div type="button" class="btn btn-empty btn-xs active disabled"><span class="icon icon-reviewstar"></span></div>
+                                            <div type="button" class="btn btn-empty btn-xs active disabled"><span class="icon icon-reviewstar"></span></div>
+                                            <div type="button" class="btn btn-empty btn-xs half-active disabled"><span class="icon icon-reviewstar"></span></div>
+                                            <div type="button" class="btn btn-empty btn-xs disabled"><span class="icon icon-reviewstar"></span></div>
+                                        </div> -->
+                                        <div class="col-xs-12 col-sm-9">
+                                            <fieldset class="rating">
+                                                <!-- <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label> -->
+                                                <input type="radio" id="star1" name="rating" value="1" /><label class="full" for="star1" title="Sucks big time - 1 star"></label>
+                                                <!-- <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label> -->
+                                                <input type="radio" id="star2" name="rating" value="2" /><label class="full" for="star2" title="Kinda bad - 2 stars"></label>
+                                                <!-- <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label> -->
+                                                <input type="radio" id="star3" name="rating" value="3" /><label class="full" for="star3" title="Meh - 3 stars"></label>
+                                                <!-- <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label> -->
+                                                <input type="radio" id="star4" name="rating" value="4" /><label class="full" for="star4" title="Pretty good - 4 stars"></label>
+                                                <!-- <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label> -->
+                                                <input type="radio" id="star5" name="rating" value="5" /><label class="full" for="star5" title="Awesome - 5 stars"></label>
+                                            </fieldset>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="col-xs-12"><div class="row"><hr class="aligncenter first"></div></div> -->
+
+                                <div class="form-group">
+                                    <div class="col-xs-12">
+                                        <input type="text" class="form-control" id="inputDefault" value="Title">
+                                    </div>
+                                </div> 
+                                <div class="form-group">
+                                    <div class="col-xs-12">
+                                        <textarea class="form-control" rows="5" id="textArea" placeholder="Comments..."></textarea>
+                                    </div>
+                                </div>
+                                <p class="small pull-right">*HTML is not translated</p>  
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div type="button" class="btn btn-default back pull-left" data-dismiss="modal"><span class="icon icon-arrowLcircle-999 icon-before"></span> Cancel</div>
+                    <div type="button" class="btn btn-primary continue"><span class="icon icon-arrowRcircle-fff icon-after"></span> Submit</div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
+
