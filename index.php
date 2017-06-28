@@ -9,7 +9,7 @@
 	<!-- Basic Page Needs
     ================================================== -->
 	<meta charset="utf-8">
-	<title>THE RETROFIT SOURCE</title>
+	<title>LED Concepts</title>
 	<meta name="description" content="Google Description Here">
 	<meta name="keywords" content="Keywords Here" />
     <meta name="author" content="SHIMITS Design/Development">
@@ -23,7 +23,7 @@
     ================================================== -->
 	<!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"> -->
     <link href="css/bootstrap-theme-full.css" rel="stylesheet">
-    <link href="css/trs-theme.css" rel="stylesheet">
+    <link href="css/ledc-theme.css" rel="stylesheet">
 
     <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
     
@@ -57,29 +57,22 @@
 
     <div class="bodyWrap">
         <a href="#" border="none" target="_blank">
-            <div class="jumbotron feature1">
+            <div class="jumbotron">
+                <h1>Summer</br> is Here</h1>
+                <div class="col-xs-12 cta">
+                    <button type="button" class="btn btn-outline btn-lg pull-left">Upgrade Your Bulbs</button>
+                    <button type="button" class="btn btn-outline btn-lg pull-right">Shop for Headlight Assemblies</button>
+                </div>
+            </div>
+            <!-- <div class="jumbotron feature1">
                 <div class="featureHeadline col-xs-12 col-xlg-10 col-xlg-offset-1 col-2xlg-8 col-2xlg-offset-2">
                     <img src="img/feature2017-7headline.svg" alt="" border="0"/>
                 </div>
                 <div class="jumbotron-img"></div>
-                <!-- <div class="jumbotron-honeycomb"></div> -->
-            </div>
+            </div> -->
         </a>
         
-        <div class="section module-brands hidden-xs">
-            <div class="container-fluid">
-                <div class="row">
-                    <a href="#" class="brand col-sm-1 col-sm-offset-2"><span class="icon icon-brand philips"></span></a>
-                    <a href="#" class="brand col-sm-1"><span class="icon icon-brand morimoto"></span></a>
-                    <a href="#" class="brand col-sm-1"><span class="icon icon-brand osram"></span></a>
-                    <a href="#" class="brand col-sm-1"><span class="icon icon-brand denso"></span></a>
-                    <a href="#" class="brand col-sm-1"><span class="icon icon-brand acme"></span></a>
-                    <a href="#" class="brand col-sm-1"><span class="icon icon-brand koito"></span></a>
-                    <a href="#" class="brand col-sm-1"><span class="icon icon-brand hella"></span></a>
-                    <a href="#" class="brand col-sm-1 last"><span class="icon icon-brand speaker"></span></a>
-                </div>
-            </div>
-        </div>
+        
 
         <div class="section module-quickstartguide">
             <div class="container-fluid">
@@ -123,7 +116,6 @@
             </div>
         </div>
 
-        <div class="section texturedEdge"></div>
         <div class="section summary">
             <div class="container-fluid">
                 <div class="row">
@@ -150,57 +142,55 @@
             </div>
         </div>
 
-        <!-- - - - - 
-        - - - - - - -
-        |           |
-        |   BLOG    | 
-        |           |
-        - - - - - - -
-        - - - - - -->
-        <div class="section title header-waypoint" data-animate-down="header-small" data-animate-up="header-large">
-            <div class="container-fluid">
-                <div class="col-xs-12">
-                    <h2 class="text-center">New Developments:</h2>
-                </div>
-            </div>    
-        </div>
-
-        <div class="section promo promo1">
-            <div class="container-fluid">
+        <div class="section">
+            <div class="container">
                 <div class="row">
-                    <div class="caption col-sm-10 col-md-8 col-lg-7 pull-right">
-                        <span class="icon icon-blogpost icon-before"></span><h6 class="text-white text-shadow">New Blog post: 3/15/2017</h6>
-                        <h5 class="text-gray3 text-shadow">HEADLIGHT TECH: CLEAR LENSES</h5>
-                        <p class="text-shadow">Most OEM projectors out there come standard with what is known as "fresnel" lenses. These projector lenses have circular lines molded into their surface, and are often produced with less than optically clear glass. So what? Well the fresnel lines and frosted/ translucent glass dim the output and soften the beam pattern so the projectors aren't performing to their full potential...</p>
-                        <!-- <div class="section wrap"><a type="button" href="#" class="btn btn-ghost">Read More</a></div>
-                        <a type="button" href="#" class="btn btn-ghost">More from the Blog</a> -->
+                    <div class="section">
+                        <h4 class="text-center text-uppercase">What we bring to the table</h4>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <div class="col-md-4 text-center">
                         <div class="col-xs-12">
-                            <div class="row">
-                                <div class="col-xs-12 col-md-4 col-lg-5">
-                                    <div class="row">
-                                        <a type="button" href="#" class="btn btn-block btn-ghost">Read More</a>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 col-md-7 col-md-offset-1 col-lg-6 col-lg-offset-1">
-                                    <div class="row">
-                                        <a type="button" href="#" class="btn btn-block btn-ghost">More from the Blog</a>
-                                    </div>
-                                </div>
-                            </div>
+                            <span class="icon icon-gallery-appexamples"></span>
+                            <h5>CODE</h5>
+                            <p class="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="col-xs-12">
+                            <span class="icon icon-gallery-customercars"></span>
+                            <h5>BOOKMARK</h5>
+                            <p class="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="col-xs-12">
+                            <span class="icon icon-gallery-gallerysearch"></span>
+                            <h5>CAMERA</h5>
+                            <p class="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>                
                         </div>
                     </div>
                 </div>
             </div>
-        </div> 
-
+        </div>
 
         <!-- - - - - 
         - - - - - - -
         |           |
-        |    NEW    | 
+        | PRODUCTS  | 
         |           |
         - - - - - - -
         - - - - - -->
+        <div class="section title">
+            <div class="container-fluid">
+                <div class="col-xs-12">
+                    <h2 class="text-center">Featured Products:</h2>
+                </div>
+            </div>    
+        </div>
+
         <div class="section wrap">
             <div class="container-fluid">
                 <ul class="row productGrid">
@@ -393,7 +383,7 @@
         |           |
         - - - - - - -
         - - - - - -->
-        <div class="section title">
+        <!-- <div class="section title">
             <div class="container-fluid">
                 <div class="col-xs-12">
                     <h2 class="text-center">Popular Categories:</h2>
@@ -494,7 +484,7 @@
                 </div>
             </div>
         </div>
-
+ -->
 
 
         <!-- - - - - 
