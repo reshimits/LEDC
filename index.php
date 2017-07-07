@@ -25,7 +25,7 @@
     <link href="css/bootstrap-theme-full.css" rel="stylesheet">
     <link href="css/ledc-theme.css" rel="stylesheet">
 
-    <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Teko:300,400,600" rel="stylesheet">
     
 	<!-- Javascript [primary]
     ================================================== -->
@@ -56,62 +56,43 @@
     ================================================== -->
 
     <div class="bodyWrap">
-        <a href="#" border="none" target="_blank">
-            <div class="jumbotron">
-                <h1>Summer</br> is Here</h1>
-                <div class="col-xs-12 cta">
-                    <button type="button" class="btn btn-outline btn-lg pull-left">Upgrade Your Bulbs</button>
-                    <button type="button" class="btn btn-outline btn-lg pull-right">Shop for Headlight Assemblies</button>
-                </div>
+        
+        <div class="jumbotron">
+            <div class="col-xs-12"><h1>Halos</br> so savage</h1></div>
+            <div class="col-xs-12 cta">
+                <a href="#" type="button" class="btn btn-ghost btn-lg pull-left">Upgrade Your Bulbs</a>
+                <a href="#" type="button" class="btn btn-ghost btn-lg pull-right">Stylize with Halos</a>
             </div>
-            <!-- <div class="jumbotron feature1">
-                <div class="featureHeadline col-xs-12 col-xlg-10 col-xlg-offset-1 col-2xlg-8 col-2xlg-offset-2">
-                    <img src="img/feature2017-7headline.svg" alt="" border="0"/>
-                </div>
-                <div class="jumbotron-img"></div>
-            </div> -->
-        </a>
-        
-        
+        </div>
+
 
         <div class="section module-quickstartguide">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="lead col-xs-12 col-md-6">
-                            <h2 class="text-white"><span class="hidden-xs">Vehicle </span>Buyers Guide:</h2>
-                        </div>  
-                        <div class="col-xs-12 col-md-6">        
-                            <form class="form-horizontal">
-                                <fieldset>
-                                    <div class="form-group">
-                                        <div class="col-xs-4 col-sm-3 col-md-2">
-                                            <select class="form-control drop required" id="select">
-                                                <option value="">YEAR</option>
-                                                <option value="2016">2016</option>
-                                        
-                                            </select>
-                                        </div>
-                                        <div class="col-xs-8 col-sm-4">
-                                            <select class="form-control drop required" id="select">
-                                                <option value="">MAKE</option>
-                                                
-                                            </select>
-                                        </div>
-                                        <div class="col-xs-12 col-sm-4">
-                                            <select class="form-control drop required" id="select">
-                                                <option value="">MODEL</option>
-                                                
-                                            </select>
-                                        </div>
-                                        <div class="col-xs-1 col-xs-offset-10 col-sm-1 col-sm-offset-0">
-                                            <button type="submit" class="btn btn-empty icon icon-arrowRcircle-fff" href="#"></button>
-                                        </div>
-                                    </div>      
-                                </fieldset>
-                            </form> 
-                        </div>          
-                    </div>
+                <div class="section wrap"> 
+                        <form class="form-horizontal">
+                            <fieldset>
+                                    <div class="col-xs-12 col-sm-4 col-md-2 col-md-offset-2 active">
+                                        <select class="form-control drop required" id="select">
+                                            <option value="">YEAR</option>
+                                            <option value="2016">2016</option>
+                                    
+                                        </select>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4 col-md-3">
+                                        <select class="form-control drop required" id="select">
+                                            <option value="">MAKE</option>
+                                            
+                                        </select>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4 col-md-3">
+                                        <select class="form-control drop required" id="select">
+                                            <option value="">MODEL</option>
+                                            
+                                        </select>
+                                    </div>
+  
+                            </fieldset>
+                        </form> 
                 </div>
             </div>
         </div>
@@ -121,21 +102,18 @@
                 <div class="row">
                     <div class="text-center">
                         <div class="col-xs-10 col-xs-offset-1">
-                            <h3 class="text-primary">More than the world's largest supplier of high-end automotive lighting upgrades</h3>
+                            <h3 class="text-primary">Halo Headlight Kits • Led Headlight Bulbs • Off Road Led Light Bars</h3>
                         </div>
                         <div class="section wrap">
-                            <div class="col-sm-5 col-sm-offset-1 text-left">
-                                <p>Are you searching for an easy and cost-effective way to upgrade headlight bulbs on your car, truck, motorcycle, or off-road vehicle? We're a group of enthusiasts with a passion for perfecting your night-time driving experience. Our goal is to supply you with the best performing headlight upgrades that have been tailored to fit your application, at a price that works within budget. These are HID headlight upgrades for those who are serious about the looks and performance of their vehicle.</p>
-                            </div>
-                            <div class="col-sm-5 text-left">
-                                <p>If you're driving something truly special, other enthusiasts will notice you during the day - but don't make the mistake of cruising by unnoticed at night. We carry a variety of individual aftermarket and OEM automobile lighting products, and we offer the ability to put together custom headlight upgrade kits to your specific requirements. From HID headlight upgrades to the latest LED bulbs and accessories, TRS will set you up with everything you need to improve vision on the road and provide a personalized style that stands out from the crowd.</p>
+                            <div class="col-sm-10 col-sm-offset-1 text-center">
+                                <p>So what makes LED Concepts the leader in the Automotice LED Lighting Industry? We learn from the past by taking what already exists, and making it better. We utilize the present by continually asking what we can do to improve. We create the future by dreaming up the most innovative concepts and turning them into the most breathtaking products. And finally, we change the game by giving them to you at the most affordable prices on the market.</p>
                             </div>
                         </div>
                         <div class="col-xs-10 col-xs-offset-1">
                             <div class="row"><hr></div>
                         </div> 
                         <div class="section wrap">
-                            <a type="button" class="btn btn-primary" href="#">More About TRS</a>
+                            <a type="button" class="btn btn-primary" href="#">More About LED Concepts</a>
                         </div>
                     </div>
                 </div>
@@ -151,25 +129,32 @@
                 </div>
                 
                 <div class="section">
-                    <div class="col-md-4 text-center">
+                    <div class="col-md-3 text-center">
                         <div class="col-xs-12">
                             <span class="icon icon-gallery-appexamples"></span>
-                            <h5>CODE</h5>
-                            <p class="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            <h5>Best Price</h5>
+                            <p>We believe that everyone deserves to Live the Custom Life. All LED Concepts Halo Headlight Kits come standard with our exclusive ColorMorph™ color-changing technology, and sell for around the same price as most competitors’ single color kits. At LED Concepts, limitless comes standard.</p>
                         </div>
                     </div>
-                    <div class="col-md-4 text-center">
+                    <div class="col-md-3 text-center">
                         <div class="col-xs-12">
                             <span class="icon icon-gallery-customercars"></span>
-                            <h5>BOOKMARK</h5>
-                            <p class="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            <h5>Best Products</h5>
+                            <p>We founded LED Concepts because we felt that the halo headlight industry was selling low quality products at unreasonably high prices. Our solution? Design products with the quality you deserve, at the prices you need. And that’s why we’ve become the most trusted brand in the industry.</p>
                         </div>
                     </div>
-                    <div class="col-md-4 text-center">
+                    <div class="col-md-3 text-center">
                         <div class="col-xs-12">
                             <span class="icon icon-gallery-gallerysearch"></span>
-                            <h5>CAMERA</h5>
-                            <p class="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>                
+                            <h5>Truly Great Customer Service</h5>
+                            <p>LED Concepts was built upon a foundation of honesty, quality, and loyalty. Without you, there would be no us. Our customer service team is here to answer any question you have, and solve any problem you encounter. Every step of the way, we’re there with you.</p>                
+                        </div>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <div class="col-xs-12">
+                            <span class="icon icon-gallery-appexamples"></span>
+                            <h5>Lifetime Warranty</h5>
+                            <p>LED Concepts products are designed, tested, and shipped in-house to guarantee that you’re upgrading your ride with only the best. We believe in our products so fully, that we offer a Lifetime Warranty.</p>
                         </div>
                     </div>
                 </div>
@@ -675,26 +660,6 @@
         });
     </script>   
     
-
-    <!-- HEADER/NAV size change based on scroll -->
-    <script src="js/waypoints.min.js"></script>
-    <script>
-        var $head = $( '#header' );
-        $( '.header-waypoint' ).each( function(i) {
-            var $el = $( this ),
-                animClassDown = $el.data( 'animateDown' ),
-                animClassUp = $el.data( 'animateUp' );
-
-            $el.waypoint( function( direction ) {
-                if( direction === 'down' && animClassDown ) {
-                    $head.attr('class', 'header ' + animClassDown);
-                }
-                else if( direction === 'up' && animClassUp ){
-                    $head.attr('class', 'header ' + animClassUp);
-                }
-            }, { offset: '0%' } );
-        } );
-    </script>
 
     <!-- HEADER/NAV toggle MENU BTN -->
     <script type='text/javascript'>
