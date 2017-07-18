@@ -66,100 +66,102 @@
         </div>
 
 
-        <div class="section module-quickstartguide">
+        <div class="section wrap module-quickstartguide">
             <div class="container-fluid">
                 <div class="section wrap"> 
-                        <form class="form-horizontal">
-                            <fieldset>
-                                    <div class="col-xs-12 col-sm-4 col-md-2 col-md-offset-2 active">
-                                        <select class="form-control drop required" id="select">
-                                            <option value="">YEAR</option>
-                                            <option value="2016">2016</option>
+                    <form class="form-horizontal">
+                        <fieldset>
+                            <div class="col-xs-12 col-sm-4 col-md-2 col-md-offset-2 active">
+                                <select class="form-control drop required" id="select">
+                                    <option value="">YEAR</option>
+                                    <option value="2016">2016</option>
+                            
+                                </select>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-3">
+                                <select class="form-control drop required" id="select">
+                                    <option value="">MAKE</option>
                                     
-                                        </select>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-4 col-md-3">
-                                        <select class="form-control drop required" id="select">
-                                            <option value="">MAKE</option>
-                                            
-                                        </select>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-4 col-md-3">
-                                        <select class="form-control drop required" id="select">
-                                            <option value="">MODEL</option>
-                                            
-                                        </select>
-                                    </div>
-  
-                            </fieldset>
-                        </form> 
+                                </select>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-3">
+                                <select class="form-control drop required" id="select">
+                                    <option value="">MODEL</option>
+                                    
+                                </select>
+                            </div>
+                        </fieldset>
+                    </form> 
                 </div>
             </div>
         </div>
 
         <div class="section summary">
+            <div class="section">
             <div class="container-fluid">
                 <div class="row">
                     <div class="text-center">
                         <div class="col-xs-10 col-xs-offset-1">
-                            <h3 class="text-primary">Halo Headlight Kits • Led Headlight Bulbs • Off Road Led Light Bars</h3>
+                            <h3>Halo Headlight Kits • Led Headlight Bulbs • Off Road Led Light Bars</h3>
                         </div>
                         <div class="section wrap">
                             <div class="col-sm-10 col-sm-offset-1 text-center">
                                 <p>So what makes LED Concepts the leader in the Automotice LED Lighting Industry? We learn from the past by taking what already exists, and making it better. We utilize the present by continually asking what we can do to improve. We create the future by dreaming up the most innovative concepts and turning them into the most breathtaking products. And finally, we change the game by giving them to you at the most affordable prices on the market.</p>
                             </div>
                         </div>
-                        <div class="col-xs-10 col-xs-offset-1">
-                            <div class="row"><hr></div>
-                        </div> 
                         <div class="section wrap">
                             <a type="button" class="btn btn-primary" href="#">More About LED Concepts</a>
                         </div>
                     </div>
                 </div>
             </div>
+            </div>
         </div>
 
-        <div class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="section">
-                        <h4 class="text-center text-uppercase">What we bring to the table</h4>
+        <div class="section wrap perks">
+            <div class="section title">
+                <div class="container-fluid">
+                    <div class="col-xs-12">
+                        <h2 class="text-center"> What we bring to the table </h2>
                     </div>
-                </div>
-                
-                <div class="section">
+                </div>    
+            </div>
+
+        
+            <div class="section double">
+                <div class="container-fluid">
                     <div class="col-md-3 text-center">
                         <div class="col-xs-12">
                             <span class="icon icon-gallery-appexamples"></span>
-                            <h5>Best Price</h5>
+                            <h3>Best Price</h3>
                             <p>We believe that everyone deserves to Live the Custom Life. All LED Concepts Halo Headlight Kits come standard with our exclusive ColorMorph™ color-changing technology, and sell for around the same price as most competitors’ single color kits. At LED Concepts, limitless comes standard.</p>
                         </div>
                     </div>
                     <div class="col-md-3 text-center">
                         <div class="col-xs-12">
                             <span class="icon icon-gallery-customercars"></span>
-                            <h5>Best Products</h5>
+                            <h3>Best Products</h3>
                             <p>We founded LED Concepts because we felt that the halo headlight industry was selling low quality products at unreasonably high prices. Our solution? Design products with the quality you deserve, at the prices you need. And that’s why we’ve become the most trusted brand in the industry.</p>
                         </div>
                     </div>
                     <div class="col-md-3 text-center">
                         <div class="col-xs-12">
                             <span class="icon icon-gallery-gallerysearch"></span>
-                            <h5>Truly Great Customer Service</h5>
+                            <h3>Great Customer Service</h3>
                             <p>LED Concepts was built upon a foundation of honesty, quality, and loyalty. Without you, there would be no us. Our customer service team is here to answer any question you have, and solve any problem you encounter. Every step of the way, we’re there with you.</p>                
                         </div>
                     </div>
                     <div class="col-md-3 text-center">
                         <div class="col-xs-12">
                             <span class="icon icon-gallery-appexamples"></span>
-                            <h5>Lifetime Warranty</h5>
+                            <h3>Lifetime Warranty</h3>
                             <p>LED Concepts products are designed, tested, and shipped in-house to guarantee that you’re upgrading your ride with only the best. We believe in our products so fully, that we offer a Lifetime Warranty.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
 
         <!-- - - - - 
         - - - - - - -
@@ -171,40 +173,40 @@
         <div class="section title">
             <div class="container-fluid">
                 <div class="col-xs-12">
-                    <h2 class="text-center">Featured Products:</h2>
+                    <h2 class="text-center"> Featured Products </h2>
                 </div>
             </div>    
         </div>
 
-        <div class="section wrap">
-            <div class="container-fluid">
+        <div class="section gray3 double">
+            <div class="container">
                 <ul class="row productGrid">
                 
                     <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
                         <a href="productdetail.php" class="thumb-top">
                             <div class="caption-top">
                                 <div class="col-xs-10 col-xs-offset-1 text-center">
-                                    <h5>MOPAR SPEC: 13-14 DODGE RAM LOW BEAM HARNESS</h5>
+                                    <h5>Waterproof Fuse</h5>
                                 </div>
                                 <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
                                 <div class="col-xs-12">
                                     <div class="col-xs-12">
-                                        <p class="lead text-muted text-center">Advanced Install HID Projectors</p>
+                                        <p class="lead text-muted text-center">Fitted LED Accents</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="thumbnail-image"><img src="img/temp--bi-xenon_morimoto_mini_d2s_stage_iii_kit_1.jpg" class="img-responsive" alt="" border="none"></div>
+                            <div class="thumbnail-image"><img src="img/temp--Morimoto XB35 AMP Ballast 3.jpg" class="img-responsive" alt="" border="none"></div>
                         </a>
                         <div class="labelWrap">
                             <div class="label label-new">
                                 <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
                             </div>
-                            <!-- <div class="label label-sale">
+                            <div class="label label-sale">
                                 <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
-                            </div> -->
-                           <!--  <div class="label label-fitment">
+                            </div>
+                            <div class="label label-fitment">
                                 <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Front Turn Signal</p></div>
-                            </div> -->
+                            </div>
                         </div>
                         <div class="section caption">
                             <div class="col-xs-12">
@@ -228,24 +230,24 @@
                         <a href="" class="thumb-top">
                             <div class="caption-top">
                                 <div class="col-xs-10 col-xs-offset-1 text-center">
-                                    <h5>FX-R 3.0 Projectors</h5>
+                                    <h5>H11: MORIMOTO 2STROKE LED HEADLIGHT BULBS</h5>
                                 </div>
                                 <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
                                 <div class="col-xs-12">
                                     <div class="col-xs-12">
-                                        <p class="lead text-muted text-center">LED Lighting</p>
+                                        <p class="lead text-muted text-center">HID Lighting</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="thumbnail-image"><img src="img/temp--Morimoto XB35 AMP Ballast 6.jpg" class="img-responsive" alt="" border="none"></div>
                         </a>
                         <div class="labelWrap">
-                            <div class="label label-new">
+                            <!-- <div class="label label-new">
                                 <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
-                            </div>
-                            <!-- <div class="label label-sale">
-                                <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
                             </div> -->
+                            <div class="label label-sale">
+                                <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
+                            </div>
                             <!-- <div class="label label-fitment">
                                 <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Front Turn Signal</p></div>
                             </div> -->
@@ -272,12 +274,12 @@
                         <a href="" class="thumb-top">
                             <div class="caption-top">
                                 <div class="col-xs-10 col-xs-offset-1 text-center">
-                                    <h5>MOPAR SPEC: LOW BEAM HARNESS</h5>
+                                    <h5>COLORMORPH RGB LED STRIP ROLL – 16FT / 5M – WATERPROOF – INTERIOR/EXTERIOR</h5>
                                 </div>
                                 <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
                                 <div class="col-xs-12">
                                     <div class="col-xs-12">
-                                        <p class="lead text-muted text-center">Advanced Install HID Projectors</p>
+                                        <p class="lead text-muted text-center">Universal LED Accents</p>
                                     </div>
                                 </div>
                             </div>
@@ -479,47 +481,52 @@
         |           |
         - - - - - - -
         - - - - - -->
-        <div class="section title">
-            <div class="container-fluid">
-                <div class="col-xs-12">
-                    <h2 class="text-center">Word on the Street:</h2>
-                </div>
-            </div>    
-        </div>
-
+         
         <div class="section wrap homequotes">
-            <div class="flex-row">
-                <div class="col-xs-12 col-sm-6 section gray1 blockquote1">
-                    <div class="container-fluid">
+            <div class="section title">
+                <div class="container-fluid">
                     <div class="col-xs-12">
-                        <div class="blockquote">
-                            <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHexAlt"></span></div>
-                            <h5 class="text-white">“We truly believed that everybody without a retrofit didn't know what they were missing. By significantly lowering prices, creating a single source for all required components, and educating those who gave us the chance, we were on a mission.”</h5>
-                            <p class="text-weightMedium text-white"><em>– Micah S Lux</em></p>
-                        </div>
-                    </div>  
-                    </div>          
-                </div>
-                <div class="col-xs-12 col-sm-6 section bg-gray2 blockquote2">
-                    <div class="container-fluid">
-                    <div class="col-xs-12">
-                        <div class="blockquote">
-                            <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHex"></span></div>
-                            <h5>“The Retrofit Source offers the absolute best when it comes to HID headlight retrofitting. We will make every customer happy without exception to uphold the reputation that we've worked so hard to build.”</h5>
-                            <p class="text-weightMedium text-white"><em>– Ben Solo</em></p>
-                        </div>
-                    </div>  
-                    </div>          
-                </div>
+                        <h2 class="text-center">Word on the Street</h2>
+                    </div>
+                </div>    
             </div>
-            <div class="section wrap homequotes-cta text-center">
-                <div class="col-xs-10 col-xs-offset-1">
-                    <div class="row"><hr></div>
-                </div> 
-                <a type="button" class="btn btn-primary" href="#">See More Testimonials</a>
+
+            <div class="section wrap">
+                <div class="flex-row">
+                    <div class="col-xs-12 col-sm-6 section blockquote1">
+                        <div class="container-fluid">
+                        <div class="col-xs-12">
+                            <div class="blockquote">
+                                <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHexAlt"></span></div>
+                                <h5 class="text-white">“We truly believed that everybody without a retrofit didn't know what they were missing. By significantly lowering prices, creating a single source for all required components, and educating those who gave us the chance, we were on a mission.”</h5>
+                                <p class="text-weightMedium text-white"><em>– Micah S Lux</em></p>
+                            </div>
+                        </div>  
+                        </div>          
+                    </div>
+                    <div class="col-xs-12 col-sm-6 section blockquote2">
+                        <div class="container-fluid">
+                        <div class="col-xs-12">
+                            <div class="blockquote">
+                                <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHex"></span></div>
+                                <h5>“The Retrofit Source offers the absolute best when it comes to HID headlight retrofitting. We will make every customer happy without exception to uphold the reputation that we've worked so hard to build.”</h5>
+                                <p class="text-weightMedium text-white"><em>– Ben Solo</em></p>
+                            </div>
+                        </div>  
+                        </div>          
+                    </div>
+                </div>
+                <div class="section text-center">
+                        <a type="button" class="btn btn-primary" href="#">See More Testimonials</a>
+                    </div>
+                <!-- <div class="section wrap homequotes-cta text-center">
+                    <div class="col-xs-10 col-xs-offset-1">
+                        <div class="row"><hr></div>
+                    </div> 
+                    <a type="button" class="btn btn-primary" href="#">See More Testimonials</a>
+                </div> -->
             </div>
         </div>
-
 
 
         <!-- - - - - 
@@ -532,14 +539,14 @@
         <div class="section title">
             <div class="container-fluid">
                 <div class="col-xs-12">
-                    <h2 class="text-center">Social Scene:</h2>
+                    <h2 class="text-center">Social Scene</h2>
                 </div>
             </div>    
         </div>
 
 
-        <div class="section gray3 gallery">
-            <div class="container-fluid">
+        <div class="section gallery">
+            <div class="container">
                 <ul class="productGrid panel panel-account">
                 
                     <li class="col-xs-6 col-md-4 col-lg-3 product thumbnail">
