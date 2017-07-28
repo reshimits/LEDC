@@ -40,7 +40,7 @@
 </head>
 
 <!-- Apply id="wholesaleAcct" if user is logged in as Wholesaler -->
-<body class="home" id="">
+<body class="home" id="" onLoad="MM_preloadImages('img/brand-colormorphHover.svg','img/brand-morimotoHover.svg','img/brand-osramHover.svg','img/brand-philipsHover.svg','img/brand-profileHover.svg','img/brand-speakerHover.svg')">
 
 
     <!-- Header
@@ -103,27 +103,41 @@
 
         <div class="section double summary">
             <div class="section first">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="text-center">
-                        <div class="col-xs-10 col-xs-offset-1">
-                            <h3>HALO HEADLIGHTS &nbsp; • &nbsp; LED FORWARD LIGHTING &nbsp; • &nbsp; OFF ROAD LED LIGHT BARS &nbsp; • &nbsp; PROJECTOR HEADLIGHTS</h3>
-                        </div>
-                        <div class="section wrap">
-                            <div class="col-sm-10 col-sm-offset-1 text-center">
-                                <p>Since 2005, we have focused our efforts on lighting and that's it. Experience means we know the products. We know the technology. We know our competitors, and most importantly, we know, respect, and love to interact with our customers. We like to wrench. We like to drive, we like to ride, and like you: we demand the best for whatever it is that gets us going.</p>
-
-                                <p>While many things have changed over the years, LED Concepts continues to crush the competition by stocking the shelves with nothing but today’s best brands and supporting them with an unparalleled level of service &amp; knowledge. We are a real company, with real people, a real facility, real engineers, and some real history, all ran by real car guys.</p>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="text-center">
+                            <div class="col-xs-10 col-xs-offset-1">
+                                <h3>HALO HEADLIGHTS &nbsp; • &nbsp; LED FORWARD LIGHTING &nbsp; • &nbsp; OFF ROAD LED LIGHT BARS &nbsp; • &nbsp; PROJECTOR HEADLIGHTS</h3>
                             </div>
-                        </div>
-                        <div class="section wrap">
-                            <a type="button" class="btn btn-primary" href="#">More About LED Concepts</a>
+                            <div class="section wrap">
+                                <div class="col-sm-10 col-sm-offset-1 text-center">
+                                    <p>Since 2005, we have focused our efforts on lighting and that's it. Experience means we know the products. We know the technology. We know our competitors, and most importantly, we know, respect, and love to interact with our customers. We like to wrench. We like to drive, we like to ride, and like you: we demand the best for whatever it is that gets us going.</p>
+
+                                    <p>While many things have changed over the years, LED Concepts continues to crush the competition by stocking the shelves with nothing but today’s best brands and supporting them with an unparalleled level of service &amp; knowledge. We are a real company, with real people, a real facility, real engineers, and some real history, all ran by real car guys.</p>
+                                </div>
+                            </div>
+                            <div class="section wrap">
+                                <a type="button" class="btn btn-primary" href="#">More About LED Concepts</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+                <div class="section module-brands last hidden-xs">
+                    <div class="container">
+                        <div class="brand col-sm-2"><span class="icon icon-brand profile"></span></div>
+                        <div class="brand col-sm-2"><span class="icon icon-brand morimoto"></span></div>
+                        <div class="brand col-sm-2"><span class="icon icon-brand philips"></span></div>
+                        <div class="brand col-sm-2"><span class="icon icon-brand speaker"></span></div>
+                        <div class="brand col-sm-2"><span class="icon icon-brand osram"></span></div>
+                        <div class="brand col-sm-2"><span class="icon icon-brand colormorph"></span></div>
+                        
+                        
+                    </div>
+                </div>
             </div>
         </div>
+
+        
 
         <!-- - - - - 
         - - - - - - -
@@ -149,7 +163,7 @@
                 <div class="container">
                     <ul class="row productGrid">
                     
-                        <li class="col-xs-6 col-md-4 col-lg-3 thumbnail">
+                        <li class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-0 col-lg-3 thumbnail">
                             <a href="productdetail.php" class="thumb-top">
                                 <div class="caption-top">
                                     <div class="col-xs-10 col-xs-offset-1 text-center">
@@ -165,7 +179,7 @@
                                 <div class="thumbnail-image"><img src="img/temp-gallery6.png" class="img-responsive" alt="" border="none"></div>
                             </a>
                         </li>
-                        <li class="col-xs-6 col-md-4 col-lg-3 thumbnail">
+                        <li class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-0 col-lg-3 thumbnail">
                             <a href="productdetail.php" class="thumb-top">
                                 <div class="caption-top">
                                     <div class="col-xs-10 col-xs-offset-1 text-center">
@@ -181,7 +195,7 @@
                                 <div class="thumbnail-image"><img src="img/temp-partner4.jpg" class="img-responsive" alt="" border="none"></div>
                             </a>
                         </li>
-                        <li class="col-xs-6 col-md-4 col-lg-3 thumbnail">
+                        <li class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-0 col-lg-3 thumbnail">
                             <a href="productdetail.php" class="thumb-top">
                                 <div class="caption-top">
                                     <div class="col-xs-10 col-xs-offset-1 text-center">
@@ -197,7 +211,7 @@
                                 <div class="thumbnail-image"><img src="img/temp-gallery9tall.jpg" class="img-responsive" alt="" border="none"></div>
                             </a>
                         </li>
-                        <li class="col-xs-6 col-md-4 col-lg-3 thumbnail hidden-md">
+                        <li class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-0 col-lg-3 thumbnail hidden-md">
                             <a href="productdetail.php" class="thumb-top">
                                 <div class="caption-top">
                                     <div class="col-xs-10 col-xs-offset-1 text-center">
