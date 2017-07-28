@@ -41,35 +41,34 @@
 <!-- Apply id="wholesaleAcct" if user is logged in as Wholesaler -->
 <!-- Changing the "CATEGORY" class along with the "CATEGORY-SUBCATEGORY" class will change the h4, and banner image -->
 
-<!-- <body class="productcategory projectorretrofits projectorretrofits-universalkits"> -->
-<!-- <body class="productcategory projectorretrofits projectorretrofits-applicationspecific"> -->
-<!-- <body class="productcategory projectorretrofits projectorretrofits-projectors"> -->
-<!-- <body class="productcategory projectorretrofits projectorretrofits-shrouds"> -->
-<!-- <body class="productcategory projectorretrofits projectorretrofits-lenses"> -->
-<!-- <body class="productcategory plugnplay plugnplay-hidsystems"> -->
-<!-- <body class="productcategory plugnplay plugnplay-applicationspecific"> -->
-<!-- <body class="productcategory plugnplay plugnplay-ledheadlights"> -->
-<!-- <body class="productcategory plugnplay plugnplay-ledfoglights"> -->
-<!-- <body class="productcategory bulbs bulbs-oem"> -->
-<!-- <body class="productcategory bulbs bulbs-aftermarket"> -->
-<!-- <body class="productcategory ballasts ballasts-oem"> -->
-<!-- <body class="productcategory ballasts ballasts-aftermarket"> -->
-<!-- <body class="productcategory led led-ledbulbs"> -->
-<!-- <body class="productcategory led led-switchback"> -->
-<!-- <body class="productcategory led led-colorchanging"> -->
-<body class="productcategory led led-drl">
-<!-- <body class="productcategory assemblies assemblies-fullheadlights"> -->
-<!-- <body class="productcategory assemblies assemblies-ledfoglights"> -->
-<!-- <body class="productcategory assemblies assemblies-offroad"> -->
-<!-- <body class="productcategory assemblies assemblies-taillights"> -->
-<!-- <body class="productcategory vehiclespec vehiclespec-motorcycle"> -->
-<!-- <body class="productcategory vehiclespec vehiclespec-truck"> -->
-<!-- <body class="productcategory vehiclespec vehiclespec-packages"> -->
-<!-- <body class="productcategory wiring wiring-relay"> -->
-<!-- <body class="productcategory wiring wiring-pigtailsadapters" id="wholesaleAcct"> -->
-<!-- <body class="productcategory wiring wiring-parts"> -->
-<!-- <body class="productcategory accessories accessories-buildmaterials"> -->
-<!-- <body class="productcategory accessories accessories-trsgear"> -->
+<body class="productcategory fittedledaccents fittedledaccents-fittedhaloskits">
+<!-- <body class="productcategory fittedledaccents fittedledaccents-fitteddrlboards"> -->
+<!-- <body class="productcategory universalledaccents universalledaccents-colorchanginghalosstrips"> -->
+<!-- <body class="productcategory universalledaccents universalledaccents-colorchangingaccessories"> -->
+<!-- <body class="productcategory universalledaccents universalledaccents-switchbackhalosstrips"> -->
+<!-- <body class="productcategory ledaccessories ledaccessories-fitteddrlboards"> -->
+<!-- <body class="productcategory ledaccessories ledaccessories-exteriorlighting"> -->
+<!-- <body class="productcategory ledaccessories ledaccessories-interiorlighting"> -->
+<!-- <body class="productcategory ledaccessories ledaccessories-controllers"> -->
+<!-- <body class="productcategory ledbulbs ledbulbs-headlightfoglights"> -->
+<!-- <body class="productcategory ledbulbs ledbulbs-exteriorinterior"> -->
+<!-- <body class="productcategory ledbulbs ledbulbs-flasherrelaysresistors"> -->
+<!-- <body class="productcategory headsfogs headsfogs-ledfoglights"> -->
+<!-- <body class="productcategory headsfogs headsfogs-ledheadlights"> -->
+<!-- <body class="productcategory hidlighting hidlighting-hidsystems"> -->
+<!-- <body class="productcategory hidlighting hidlighting-hidbulbs"> -->
+<!-- <body class="productcategory hidlighting hidlighting-hidballasts"> -->
+<!-- <body class="productcategory hidlighting hidlighting-relaywireharnesses"> -->
+<!-- <body class="productcategory projectorkits projectorkits-universalprojectorkits"> -->
+<!-- <body class="productcategory projectorkits projectorkits-fittedretrofitkits"> -->
+<!-- <body class="productcategory projectorkits projectorkits-headlightprojectors"> -->
+<!-- <body class="productcategory projectorkits projectorkits-projectorshrouds"> -->
+<!-- <body class="productcategory projectorkits projectorkits-customlensetching"> -->
+<!-- <body class="productcategory offroad offroad-ledlightbarscubes"> -->
+<!-- <body class="productcategory offroad offroad-lightbarhalos"> -->
+<!-- <body class="productcategory offroad offroad-rocklights"> -->
+<!-- <body class="productcategory installaccessories installaccessories-wiringparts"> -->
+<!-- <body class="productcategory installaccessories installaccessories-buildmaterials"> -->
 <!-- <body class="productcategory closeouts"> -->
 
 
@@ -90,8 +89,6 @@
         
         <?php require('productcategories/products-hero.html');?>
 
-        <div class="section texturedEdge header-waypoint" data-animate-down="header-small" data-animate-up="header-large"></div>
-
         <!-- If there are no matching products: -->
         <!-- <div class="section short">
             <div class="section">
@@ -103,10 +100,123 @@
             </div>
         </div> -->
 
-        <div class="section wrap">
+        <div class="section">
             <div class="container">
                 <ul class="row productGrid">
                 
+                    <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
+                        <a href="productdetail.php" class="thumb-top">
+                            <div class="caption-top">
+                                <div class="col-xs-10 col-xs-offset-1 text-center">
+                                    <h5>Waterproof Fuse</h5>
+                                </div>
+                                <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
+                                <div class="col-xs-12">
+                                    <div class="col-xs-12">
+                                        <p class="lead text-muted text-center">Fitted LED Accents</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="thumbnail-image"><img src="img/temp--4_position_wiring_seal_5.jpg" class="img-responsive" alt="" border="none"></div>
+                        </a>
+                        <div class="labelWrap">
+                            <div class="label label-fitment">
+                                <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <span class="lead">Your Fitment:</span> Front Turn Signal</div>
+                            </div>
+                        </div>
+                        <div class="section caption">
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <h3 class="retail">$439.99 
+                                        <p class="note"><span class="lead">MSRP</span></p>
+                                    </h3>
+                                    <h3 class="wholesale">$399.99 
+                                        <p class="note"><span class="lead">Wholesale</span></p>
+                                    </h3>
+                                    <h3 class="tenplus last">$359.99 
+                                        <p class="note"><span class="lead">10 or More</span></p>
+                                    </h3>
+                                    <div type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
+                        <a href="productdetail.php" class="thumb-top">
+                            <div class="caption-top">
+                                <div class="col-xs-10 col-xs-offset-1 text-center">
+                                    <h5>H11: MORIMOTO 2STROKE LED HEADLIGHT BULBS</h5>
+                                </div>
+                                <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
+                                <div class="col-xs-12">
+                                    <div class="col-xs-12">
+                                        <p class="lead text-muted text-center">HID Lighting</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="thumbnail-image"><img src="img/temp--Morimoto XB35 AMP Ballast 6.jpg" class="img-responsive" alt="" border="none"></div>
+                        </a>
+                        <div class="labelWrap">
+                            <!-- <div class="label label-fitment">
+                                <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <span class="lead">Your Fitment:</span> Front Turn Signal</div>
+                            </div> -->
+                        </div>
+                        <div class="section caption">
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <h3 class="retail">$439.99 
+                                        <p class="note"><span class="lead">MSRP</span></p>
+                                    </h3>
+                                    <h3 class="wholesale">$399.99 
+                                        <p class="note"><span class="lead">Wholesale</span></p>
+                                    </h3>
+                                    <h3 class="tenplus last">$359.99 
+                                        <p class="note"><span class="lead">10 or More</span></p>
+                                    </h3>
+                                    <div type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
+                        <a href="productdetail.php" class="thumb-top">
+                            <div class="caption-top">
+                                <div class="col-xs-10 col-xs-offset-1 text-center">
+                                    <h5>COLORMORPH RGB LED STRIP ROLL – 16FT / 5M – WATERPROOF – INTERIOR/EXTERIOR</h5>
+                                </div>
+                                <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
+                                <div class="col-xs-12">
+                                    <div class="col-xs-12">
+                                        <p class="lead text-muted text-center">Universal LED Accents</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="thumbnail-image"><img src="img/temp--MORIMOTO XSB 3.0.png" class="img-responsive" alt="" border="none"></div>
+                        </a>
+                        <div class="labelWrap">
+                            <div class="label label-fitment">
+                                <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <span class="lead">Your Fitment:</span> Front Turn Signal</div>
+                            </div>
+                        </div>
+                        <div class="section caption">
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <h3 class="retail">$439.99 
+                                        <p class="note"><span class="lead">MSRP</span></p>
+                                    </h3>
+                                    <h3 class="wholesale">$399.99 
+                                        <p class="note"><span class="lead">Wholesale</span></p>
+                                    </h3>
+                                    <h3 class="tenplus last">$359.99 
+                                        <p class="note"><span class="lead">10 or More</span></p>
+                                    </h3>
+                                    <div type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
                     <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
                         <a href="productdetail.php" class="thumb-top">
                             <div class="caption-top">
@@ -120,17 +230,48 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="thumbnail-image"><img src="img/temp--Morimoto XB35 AMP Ballast 1.jpg" class="img-responsive" alt="" border="none"></div>
+                            <div class="thumbnail-image"><img src="img/temp--Morimoto XB35 AMP Ballast 2.jpg" class="img-responsive" alt="" border="none"></div>
                         </a>
                         <div class="labelWrap">
-                            <div class="label label-new">
-                                <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
-                            </div>
-                            <!-- <div class="label label-sale">
-                                <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
+                            <!-- <div class="label label-fitment">
+                                <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <span class="lead">Your Fitment:</span> Front Turn Signal</div>
                             </div> -->
+                        </div>
+                        <div class="section caption">
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <h3 class="retail">$439.99 
+                                        <p class="note"><span class="lead">MSRP</span></p>
+                                    </h3>
+                                    <h3 class="wholesale">$399.99 
+                                        <p class="note"><span class="lead">Wholesale</span></p>
+                                    </h3>
+                                    <h3 class="tenplus last">$359.99 
+                                        <p class="note"><span class="lead">10 or More</span></p>
+                                    </h3>
+                                    <div type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
+                        <a href="productdetail.php" class="thumb-top">
+                            <div class="caption-top">
+                                <div class="col-xs-10 col-xs-offset-1 text-center">
+                                    <h5>Waterproof Fuse</h5>
+                                </div>
+                                <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
+                                <div class="col-xs-12">
+                                    <div class="col-xs-12">
+                                        <p class="lead text-muted text-center">Fitted LED Accents</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="thumbnail-image"><img src="img/temp--4_position_wiring_seal_5.jpg" class="img-responsive" alt="" border="none"></div>
+                        </a>
+                        <div class="labelWrap">
                             <div class="label label-fitment">
-                                <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Front Turn Signal</p></div>
+                                <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <span class="lead">Your Fitment:</span> Front Turn Signal</div>
                             </div>
                         </div>
                         <div class="section caption">
@@ -152,29 +293,23 @@
                     </li>
 
                     <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
-                        <a href="" class="thumb-top">
+                        <a href="productdetail.php" class="thumb-top">
                             <div class="caption-top">
                                 <div class="col-xs-10 col-xs-offset-1 text-center">
-                                    <h5>FX-R 3.0 Projectors</h5>
+                                    <h5>H11: MORIMOTO 2STROKE LED HEADLIGHT BULBS</h5>
                                 </div>
                                 <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
                                 <div class="col-xs-12">
                                     <div class="col-xs-12">
-                                        <p class="lead text-muted text-center">LED Lighting</p>
+                                        <p class="lead text-muted text-center">HID Lighting</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="thumbnail-image"><img src="img/temp--Morimoto XB35 AMP Ballast 6.jpg" class="img-responsive" alt="" border="none"></div>
                         </a>
                         <div class="labelWrap">
-                            <!-- <div class="label label-new">
-                                <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
-                            </div> -->
-                            <div class="label label-sale">
-                                <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
-                            </div>
                             <!-- <div class="label label-fitment">
-                                <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Front Turn Signal</p></div>
+                                <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <span class="lead">Your Fitment:</span> Front Turn Signal</div>
                             </div> -->
                         </div>
                         <div class="section caption">
@@ -196,29 +331,23 @@
                     </li>
 
                     <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
-                        <a href="" class="thumb-top">
+                        <a href="productdetail.php" class="thumb-top">
                             <div class="caption-top">
                                 <div class="col-xs-10 col-xs-offset-1 text-center">
-                                    <h5>MOPAR SPEC: LOW BEAM HARNESS</h5>
+                                    <h5>COLORMORPH RGB LED STRIP ROLL – 16FT / 5M – WATERPROOF – INTERIOR/EXTERIOR</h5>
                                 </div>
                                 <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
                                 <div class="col-xs-12">
                                     <div class="col-xs-12">
-                                        <p class="lead text-muted text-center">Advanced Install HID Projectors</p>
+                                        <p class="lead text-muted text-center">Universal LED Accents</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="thumbnail-image"><img src="img/temp--Morimoto XB35 AMP Ballast 2.jpg" class="img-responsive" alt="" border="none"></div>
+                            <div class="thumbnail-image"><img src="img/temp--MORIMOTO XSB 3.0.png" class="img-responsive" alt="" border="none"></div>
                         </a>
                         <div class="labelWrap">
-                            <!-- <div class="label label-new">
-                                <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
-                            </div> -->
-                            <!-- <div class="label label-sale">
-                                <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
-                            </div> -->
                             <div class="label label-fitment">
-                                <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Front Turn Signal</p></div>
+                                <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <span class="lead">Your Fitment:</span> Front Turn Signal</div>
                             </div>
                         </div>
                         <div class="section caption">
@@ -238,9 +367,8 @@
                             </div>
                         </div>
                     </li>
-
                     <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
-                        <a href="" class="thumb-top">
+                        <a href="productdetail.php" class="thumb-top">
                             <div class="caption-top">
                                 <div class="col-xs-10 col-xs-offset-1 text-center">
                                     <h5>MOPAR SPEC: 13-14 DODGE RAM LOW BEAM HARNESS</h5>
@@ -252,105 +380,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="thumbnail-image"><img src="img/temp--Morimoto XB35 AMP Ballast 5.jpg" class="img-responsive" alt="" border="none"></div>
-                        </a>
-                        <div class="labelWrap">
-                            <!-- <div class="label label-new">
-                                <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
-                            </div>
-                            <div class="label label-sale">
-                                <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
-                            </div>
-                            <div class="label label-fitment">
-                                <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Turn Signal</p></div>
-                            </div> -->
-                        </div>
-                        <div class="section caption">
-                            <div class="col-xs-12">
-                                <div class="col-xs-12">
-                                    <h3 class="retail">$439.99 
-                                        <p class="note"><span class="lead">MSRP</span></p>
-                                    </h3>
-                                    <h3 class="wholesale">$399.99 
-                                        <p class="note"><span class="lead">Wholesale</span></p>
-                                    </h3>
-                                    <h3 class="tenplus last">$359.99 
-                                        <p class="note"><span class="lead">10 or More</span></p>
-                                    </h3>
-                                    <div type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
-                        <a href="" class="thumb-top">
-                            <div class="caption-top">
-                                <div class="col-xs-10 col-xs-offset-1 text-center">
-                                    <h5>FX-R 3.0 Projectors</h5>
-                                </div>
-                                <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
-                                <div class="col-xs-12">
-                                    <div class="col-xs-12">
-                                        <p class="lead text-muted text-center">LED Lighting</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="thumbnail-image"><img src="img/temp--bi-xenon_morimoto_mini_d2s_stage_iii_kit_1.jpg" class="img-responsive" alt="" border="none"></div>
-                        </a>
-                        <div class="labelWrap">
-                            <!-- <div class="label label-new">
-                                <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
-                            </div>
-                            <div class="label label-sale">
-                                <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
-                            </div>
-                            <div class="label label-fitment">
-                                <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Turn Signal</p></div>
-                            </div> -->
-                        </div>
-                        <div class="section caption">
-                            <div class="col-xs-12">
-                                <div class="col-xs-12">
-                                    <h3 class="retail">$439.99 
-                                        <p class="note"><span class="lead">MSRP</span></p>
-                                    </h3>
-                                    <h3 class="wholesale">$399.99 
-                                        <p class="note"><span class="lead">Wholesale</span></p>
-                                    </h3>
-                                    <h3 class="tenplus last">$359.99 
-                                        <p class="note"><span class="lead">10 or More</span></p>
-                                    </h3>
-                                    <div type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
-                        <a href="" class="thumb-top">
-                            <div class="caption-top">
-                                <div class="col-xs-10 col-xs-offset-1 text-center">
-                                    <h5>MOPAR SPEC: LOW BEAM HARNESS</h5>
-                                </div>
-                                <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
-                                <div class="col-xs-12">
-                                    <div class="col-xs-12">
-                                        <p class="lead text-muted text-center">Advanced Install HID Projectors</p>
-                                    </div>
-                                </div>
-                            </div>
                             <div class="thumbnail-image"><img src="img/temp--Morimoto XB35 AMP Ballast 2.jpg" class="img-responsive" alt="" border="none"></div>
                         </a>
                         <div class="labelWrap">
-                            <!-- <div class="label label-new">
-                                <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
-                            </div>
-                            <div class="label label-sale">
-                                <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
-                            </div>
-                            <div class="label label-fitment">
-                                <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Turn Signal</p></div>
+                            <!-- <div class="label label-fitment">
+                                <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <span class="lead">Your Fitment:</span> Front Turn Signal</div>
                             </div> -->
                         </div>
                         <div class="section caption">
@@ -371,49 +405,6 @@
                         </div>
                     </li>
 
-                    <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
-                        <a href="" class="thumb-top">
-                            <div class="caption-top">
-                                <div class="col-xs-10 col-xs-offset-1 text-center">
-                                    <h5>MOPAR SPEC: 13-14 DODGE RAM LOW BEAM HARNESS</h5>
-                                </div>
-                                <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
-                                <div class="col-xs-12">
-                                    <div class="col-xs-12">
-                                        <p class="lead text-muted text-center">Advanced Install HID Projectors</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="thumbnail-image"><img src="img/temp--Morimoto XB35 AMP Ballast 1.jpg" class="img-responsive" alt="" border="none"></div>
-                        </a>
-                        <div class="labelWrap">
-                            <!-- <div class="label label-new">
-                                <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
-                            </div>
-                            <div class="label label-sale">
-                                <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
-                            </div>
-                            <div class="label label-fitment">
-                                <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Front Turn Signal</p></div>
-                            </div> -->
-                        </div>
-                        <div class="section caption">
-                            <div class="col-xs-12">
-                                <div class="col-xs-12">
-                                    <h3 class="retail">$439.99 
-                                        <p class="note"><span class="lead">MSRP</span></p>
-                                    </h3>
-                                    <h3 class="wholesale">$399.99 
-                                        <p class="note"><span class="lead">Wholesale</span></p>
-                                    </h3>
-                                    <h3 class="tenplus last">$359.99 
-                                        <p class="note"><span class="lead">10 or More</span></p>
-                                    </h3>
-                                    <div type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
 
                 </ul>
 
