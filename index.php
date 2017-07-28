@@ -232,50 +232,6 @@
             </div>
         </div>
 
-       <!--  <div class="section wrap yel1 perks">
-            <div class="section title">
-                <div class="container-fluid">
-                    <div class="col-xs-12">
-                        <h2 class="text-center"><span class="text-gray3">What we bring to the table</span></h2>
-                    </div>
-                </div>    
-            </div>
-
-        
-            <div class="section first">
-                <div class="container-fluid">
-                    <div class="col-md-3">
-                        <div class="col-xs-12">
-                            <div class="btn btn-empty"><span class="icon icon-perks-price"></span></div>
-                            <h3 class="text-gray2 text-shadow">Best Price</h3>
-                            <p class="text-gray3">We believe that everyone deserves to Live the Custom Life. All LED Concepts Halo Headlight Kits come standard with our exclusive ColorMorph™ color-changing technology, and sell for around the same price as most competitors’ single color kits. At LED Concepts, limitless comes standard.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="col-xs-12">
-                            <div class="btn btn-empty"><span class="icon icon-perks-products"></span></div>
-                            <h3 class="text-gray2 text-shadow">Best Products</h3>
-                            <p class="text-gray3">We founded LED Concepts because we felt that the halo headlight industry was selling low quality products at unreasonably high prices. Our solution? Design products with the quality you deserve, at the prices you need. And that’s why we’ve become the most trusted brand in the industry.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="col-xs-12">
-                            <div class="btn btn-empty"><span class="icon icon-perks-customerservice"></span></div>
-                            <h3 class="text-gray2 text-shadow">Great Customer Service</h3>
-                            <p class="text-gray3">LED Concepts was built upon a foundation of honesty, quality, and loyalty. Without you, there would be no us. Our customer service team is here to answer any question you have, and solve any problem you encounter. Every step of the way, we’re there with you.</p>                
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="col-xs-12">
-                            <div class="btn btn-empty"><span class="icon icon-perks-warranty"></span></div>
-                            <h3 class="text-gray2 text-shadow">Lifetime Warranty</h3>
-                            <p class="text-gray3">LED Concepts products are designed, tested, and shipped in-house to guarantee that you’re upgrading your ride with only the best. We believe in our products so fully, that we offer a Lifetime Warranty.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
 
         <!-- - - - - 
         - - - - - - -
@@ -323,14 +279,8 @@
                     </div>
                 </div>
                 <div class="section wrap text-center">
-                        <a type="button" class="btn btn-primary" href="#">Read More Reviews</a>
-                    </div>
-                <!-- <div class="section wrap homequotes-cta text-center">
-                    <div class="col-xs-10 col-xs-offset-1">
-                        <div class="row"><hr></div>
-                    </div> 
-                    <a type="button" class="btn btn-primary" href="#">See More Testimonials</a>
-                </div> -->
+                    <a type="button" class="btn btn-primary" href="#">Read More Reviews</a>
+                </div>
             </div>
         </div>
 
@@ -514,14 +464,6 @@
             </div>
         </div>
 
-        
-
-        
-
-
-        
-
-        
 
 
 
