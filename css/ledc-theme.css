@@ -141,28 +141,29 @@ img { vertical-align: middle; }
 .img-rounded { border-radius: 6px; }
 .img-thumbnail { display: inline-block; max-width: 100%; height: auto; padding: 4px; line-height: 1.4; background-color: #fff; border: 1px solid #ddd; border-radius: 4px; -webkit-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
 .img-circle { border-radius: 50%; }
-hr, .modal-body hr { margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ddd; }
-hr.first { margin-top: 10px; margin-bottom: 10px; }
-hr.primary { margin-top: 10px; border-top: 1px solid #fedd10; }
-.gray1 hr { border-top: 1px solid #bbb; }
-.gray2 hr, .gray4 hr { border-top: 1px solid #444; }
-.gray3 hr { border-top: 1px solid #666; }
-.section.title hr { border-top: 1px solid #555; }
+hr, .modal-body hr { margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #666; }
+  hr.first { margin-top: 10px; margin-bottom: 10px; }
+  hr.primary { margin-top: 10px; border-top: 1px solid #fedd10; }
+  .gray1 hr { border-top: 1px solid #bbb; }
+  .gray2 hr, .gray4 hr { border-top: 1px solid #444; }
+  .gray3 hr { border-top: 1px solid #666; }
+  .section.title hr { border-top: 1px solid #555; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }
 .sr-only-focusable:active, .sr-only-focusable:focus { position: static; width: auto; height: auto; margin: 0; overflow: visible; clip: auto; }
 
-h1, .h1, .jumbotron h1 { font-family: 'PlutoSansBold', Helvetica, Arial, sans-serif; font-size: 32px; line-height: .9; color: #fedd10; text-transform: uppercase; margin: 20px 0; }
+h1, .h1 { font-family: 'PlutoSansBold', Helvetica, Arial, sans-serif; font-size: 32px; line-height: .9; color: #fedd10; text-transform: uppercase; margin: 20px 0; }
+  .jumbotron h1 { color: #fedd10; margin-bottom: 0; }
 h1.productdetail, .h1.productdetail, .productdetail h1, .productdetail .h1, .resources .blockquote h1 { font-family: 'Teko', sans-serif; line-height: 1; color: #fedd10; text-transform: uppercase; letter-spacing: -1px; margin: 20px 0; }
   .resources .blockquote h1, .resources .promo h1 { color: #fff; }
   .resources .blockquote:hover h1 { color: #fedd10; }
 h2, .h2 { font-family: 'Teko', sans-serif; font-weight: 300; font-size: 30px; line-height: .8; color: #fedd10; text-transform: uppercase; margin: 0; }
-  /*.module-buyersguide h2 { font-size: 24px; padding-top: 7px; }*/
+  .productcategory .section.content h2 { color: #fff; }
 h3, .h3 { font-family: 'Teko', sans-serif; font-size: 24px; text-transform: uppercase; letter-spacing: -1px; margin: 0 0 10px 0; }
   /*.home .section.gray2 h3, .home .section.gray3 h3 { color: #fedd10; }*/
   .section.gray2 h3, .section.gray3 h3 { color: #fff; }
   .cart .section.title h3 { margin: 0; }
-h4, .h4 { font-family: 'PlutoSansRegular', Helvetica, Arial, sans-serif; font-size: 15px; text-transform: uppercase; margin: 20px 0; }
-  .productcategory .featureHeadline h4 { font-size: 16px; margin-left: 25px; margin-top: 10px; text-shadow: 0 0 15px #191919; }
+h4, .h4 { font-family: 'PlutoSansRegular', Helvetica, Arial, sans-serif; font-size: 18px; text-transform: uppercase; margin: 20px 0; }
+  .productcategory .featureHeadline h4 { margin-top: 0; text-shadow: 0 0 15px #191919; }
   .productdetail .main h4.text-white { margin-top: 0; }
   .productdetail .main .btn-group.btn-rating h4 { margin-top: 10px; }
   .cart .section.title h4 { margin-top: 0; color: #999; }
@@ -172,7 +173,7 @@ h5, .h5 { font-family: 'Teko', sans-serif; font-size: 24px; line-height: .9; tex
   .cart .cart-product .cta h5 { margin: 5px 0; }
 h6, .h6 { font-family: 'Teko', sans-serif; font-size: 14px; text-transform: uppercase; letter-spacing: -1px; margin: 10px 0 30px 0; }
   .cart .subtotal h6 { margin-bottom: 0; }
-p, .p, label { color: #ccc; font-size: 13px; -webkit-margin-before: 0; -webkit-margin-after: 0; margin: 10px 0; }
+p, .p, label { color: #999; font-size: 13px; -webkit-margin-before: 0; -webkit-margin-after: 0; margin: 10px 0; }
   .productcategory .thumb-top p, .account .thumb-top p { font-size: 12px; }
     .account.gallery .thumb-top p { margin-bottom: 10px; }
   .section.details p, .about .briefhistory p, .about .ourshop p, .helpdesk .panel-default p, .resources.tech p { color: #757575; }
@@ -187,14 +188,13 @@ p .small, .p .small, p.small, label { font-size: 11px; font-size: 11.5px; }
   .resources h6 { margin-bottom: 10px; }
 }
 @media (min-width:768px) {
-  h1, .h1, .jumbotron h1 { font-size: 90px; letter-spacing: -2px; margin-top: 100px; }
+  h1, .h1, .jumbotron h1 { font-size: 70px; letter-spacing: -2px; margin-top: 100px; }
   h1.productdetail, .h1.productdetail, .productdetail h1, .productdetail .h1, .resources .blockquote h1 { font-size: 40px; }
   h2, .h2 { font-size: 46px; letter-spacing: -1px; }
     .module-buyersguide h2 { font-size: 42px; padding-top: 0; }
   h3, .h3 { font-size: 32px; }
     .product.thumbnail h3 { font-size: 28px; }
-  .productcategory .featureHeadline h4 { font-size: 18px; margin-left: 25px; }
-  h4, .h4 { font-size: 16px; }
+  .productcategory .featureHeadline h4 { font-size: 18px; margin-left: 5px; }
   h5, .h5 { font-size: 28px; }
   h6, .h6 { font-size: 16px; }
 }
@@ -205,7 +205,7 @@ p .small, .p .small, p.small, label { font-size: 11px; font-size: 11.5px; }
   h1.productdetail, .h1.productdetail, .productdetail h1, .productdetail .h1, .resources .blockquote h1 { font-size: 44px; }
   h2, .h2 { font-size: 44px; }
   .product.thumbnail h3 { font-size: 24px; }
-  .productcategory .featureHeadline h4 { font-size: 24px; margin-left: 40px; }
+  .productcategory .featureHeadline h4 { font-size: 24px; }
   .productdetail .main h4.text-white { margin-top: 20px; }
 }
 /*@media (min-width:992px) and (max-width:1065px) {
@@ -217,16 +217,13 @@ p .small, .p .small, p.small, label { font-size: 11px; font-size: 11.5px; }
 @media (min-width:1200px) {
   h2, .h2 { font-size: 48px; }
   .product.thumbnail h3 { font-size: 32px; }
-  .productcategory .featureHeadline h4 { margin-left: 50px; }
 }
-@media (min-width:1500px) {
-  .productcategory .featureHeadline h4 { margin-left: 60px; }
-}
-
 
 
 p .lead, .p .lead, p.lead, .p.lead, .lead { margin: 0; font-size: inherit; font-family: 'PlutoSansBold', Helvetica, Arial, sans-serif; line-height: inherit; text-transform: uppercase; }
   #writereview p.lead { margin-top: 5px; }
+  a.reset .lead { font-size: 11px; color: #fedd10; }
+  a.reset:hover .lead { color: #ffc816; }
 p .note, .p .note, p.note, .p.note, .footer p.note { font-size: 11px; font-family: 'PlutoSansRegular', Helvetica, Arial, sans-serif; line-height: inherit; text-transform: uppercase; }
 h1 .lead, .h1 .lead { font-family: 'PlutoSansBold', Helvetica, Arial, sans-serif; }
 small, .small, h1 small, .h1 small, h1 .small, h1.small, .h1 .small, h2 small, .h2 small, h2 .small, h2.small, .h2 .small, h3 small, .h3 small, h3 .small, h3.small, .h3 .small, 
@@ -1306,7 +1303,8 @@ background-image: url(../img/icons/icon-arrowL-88e333.svg); background-position:
 ======================================================================================================================================================
 ====================================================================================================================================================== */
 
-.jumbotron { padding: 0; margin-bottom: 0; color: inherit; background-color: #eee; width: 100%; }
+.jumbotron { height: 450px; overflow: hidden; padding: 0; margin-bottom: 0; color: inherit; background-color: #eee; width: 100%;
+  background-position: center center; background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .jumbotron p { margin-bottom: 15px; font-size: 13px; font-weight: inherit; }
 .jumbotron > hr { border-top-color: #d5d5d5; }
 .container .jumbotron { border-radius: 6px; }
@@ -1320,39 +1318,15 @@ background-image: url(../img/icons/icon-arrowL-88e333.svg); background-position:
 }
 
 .home .jumbotron, .styleguide .jumbotron { height: 450px; overflow: hidden; margin-bottom: -266px; }
-.productcategory .jumbotron .featureHeadline, .account .jumbotron .featureHeadline, .utility .jumbotron .featureHeadline { margin-top: 40px; }
-  .productcategory .jumbotron .featureHeadline { margin-left: -5px; }
+.productcategory .jumbotron .featureHeadline, .account .jumbotron .featureHeadline, .utility .jumbotron .featureHeadline { margin-bottom: 40px; }
 .jumbotron .featureHeadline img { width: 100%; height: auto; }
 
-/*.productcategory .jumbotron .featureHeadline img { display: none; }
-.productcategory.projectorretrofits .jumbotron .featureHeadline img.projectorretrofits-banner, 
-.productcategory.plugnplay .jumbotron .featureHeadline img.plugnplay-banner,
-.productcategory.ballasts .jumbotron .featureHeadline img.ballasts-banner,
-.productcategory.bulbs .jumbotron .featureHeadline img.bulbs-banner, 
-.productcategory.led .jumbotron .featureHeadline img.led-banner,
-.productcategory.assemblies .jumbotron .featureHeadline img.assemblies-banner, 
-.productcategory.vehiclespec .jumbotron .featureHeadline img.vehiclespec-banner, 
-.productcategory.wiring .jumbotron .featureHeadline img.wiring-banner,
-.productcategory.accessories .jumbotron .featureHeadline img.accessories-banner, 
-.productcategory.closeouts .jumbotron .featureHeadline img.closeouts-banner,
-.productcategory.brandcategory-philips .jumbotron .featureHeadline img.philips-banner, 
-.productcategory.brandcategory-morimoto .jumbotron .featureHeadline img.morimoto-banner, 
-.productcategory.brandcategory-osram .jumbotron .featureHeadline img.osram-banner,
-.productcategory.brandcategory-denso .jumbotron .featureHeadline img.denso-banner, 
-.productcategory.brandcategory-acme .jumbotron .featureHeadline img.acme-banner,
-.productcategory.brandcategory-koito .jumbotron .featureHeadline img.koito-banner, 
-.productcategory.brandcategory-hella .jumbotron .featureHeadline img.hella-banner,
-.productcategory.brandcategory-jwspeaker .jumbotron .featureHeadline img.jwspeaker-banner, 
-.productcategory.vehiclecategory .jumbotron .featureHeadline img.vehiclecategory-banner { display: block; }*/
-
-.jumbotron { height: 100%; background-position: center center; background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
-
-.home .jumbotron/*.feature1 .jumbotron-img, .styleguide .jumbotron.feature1 .jumbotron-img*/ { background-image: url(../img/feature2017-1d.jpg); }
-.productcategory .jumbotron { position: relative; height: 440px; overflow: hidden; padding: 0; }
+.home .jumbotron { background-image: url(../img/feature2017-1d.jpg); }
+.productcategory .jumbotron { position: relative; overflow: hidden; padding: 0; }
 
 .section.module-buyersguide { position: absolute; top: 0px; left: 0px; z-index: 0; }
 @media (max-width:767px) {
-  .productcategory .jumbotron, .account .jumbotron, .utility .jumbotron { height: 200px; overflow: visible; }
+  .productcategory .jumbotron, .account .jumbotron, .utility .jumbotron { height: 205px; overflow: visible; }
   .utility .jumbotron { height: auto; position: relative; float: left; } 
   .utility .jumbotron .featureHeadline { position: relative; z-index: 1; margin-bottom: 40px; }
   .utility .jumbotron .jumbotron-img { position: absolute; width: 100%; }
@@ -1374,69 +1348,35 @@ background-image: url(../img/icons/icon-arrowL-88e333.svg); background-position:
 .productcategory.accessories .section.module-buyersguide, 
 .productcategory.closeouts .section.module-buyersguide { display: none; } */
 
-.productcategory.projectorretrofits-universalkits .jumbotron { background-image: url(../../2016/img/categoryHero/category-projectorretrofits-universalkits-hero.jpg); }
-.productcategory.projectorretrofits-applicationspecific .jumbotron { background-image: url(../../2016/img/categoryHero/category-projectorretrofits-applicationspecific-hero.jpg); }
-.productcategory.projectorretrofits-projectors .jumbotron { background-image: url(../../2016/img/categoryHero/category-projectorretrofits-projectors-hero.jpg); }
-.productcategory.projectorretrofits-shrouds .jumbotron { background-image: url(../../2016/img/categoryHero/category-projectorretrofits-shrouds-hero.jpg); }
-.productcategory.projectorretrofits-lenses .jumbotron { background-image: url(../../2016/img/categoryHero/category-projectorretrofits-lenses-hero.jpg); }
-.productcategory.plugnplay-hidsystems .jumbotron { background-image: url(../../2016/img/categoryHero/category-plugnplay-hidsystems-hero.jpg); }
-.productcategory.plugnplay-applicationspecific .jumbotron { background-image: url(../../2016/img/categoryHero/category-plugnplay-applicationspecific-hero.jpg); }
-.productcategory.plugnplay-ledheadlights .jumbotron { background-image: url(../../2016/img/categoryHero/category-plugnplay-ledheadlights-hero.jpg); }
-.productcategory.plugnplay-ledfoglights .jumbotron { background-image: url(../../2016/img/categoryHero/category-plugnplay-ledfoglights-hero.jpg); }
-.productcategory.bulbs-oem .jumbotron { background-image: url(../../2016/img/categoryHero/category-bulbs-oem-hero.jpg); }
-.productcategory.bulbs-aftermarket .jumbotron { background-image: url(../../2016/img/categoryHero/category-bulbs-aftermarket-hero.jpg); }
-.productcategory.ballasts-oem .jumbotron { background-image: url(../../2016/img/categoryHero/category-ballasts-oem-hero.jpg); }
-.productcategory.ballasts-aftermarket .jumbotron { background-image: url(../../2016/img/categoryHero/category-ballasts-aftermarket-hero.jpg); }
-.productcategory.led-ledbulbs .jumbotron { background-image: url(../../2016/img/categoryHero/category-led-ledbulbs-hero.jpg); }
-.productcategory.led-switchback .jumbotron { background-image: url(../../2016/img/categoryHero/category-led-switchback-hero.jpg); }
-.productcategory.led-colorchanging .jumbotron { background-image: url(../../2016/img/categoryHero/category-led-colorchanging-hero.jpg); }
-.productcategory.led-drl .jumbotron { background-image: url(../../2016/img/categoryHero/category-led-drl-hero.jpg); }
-.productcategory.assemblies-fullheadlights .jumbotron { background-image: url(../../2016/img/categoryHero/category-assemblies-fullheadlights-hero.jpg); }
-.productcategory.assemblies-ledfoglights .jumbotron { background-image: url(../../2016/img/categoryHero/category-plugnplay-ledfoglights-hero.jpg); }
-.productcategory.assemblies-offroad .jumbotron { background-image: url(../../2016/img/categoryHero/category-assemblies-offroad-hero.jpg); }
-.productcategory.assemblies-taillights .jumbotron { background-image: url(../../2016/img/categoryHero/category-assemblies-taillights-hero.jpg); }
-.productcategory.vehiclespec-motorcycle .jumbotron { background-image: url(../../2016/img/categoryHero/category-vehiclespec-motorcycle-hero.jpg); }
-.productcategory.vehiclespec-truck .jumbotron { background-image: url(../../2016/img/categoryHero/category-vehiclespec-truck-hero.jpg); }
-.productcategory.vehiclespec-packages .jumbotron { background-image: url(../../2016/img/categoryHero/category-vehiclespec-packages-hero.jpg); }
-.productcategory.wiring-relay .jumbotron { background-image: url(../../2016/img/categoryHero/category-wiring-relay-hero.jpg); }
-.productcategory.wiring-pigtailsadapters .jumbotron { background-image: url(../../2016/img/categoryHero/category-wiring-pigtailsadapters-hero.jpg); }
-.productcategory.wiring-parts .jumbotron { background-image: url(../../2016/img/categoryHero/category-wiring-parts-hero.jpg); }
-.productcategory.accessories-buildmaterials .jumbotron { background-image: url(../../2016/img/categoryHero/category-accessories-buildmaterials-hero.jpg); }
-.productcategory.accessories-trsgear .jumbotron { background-image: url(../../2016/img/categoryHero/category-accessories-trsgear-hero.jpg); }
-.productcategory.closeouts .jumbotron { background-image: url(../../2016/img/categoryHero/category-closeouts-hero.jpg); }
-.productcategory.brandcategory .jumbotron { background-image: url(../../2016/img/categoryHero/category-brandcategory-hero.jpg); }
-.productcategory.vehiclecategory .jumbotron { background-image: url(../../2016/img/categoryHero/category-vehiclecategory-hero.jpg); }
-.productcategory.vehiclespecific .jumbotron { background-image: url(../../2016/img/categoryHero/category-vehiclespecific-hero.jpg); }
-
-.productcategory.fittedledaccents-fittedhaloskits .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhaloskits-hero.jpg); }
-.productcategory.fittedledaccents-fitteddrlboards .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhaloskits-hero.jpg); }
-.productcategory.universalledaccents-colorchanginghalosstrips .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhaloskits-hero.jpg); }
-.productcategory.universalledaccents-colorchangingaccessories .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhaloskits-hero.jpg); }
-.productcategory.universalledaccents-switchbackhalosstrips .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhaloskits-hero.jpg); }
-.productcategory.ledaccessories-fitteddrlboards .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhaloskits-hero.jpg); }
-.productcategory.ledaccessories-exteriorlighting .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhaloskits-hero.jpg); }
-.productcategory.ledaccessories-interiorlighting .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhaloskits-hero.jpg); }
-.productcategory.ledaccessories-controllers .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhaloskits-hero.jpg); }
-.productcategory.ledbulbs-headlightfoglights .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhaloskits-hero.jpg); }
-.productcategory.ledbulbs-exteriorinterior .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhaloskits-hero.jpg); }
-.productcategory.ledbulbs-flasherrelaysresistors .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhaloskits-hero.jpg); }
-.productcategory.headsfogs-ledfoglights .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhaloskits-hero.jpg); }
-.productcategory.headsfogs-ledheadlights .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhaloskits-hero.jpg); }
-.productcategory.hidlighting-hidsystems .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhaloskits-hero.jpg); }
-.productcategory.hidlighting-hidbulbs .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhaloskits-hero.jpg); }
-.productcategory.hidlighting-hidballasts .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhaloskits-hero.jpg); }
-.productcategory.hidlighting-relaywireharnesses .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhaloskits-hero.jpg); }
-.productcategory.projectorkits-universalprojectorkits .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhaloskits-hero.jpg); }
-.productcategory.projectorkits-fittedretrofitkits .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhaloskits-hero.jpg); }
-.productcategory.projectorkits-headlightprojectors .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhaloskits-hero.jpg); }
-.productcategory.projectorkits-projectorshrouds .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhaloskits-hero.jpg); }
-.productcategory.projectorkits-customlensetching .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhaloskits-hero.jpg); }
-.productcategory.offroad-ledlightbarscubes .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhaloskits-hero.jpg); }
-.productcategory.offroad-lightbarhalos .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhaloskits-hero.jpg); }
-.productcategory.offroad-rocklights .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhaloskits-hero.jpg); }
-.productcategory.installaccessories-wiringparts .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhaloskits-hero.jpg); }
-.productcategory.installaccessories-buildmaterials .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhaloskits-hero.jpg); }
-.productcategory.closeouts .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhaloskits-hero.jpg); }
+.productcategory.fittedledaccents-fittedhalokits .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhalokits-hero.jpg); }
+.productcategory.fittedledaccents-fitteddrlboards .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fitteddrlboards-hero.jpg); }
+.productcategory.universalledaccents-colorchanginghalosstrips .jumbotron { background-image: url(../img/categoryHero/category-universalledaccents-colorchanginghalosstrips-hero.jpg); }
+.productcategory.universalledaccents-colorchangingaccessories .jumbotron { background-image: url(../img/categoryHero/category-universalledaccents-colorchangingaccessories-hero.jpg); }
+.productcategory.universalledaccents-switchbackhalosstrips .jumbotron { background-image: url(../img/categoryHero/category-universalledaccents-switchbackhalosstrips-hero.jpg); }
+.productcategory.ledaccessories-fitteddrlboards .jumbotron { background-image: url(../img/categoryHero/category-fittedledaccents-fitteddrlboards-hero.jpg); }
+.productcategory.ledaccessories-exteriorlighting .jumbotron { background-image: url(../img/categoryHero/category-ledaccessories-exteriorlighting-hero.jpg); }
+.productcategory.ledaccessories-interiorlighting .jumbotron { background-image: url(../img/categoryHero/category-ledaccessories-interiorlighting-hero.jpg); }
+.productcategory.ledaccessories-controllers .jumbotron { background-image: url(../img/categoryHero/category-ledaccessories-controllers-hero.jpg); }
+.productcategory.ledbulbs-headlightfoglights .jumbotron { background-image: url(../img/categoryHero/category-ledbulbs-headlightfoglights-hero.jpg); }
+.productcategory.ledbulbs-exteriorinterior .jumbotron { background-image: url(../img/categoryHero/category-ledbulbs-exteriorinterior-hero.jpg); }
+.productcategory.ledbulbs-flasherrelaysresistors .jumbotron { background-image: url(../img/categoryHero/category-ledbulbs-flasherrelaysresistors-hero.jpg); }
+.productcategory.headsfogs-ledfoglights .jumbotron { background-image: url(../img/categoryHero/category-headsfogs-ledfoglights-hero.jpg); }
+.productcategory.headsfogs-ledheadlights .jumbotron { background-image: url(../img/categoryHero/category-headsfogs-ledheadlights-hero.jpg); }
+.productcategory.hidlighting-hidsystems .jumbotron { background-image: url(../img/categoryHero/category-hidlighting-hidsystems-hero.jpg); }
+.productcategory.hidlighting-hidbulbs .jumbotron { background-image: url(../img/categoryHero/category-hidlighting-hidbulbs-hero.jpg); }
+.productcategory.hidlighting-hidballasts .jumbotron { background-image: url(../img/categoryHero/category-hidlighting-hidballasts-hero.jpg); }
+.productcategory.hidlighting-relaywireharnesses .jumbotron { background-image: url(../img/categoryHero/category-hidlighting-relaywireharnesses-hero.jpg); }
+.productcategory.projectorkits-universalprojectorkits .jumbotron { background-image: url(../img/categoryHero/category-projectorkits-universalprojectorkits-hero.jpg); }
+.productcategory.projectorkits-fittedretrofitkits .jumbotron { background-image: url(../img/categoryHero/category-projectorkits-fittedretrofitkits-hero.jpg); }
+.productcategory.projectorkits-headlightprojectors .jumbotron { background-image: url(../img/categoryHero/category-projectorkits-headlightprojectors-hero.jpg); }
+.productcategory.projectorkits-projectorshrouds .jumbotron { background-image: url(../img/categoryHero/category-projectorkits-projectorshrouds-hero.jpg); }
+.productcategory.projectorkits-customlensetching .jumbotron { background-image: url(../img/categoryHero/category-projectorkits-customlensetching-hero.jpg); }
+.productcategory.offroad-ledlightbarscubes .jumbotron { background-image: url(../img/categoryHero/category-offroad-ledlightbarscubes-hero.jpg); }
+.productcategory.offroad-lightbarhalos .jumbotron { background-image: url(../img/categoryHero/category-offroad-lightbarhalos-hero.jpg); }
+.productcategory.offroad-rocklights .jumbotron { background-image: url(../img/categoryHero/category-offroad-rocklights-hero.jpg); }
+.productcategory.installaccessories-wiringparts .jumbotron { background-image: url(../img/categoryHero/category-installaccessories-wiringparts-hero.jpg); }
+.productcategory.installaccessories-buildmaterials .jumbotron { background-image: url(../img/categoryHero/category-installaccessories-buildmaterials-hero.jpg); }
+.productcategory.closeouts .jumbotron { background-image: url(../img/categoryHero/category-closeouts-hero.jpg); }
 
 /*.about .jumbotron .jumbotron-img { background-image: url(../img/hero-about.jpg); background-position: center bottom; }
 .about .jumbotron.crew .jumbotron-img { background-image: url(../img/hero-crew.jpg); background-position: center center; }
@@ -1456,52 +1396,24 @@ background-image: url(../img/icons/icon-arrowL-88e333.svg); background-position:
 @media screen and (min-width:768px) {
   .jumbotron { min-height: 280px; }
   /*.home .jumbotron, .styleguide .jumbotron { height: 680px; }*/
-  .home .jumbotron { min-height: 400px; padding-top: 0; margin-bottom: -180px; }
-  .productcategory .jumbotron, .productcategory .jumbotron .caption { height: 500px; padding-top: 0; }
-  .productcategory.led-switchback .jumbotron,
-  .productcategory.led-colorchanging .jumbotron,
-  .productcategory.led-drl .jumbotron,
-  .productcategory.assemblies-taillights .jumbotron,
-  .productcategory.assemblies-offroad .jumbotron,
-  .productcategory.vehiclespec-motorcycle .jumbotron,
-  .productcategory.wiring-pigtailsadapters .jumbotron,
-  .productcategory.wiring-parts .jumbotron,
-  .productcategory.accessories .jumbotron, 
-  .productcategory.closeouts .jumbotron,
-  .productcategory.vehiclecategory .jumbotron, 
-  .productcategory.brandcategory .jumbotron,
+  .home .jumbotron { min-height: 400px; padding-top: 0; margin-bottom: -178px; }
   .account .jumbotron { height: 240px; }
   .utility .jumbotron { min-height: 220px; }
   .utility .jumbotron, .cart .jumbotron { height: 220px; }
   .utility .jumbotron.content, .utility .jumbotron.wLinks { height: 320px; } 
   .utility.partners .jumbotron.content { height: 400px; } 
 }
-
-
-/*
-.home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 70px; padding-left: 0; padding-right: 0; }
-@media (min-width:500px) {
-  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 40px; }
-}
-@media (min-width:768px) {
-  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 90px; }
-}
 @media (min-width:992px) {
-  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 110px; }
+  .home .jumbotron { margin-bottom: -177px; }
 }
 @media (min-width:1200px) {
-  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 90px; }
+  .home .jumbotron { margin-bottom: -180px; }
 }
-@media (min-width:1500px) {
-  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 80px; }
-}
-@media (min-width:2000px) {
-  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 100px; }
-}*/
+
 
 .productcategory .featureHeadline h4, .productcategory h1 { display: none; }
 
-.productcategory.fittedledaccents-fittedhaloskits .featureHeadline h4.fittedledaccents-fittedhaloskits,
+.productcategory.fittedledaccents-fittedhalokits .featureHeadline h4.fittedledaccents-fittedhalokits,
 .productcategory.fittedledaccents-fitteddrlboards .featureHeadline h4.fittedledaccents-fitteddrlboards,
 .productcategory.universalledaccents-colorchanginghalosstrips .featureHeadline h4.universalledaccents-colorchanginghalosstrips,
 .productcategory.universalledaccents-colorchangingaccessories .featureHeadline h4.universalledaccents-colorchangingaccessories,
@@ -1529,7 +1441,6 @@ background-image: url(../img/icons/icon-arrowL-88e333.svg); background-position:
 .productcategory.offroad-rocklights .featureHeadline h4.offroad-rocklights,
 .productcategory.installaccessories-wiringparts .featureHeadline h4.installaccessories-wiringparts,
 .productcategory.installaccessories-buildmaterials .featureHeadline h4.installaccessories-buildmaterials,
-.productcategory.closeouts .featureHeadline h4,
 
 .productcategory.fittedledaccents .featureHeadline h1.fittedledaccents,
 .productcategory.universalledaccents .featureHeadline h1.universalledaccents, 
@@ -2067,7 +1978,6 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 .section.module-brands .brand.last:after, .productdetail .section.module-brands .brand:after, .productdetail .section.module-brands .brand { background-image: none; }
 .productdetail .section.module-brands .brand { height: auto; position: absolute; bottom: 40px; }
 .productdetail .section.module-brands .brand.tall { bottom: 60px; }
-.section.quickstartguide { padding-bottom: 50px; }
 .section.quickstartguide h2 { margin-bottom: -8px; }
 .section.quickstartguide .form-wrap { padding: 0; background-color: #282828; background-color: rgba(0, 0, 0, .5); border: 1px solid #fedd10; border-radius: 4px; }
 .section.quickstartguide .form-wrap .col-xs-12 { padding-top: 12px; padding-bottom: 10px; }

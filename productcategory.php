@@ -41,7 +41,7 @@
 <!-- Apply id="wholesaleAcct" if user is logged in as Wholesaler -->
 <!-- Changing the "CATEGORY" class along with the "CATEGORY-SUBCATEGORY" class will change the h4, and banner image -->
 
-<body class="productcategory fittedledaccents fittedledaccents-fittedhaloskits">
+<!-- <body class="productcategory fittedledaccents fittedledaccents-fittedhalokits"> -->
 <!-- <body class="productcategory fittedledaccents fittedledaccents-fitteddrlboards"> -->
 <!-- <body class="productcategory universalledaccents universalledaccents-colorchanginghalosstrips"> -->
 <!-- <body class="productcategory universalledaccents universalledaccents-colorchangingaccessories"> -->
@@ -63,13 +63,13 @@
 <!-- <body class="productcategory projectorkits projectorkits-fittedretrofitkits"> -->
 <!-- <body class="productcategory projectorkits projectorkits-headlightprojectors"> -->
 <!-- <body class="productcategory projectorkits projectorkits-projectorshrouds"> -->
-<!-- <body class="productcategory projectorkits projectorkits-customlensetching"> -->
+<body class="productcategory projectorkits projectorkits-customlensetching">
 <!-- <body class="productcategory offroad offroad-ledlightbarscubes"> -->
 <!-- <body class="productcategory offroad offroad-lightbarhalos"> -->
 <!-- <body class="productcategory offroad offroad-rocklights"> -->
 <!-- <body class="productcategory installaccessories installaccessories-wiringparts"> -->
 <!-- <body class="productcategory installaccessories installaccessories-buildmaterials"> -->
-<!-- <body class="productcategory closeouts"> -->
+<body class="productcategory closeouts">
 
 
 
@@ -404,9 +404,20 @@
                             </div>
                         </div>
                     </li>
-
-
                 </ul>
+                <div class="section half">
+                    <div class="col-xs-12 text-center">
+                        <ul class="pagination">
+                            <li class="disabled"><a href="#">&laquo;</a></li>
+                            <li class="active"><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">&raquo;</a></li>
+                        </ul>
+                    </div>
+                </div>
 
 
                 <div class="section content">
@@ -433,6 +444,7 @@
                         <p>Each advanced install HID projector can be custom tuned for optimal output, delivering high precision castings, advanced optics and a clear lens that blazes a path through the dimmest driving conditions. We carry both bi-xenon HID projectors and low beam models that will safely integrate into your lighting system and enhance performance beyond factory specifications.</p>
                     </div>
                 </div>
+                
             </div>
         </div>
 
@@ -458,27 +470,21 @@
     <!-- Javascript [secondary]
     ================================================== -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>   
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> 
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    
+    <!-- For performance reasons, the Tooltip and Popover data-apis are opt-in, meaning you must initialize them yourself. -->
+    <script type="text/javascript">
+        $('.btn').popover('hide');
+        $('.btn').tooltip('hide');
 
-    <!-- HEADER/NAV size change based on scroll -->
-    <script src="js/waypoints.min.js"></script>
-    <script>
-        var $head = $( '#header' );
-        $( '.header-waypoint' ).each( function(i) {
-            var $el = $( this ),
-                animClassDown = $el.data( 'animateDown' ),
-                animClassUp = $el.data( 'animateUp' );
-
-            $el.waypoint( function( direction ) {
-                if( direction === 'down' && animClassDown ) {
-                    $head.attr('class', 'header ' + animClassDown);
-                }
-                else if( direction === 'up' && animClassUp ){
-                    $head.attr('class', 'header ' + animClassUp);
-                }
-            }, { offset: '0%' } );
-        } );
-    </script>
+        $(document).ready(function(){
+            $('.btn').popover();
+            $('.btn').on('click', function (e) {
+                $('.btn').not(this).popover('hide');
+            });
+        });
+    </script>   
+    
 
     <!-- HEADER/NAV toggle MENU BTN -->
     <script type='text/javascript'>
@@ -488,35 +494,33 @@
         }
         $( ".navbar-menu" ).click(function() {
             $(".navbar-menu").toggleClass( "active" );
-            $(".bodyWrap").toggleClass( "active" );
+            // $(".bodyWrap").toggleClass( "active" );
         });
+        $('.navbar-nav .dropdown').on('show.bs.dropdown', function() {
+            $(".bodyWrap").toggleClass('active', true);
+        });
+
+        $('.navbar-nav .dropdown').on('hidden.bs.dropdown', function() {
+            $('.bodyWrap').toggleClass('active', false);
+        });
+
+        // NAV toggle SUB MENU
+        $(".dropdown-menu > li").hover(
+            function() {
+                $('.dropdown-menu-itemContent.toggle').toggleClass("toggle", false);
+                $(this).find('.dropdown-menu-itemContent').toggleClass("toggle", true);
+            },
+            function() {
+                $(this).find('.dropdown-menu-itemContent').toggleClass("toggle", false);
+                $(".dropdown-menu > li:first-child .dropdown-menu-itemContent").toggleClass("toggle", true);
+            });
+        $(".dropdown-menu > li.filler").hover(
+            function() {
+                $(".dropdown-menu > li:first-child .dropdown-menu-itemContent").toggleClass("toggle", true);
+            });    
+
     </script>
 
-    <!-- MOBILE BUYERS GUIDE SCRIPT -->
-    <script type='text/javascript'>
-        function toggleText(id) {
-            var showMore = document.getElementById(id);
-            (showMore.style.display=='block') ? showMore.style.display='none' : showMore.style.display='block' ;  
-        }
-        $( ".buyersguide-mobileStart" ).click(function() {
-            $(".buyersguide-selectionWrap").toggleClass( "active" );
-            $(".buyersguide-mobileStart").toggleClass( "active" );
-        });
-        $( ".buyersguide-selectionWrap .btn-group" ).click(function() {
-            $(".modal-bodyWrap li:first-child").toggleClass( "active",true );
-        });    
-        $( ".modal .well.option" ).click(function() {
-            $(".modal .well.option").toggleClass( "active",false );
-            $(this).toggleClass( "active" );
-            $(".modal-content .modal-footer .btn").toggleClass( "disabled",false );
-        });
-        $( ".modal .modal-footer .btn.continue" ).click(function() {
-            var prev = $(".modal-bodyWrap li.active");
-            $(".modal-bodyWrap li.active + li").toggleClass( "active",true );
-            prev.toggleClass( "active",false );
-            $(".modal .modal-footer .btn.continue").toggleClass( "disabled" );
-        });
-    </script>
 
     <!-- iOS Viewport Units Buggyfill -->
     <script src="js/viewport-units-buggyfill.js"></script>
