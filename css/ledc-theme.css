@@ -141,12 +141,11 @@ img { vertical-align: middle; }
 .img-rounded { border-radius: 6px; }
 .img-thumbnail { display: inline-block; max-width: 100%; height: auto; padding: 4px; line-height: 1.4; background-color: #fff; border: 1px solid #ddd; border-radius: 4px; -webkit-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
 .img-circle { border-radius: 50%; }
-hr, .modal-body hr { margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #666; }
+hr { margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #666; }
   hr.first { margin-top: 10px; margin-bottom: 10px; }
   hr.primary { margin-top: 10px; border-top: 1px solid #fedd10; }
-  /*.gray1 hr { border-top: 1px solid #bbb; }*/
   .gray2 hr, .gray4 hr { border-top: 1px solid #444; }
-  /*.gray3 hr { border-top: 1px solid #666; }*/
+  .modal-body hr { border-top: 1px solid #ddd; }
   .section.title hr { border-top: 1px solid #555; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }
 .sr-only-focusable:active, .sr-only-focusable:focus { position: static; width: auto; height: auto; margin: 0; overflow: visible; clip: auto; }
@@ -294,14 +293,14 @@ select[multiple], select[size] { height: auto; }
 input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focus { outline: thin dotted; outline: 5px auto -webkit-focus-ring-color; outline-offset: -2px; }
 output { display: block; padding-top: 7px; font-size: 14px; line-height: 1.4; color: #555; }
 .form-control { display: block; width: 100%; height: 38px; padding: 8px 12px; font-size: 14px; line-height: 1.4; color: #999; background-color: #272727; background-image: none; border: 1px solid #ddd; border-radius: 4px; -webkit-box-shadow: none; box-shadow: none; -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s; -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; }
-.section.gray4 .form-control, .section.main .form-control, .cart .form-control { border: 1px inset #444; background-color: rgba(34,34,34,.7); }
+.section.gray4 .form-control, .section.main .form-control, .cart .form-control, .utility .form-control { border: 1px inset #444; background-color: rgba(34,34,34,.7); }
 .form-control.required { font-weight: bold; }
 .form-control.drop { background: #fff; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#fff, #e5e5e5); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#fff, #e5e5e5); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#fff, #e5e5e5); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#fff, #e5e5e5); /* Standard syntax */ }
-.section.gray4 .form-control.drop, .section.main .form-control.drop, .cart .form-control.drop { background-color: rgba(34,34,34,.7); /* For browsers that do not support gradients */
+.section.gray4 .form-control.drop, .section.main .form-control.drop, .cart .form-control.drop, .utility .form-control.drop { background-color: rgba(34,34,34,.7); /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#333, #222); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#333, #222); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#333, #222); /* For Firefox 3.6 to 15 */
@@ -852,7 +851,7 @@ background-image: url(../img/icons/icon-arrowL-88e333.svg); background-position:
 .nav-stacked > li { float: none; }
 .nav-stacked > li + li { margin-top: 0; margin-left: 0; }
 
-.tab-contentWrap.gray3 { background-color: #222; }
+.tab-contentWrap.gray3 { background-color: rgba(34, 34, 34, .5); }
 .tab-content { float: left; width: 100%; padding: 30px 0; }
 .tab-content .tab-content { padding: 0 0 30px 0; position: relative; }
 .tab-content > .tab-pane { display: none; }
@@ -1568,8 +1567,9 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active { border-color: transpa
 .media-list { padding-left: 0; list-style: none; }
 
 /*.section.wrap.product-specs .section { padding-bottom: 0; }*/
-.list-group { float: left; padding-top: 30px; padding-bottom: 30px; list-style: none; border-radius: 4px; border: 1px solid #666; background-color: rgba(102, 102, 102, .2); }
-.cart .cart-product .list-group { margin-top: 10px; padding: 0; }
+.list-group { padding: 0; margin-bottom: 0; list-style: none; border-radius: 4px; border: 1px solid #666; background-color: rgba(102, 102, 102, .2); }
+.product-specs .list-group { float: left; padding-top: 30px; padding-bottom: 30px; }
+.cart .cart-product .list-group { float: left; margin-top: 10px; }
 .list-group-item { position: relative; display: block; float: left; width: 100%; padding: 10px 30px; margin-bottom: -1px; background-color: transparent; border: none; }
 .cart .cart-product .list-group-item, #orderdetails .cart-product .list-group-item { padding: 5px 10px; }
 .sitemap .list-group-item, .carousel-caption .list-group-item { padding: 0 0 10px 10px; }
@@ -1665,6 +1665,7 @@ a.list-group-item:hover, a.list-group-item:focus { color: #555; text-decoration:
 .panel-account .panel-body { padding: 0; } 
 .panel-account .panel-body p { width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .panel-account .panel-body .list-group-itemWrap.sourceCode .list-group-item p { overflow: visible; white-space: normal; word-wrap: break-word; }
+.panel-account .list-group { border: none; }
 .panel-account .list-group-item { padding: 10px; }
 .panel-account .col-sm-6 .list-group-item, .panel-account .col-xs-12 .list-group-item { padding: 10px 0; }
 
@@ -1949,14 +1950,16 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 .section, .section.double { width: 100%; float: left; padding: 50px 0; /*overflow: hidden;*/ }
 .section.half { padding: 30px 0; }
 
-.section.short, .account .tab-contentWrap { min-height: 400px; }
+.section.short, .account .tab-contentWrap { min-height: 400px; padding-bottom: 50px; }
+.invoice #orderdetails .modal-lg { padding-bottom: 80px; margin-bottom: 0; }
 .section.details.short { min-height: 600px; }
 /*@media (max-width:767px) {
   .cart .section.cart-product ~ .section.cart-product { padding-top: 0; }
 }*/
 @media (min-width:768px) {
   .section.double { padding: 50px 0 100px 0; }
-  .account .tab-contentWrap { min-height: 660px; }
+  .account .tab-contentWrap { min-height: 660px; padding-bottom: 100px; }
+  .invoice #orderdetails .modal-lg { padding-bottom: 130px; }
 }
 @media (min-width:992px) {
   .section.double { padding: 100px 0; }
@@ -1985,7 +1988,7 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 .section.wrap .flex-row .section.gray2, .section.wrap .flex-row .section.gray3 { border-bottom: 1px solid #888; }*/
 .section.gray2.last, .section.gray3.last { border-right: none; }
 /*.utility .section { overflow: visible; padding: 20px 0; }*/
-.section.alt { background-color: #505050; padding: 10px 0; }
+.section.alt { background-color: rgba(69, 69, 69, .5); padding: 10px 0; }
 
 /*.section.module-brands .brand { height: 100px; background-image: url(../img/bg-brandGradient.png); background-position: 0 100px; background-repeat: repeat-x; -webkit-background-size: 1px 100%; -moz-background-size: 1px 100%; -o-background-size: 1px 100%; background-size: 1px 100%; -webkit-transition: all .35s ease; -o-transition: all .35s ease; transition: all .35s ease; }*/
 /*.section.module-brands .brand:hover { background-position: 0 0px; }*/
@@ -2187,7 +2190,7 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 ======================================================================================================================================================
 ====================================================================================================================================================== */
 
-.footer { background-image: url(../img/logo-tagline-b25.svg); background-position: center center; background-repeat: no-repeat; -webkit-background-size: 80% auto; -moz-background-size: 80% auto; -o-background-size: 80% auto; background-size: 80% auto;  }
+.footer { position: relative; background-image: url(../img/logo-tagline-b25.svg); background-position: center center; background-repeat: no-repeat; -webkit-background-size: 80% auto; -moz-background-size: 80% auto; -o-background-size: 80% auto; background-size: 80% auto;  }
 .footer .section.title.wrap { margin-bottom: 50px; }
 .footer .section.contact .form-horizontal { margin-top: 20px; }
 .footer ul { margin-bottom: 15px; }

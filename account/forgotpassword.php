@@ -75,7 +75,7 @@
                     </div>
                 </div>
 
-                <div class="col-xs-12 col-sm-7 col-lg-6 section short gray2">
+                <div class="col-xs-12 col-sm-7 col-lg-6 section short gray3">
                     <div class="container-fluid">
                     <div class="col-xs-12 details">
                         <h3>Retrieve Password</h3>
@@ -93,7 +93,7 @@
                                     <div class="row">
                                         <div class="form-group">
                                             <div class="col-xs-12">
-                                                <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-arrowRcircle-fff icon-after"></span> Submit</div>
+                                                <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-arrowR-666 icon-after"></span> Submit</div>
                                             </div>
                                         </div>
                                     </div>

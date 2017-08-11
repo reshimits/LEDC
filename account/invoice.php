@@ -89,7 +89,7 @@
                             <div class="row">
                                 <div class="col-xs-12 col-sm-6 wellWrap">
                                     <div class="well option">
-                                        <p class="lead text-gray2">Shipping Address</p>
+                                        <p class="lead text-gray3">Shipping Address</p>
                                         <hr class="aligncenter first">
                                         <p><span class="lead">Robert Shimits</span><br>
                                         747 Quaker Ridge Ct. <br>
@@ -101,7 +101,7 @@
                                 </div>
                                 <div class="col-xs-12 col-sm-6 wellWrap">
                                     <div class="well option">
-                                        <p class="lead text-gray2">Shipping Method</p>
+                                        <p class="lead text-gray3">Shipping Method</p>
                                         <hr class="aligncenter first">
                                         <p><span class="lead">USPS</span><br>
                                         First Class Mail - Package <br>
@@ -114,7 +114,7 @@
                             <div class="row">
                                 <div class="col-xs-12 col-sm-6 wellWrap">
                                     <div class="well option">
-                                        <p class="lead text-gray2">Billing Address</p>
+                                        <p class="lead text-gray3">Billing Address</p>
                                         <hr class="aligncenter first">
                                         <p><span class="lead">Robert Shimits</span><br>
                                         747 Quaker Ridge Ct. <br>
@@ -126,7 +126,7 @@
                                 </div>
                                 <div class="col-xs-12 col-sm-6 wellWrap">
                                     <div class="well option">
-                                        <p class="lead text-gray2">Billing Method</p>
+                                        <p class="lead text-gray3">Billing Method</p>
                                         <hr class="aligncenter first">
                                         <p><span class="lead">Store Credit</span><br>
                                         $100</p>
@@ -147,7 +147,7 @@
                             <div class="row">
                                 <div class="col-xs-12 col-sm-6 wellWrap">
                                     <div class="well option">
-                                        <p class="lead text-gray2">Purchase Order Details</p>
+                                        <p class="lead text-gray3">Purchase Order Details</p>
                                         <hr class="aligncenter first">
                                         <p><span class="lead">Drop Ship</span><br>
                                         P.O. #: 59781B</p>
@@ -155,7 +155,7 @@
                                 </div>
                                 <div class="col-xs-12 col-sm-6 wellWrap">
                                     <div class="well option">
-                                        <p class="lead text-gray2">Promo Code</p>
+                                        <p class="lead text-gray3">Promo Code</p>
                                         <hr class="aligncenter first">
                                         <p><span class="lead">TRS2016BlackFriday</span><br>
                                         10% Off 
@@ -164,7 +164,7 @@
                                 </div>
                                 <div class="col-xs-12 wellWrap">
                                     <div class="well option">
-                                        <p class="lead text-gray2">Special Requests / Comments</p>
+                                        <p class="lead text-gray3">Special Requests / Comments</p>
                                         <hr class="aligncenter first">
                                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut lagret dolore magna aliquam erat volutpat. Ut wisi enim ad minim venom, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea comido consequat. Duis autem vel rum iriure dolor in hendrerit in vulputate veilt esse molestie consegua, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et giusto odio degnissima qui blandi present luptatum zirli delenit augue dus dolore te fegati nulla faciliti.</p>
                                     </div>
@@ -189,14 +189,14 @@
                                     </div>
                                     <div class="col-xs-12 col-sm-8">
                                         <ul class="list-group">
-                                            <li class="list-group-item active"><p class="small"><span class="lead text-gray2">Bi-Xenon Projectors:</span> 2 x Morimoto Mini H1 6.0 (LHD) <span class="lead text-secondary pull-right">$0.00</span></p></li>
-                                            <li class="list-group-item"><p class="small"><span class="lead text-gray2">Compatible Ballasts:</span> 2 x Morimoto XB35 (35W) <span class="lead text-secondary pull-right">$0.00</span></p></li>
-                                            <li class="list-group-item active"><p class="small"><span class="lead text-gray2">Ballast Igniters (required):</span> 2 x Morimoto XB Igniter (AMP) <span class="lead text-secondary pull-right">$0.00</span></p></li>
-                                            <li class="list-group-item"><p class="small"><span class="lead text-gray2">H1 HID Bulbs:</span> 2 x H1: XB 4500K <span class="lead text-secondary pull-right">$0.00</span></p></li>
-                                            <li class="list-group-item active"><p class="small"><span class="lead text-gray2">Shroud Style:</span> 2 x Mini Gatling Gun <span class="lead text-secondary pull-right">$0.00</span></p></li>
-                                            <li class="list-group-item"><p class="small"><span class="lead text-gray2">Wire Harness:</span> 1 x HD Relay <span class="lead text-secondary pull-right">$0.00</span></p></li>
-                                            <li class="list-group-item active"><p class="small"><span class="lead text-gray2">LED Halos:</span> 2 x 70mm XSB Switchback <span class="lead text-secondary pull-right">$0.00</span></p></li>
-                                            <li class="list-group-item"><p class="small"><span class="lead text-gray2">Headlight Sealant:</span> 1 x Gray: RetroRubber <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                            <li class="list-group-item active"><p class="small"><span class="lead text-gray3">Bi-Xenon Projectors:</span> 2 x Morimoto Mini H1 6.0 (LHD) <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                            <li class="list-group-item"><p class="small"><span class="lead text-gray3">Compatible Ballasts:</span> 2 x Morimoto XB35 (35W) <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                            <li class="list-group-item active"><p class="small"><span class="lead text-gray3">Ballast Igniters (required):</span> 2 x Morimoto XB Igniter (AMP) <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                            <li class="list-group-item"><p class="small"><span class="lead text-gray3">H1 HID Bulbs:</span> 2 x H1: XB 4500K <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                            <li class="list-group-item active"><p class="small"><span class="lead text-gray3">Shroud Style:</span> 2 x Mini Gatling Gun <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                            <li class="list-group-item"><p class="small"><span class="lead text-gray3">Wire Harness:</span> 1 x HD Relay <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                            <li class="list-group-item active"><p class="small"><span class="lead text-gray3">LED Halos:</span> 2 x 70mm XSB Switchback <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                            <li class="list-group-item"><p class="small"><span class="lead text-gray3">Headlight Sealant:</span> 1 x Gray: RetroRubber <span class="lead text-secondary pull-right">$0.00</span></p></li>
                                         </ul>
                                     </div>
                                     <div class="col-xs-12 cta">
@@ -241,10 +241,10 @@
                                     </div>
                                     <div class="col-xs-12 col-sm-8">
                                         <ul class="list-group">
-                                            <li class="list-group-item active"><p class="small"><span class="lead text-gray2">Compatible Ballasts:</span> 2 x Morimoto XB35 (35W) <span class="lead text-secondary pull-right">$0.00</span></p></li>
-                                            <li class="list-group-item"><p class="small"><span class="lead text-gray2">Ballast Igniters (required):</span> 2 x Morimoto XB Igniter (AMP) <span class="lead text-secondary pull-right">$0.00</span></p></li>
-                                            <li class="list-group-item active"><p class="small"><span class="lead text-gray2">H1 HID Bulbs:</span> 2 x H1: XB 4500K <span class="lead text-secondary pull-right">$0.00</span></p></li>
-                                            <li class="list-group-item"><p class="small"><span class="lead text-gray2">Wire Harness:</span> 1 x HD Relay <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                            <li class="list-group-item active"><p class="small"><span class="lead text-gray3">Compatible Ballasts:</span> 2 x Morimoto XB35 (35W) <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                            <li class="list-group-item"><p class="small"><span class="lead text-gray3">Ballast Igniters (required):</span> 2 x Morimoto XB Igniter (AMP) <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                            <li class="list-group-item active"><p class="small"><span class="lead text-gray3">H1 HID Bulbs:</span> 2 x H1: XB 4500K <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                            <li class="list-group-item"><p class="small"><span class="lead text-gray3">Wire Harness:</span> 1 x HD Relay <span class="lead text-secondary pull-right">$0.00</span></p></li>
                                         </ul>
                                     </div>
                                     <div class="col-xs-12 cta">
