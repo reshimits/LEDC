@@ -37,7 +37,6 @@
     <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../img/favicon-152.png">
 
 </head>
-</head>
 
 <body class="account utility verifyaccount">
 
@@ -65,7 +64,7 @@
         </div>
 
 
-       <div class="section wrap header-waypoint" data-animate-down="header-small" data-animate-up="header-large">
+       <div class="section wrap">
 
                 <div class="col-xs-12 col-sm-5 col-lg-6 section">
                     <div class="container-fluid">
@@ -76,7 +75,7 @@
                     </div>
                 </div>
 
-                <div class="col-xs-12 col-sm-7 col-lg-6 section short gray2">
+                <div class="col-xs-12 col-sm-7 col-lg-6 section short gray3">
                     <div class="container-fluid">
                     <div class="col-xs-12 details">
                         <h3>Verify Password</h3>
@@ -95,7 +94,7 @@
                                         <div class="form-group">
                                             <div class="col-xs-12">
                                                 <div class="small" style="float:left;"><a href="/client/TRS/2016/account/forgotpassword.php">Forgot Password</a></div>
-                                                <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-arrowRcircle-fff icon-after"></span> Submit</div>
+                                                <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-arrowR-666 icon-after"></span> Submit</div>
                                             </div>
                                         </div>
                                     </div>

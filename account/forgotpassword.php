@@ -64,7 +64,7 @@
         </div>
 
 
-       <div class="section wrap header-waypoint" data-animate-down="header-small" data-animate-up="header-large">
+       <div class="section wrap">
 
                 <div class="col-xs-12 col-sm-5 col-lg-6 section">
                     <div class="container-fluid">
