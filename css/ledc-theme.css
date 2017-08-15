@@ -147,6 +147,7 @@ hr { margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #66
   .gray2 hr, .gray4 hr { border-top: 1px solid #444; }
   .modal-body hr { border-top: 1px solid #ddd; }
   .section.title hr { border-top: 1px solid #555; }
+  .modal-footer hr { border-top: 1px solid #ccc; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }
 .sr-only-focusable:active, .sr-only-focusable:focus { position: static; width: auto; height: auto; margin: 0; overflow: visible; clip: auto; }
 
@@ -165,7 +166,7 @@ h4, .h4 { font-family: 'PlutoSansRegular', Helvetica, Arial, sans-serif; font-si
   .jumbotron .featureHeadline h4 { margin-top: 0; text-shadow: 0 0 15px #191919; }
   .productdetail .main h4.text-white { margin-top: 0; }
   .productdetail .main .btn-group.btn-rating h4 { margin-top: 10px; }
-  .cart .section.title h4 { margin-top: 0; color: #999; }
+  .cart .section.title h4, .modal-lg h4 { margin-top: 0; color: #999; }
   .section.title h4 { margin: 0; color: #666; }
 h5, .h5 { font-family: 'Teko', sans-serif; font-size: 24px; line-height: .9; text-transform: uppercase; letter-spacing: -1px; margin: 10px 0; }
   /*.module-buyersguide h5 { position: relative; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding-right: 20%; }*/
@@ -1567,9 +1568,10 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active { border-color: transpa
 .media-list { padding-left: 0; list-style: none; }
 
 /*.section.wrap.product-specs .section { padding-bottom: 0; }*/
-.list-group { padding: 0; margin-bottom: 0; list-style: none; border-radius: 4px; border: 1px solid #666; background-color: rgba(102, 102, 102, .2); }
-.product-specs .list-group { float: left; padding-top: 30px; padding-bottom: 30px; }
-.cart .cart-product .list-group { float: left; margin-top: 10px; }
+.list-group { padding: 0; margin-bottom: 0; list-style: none; border-radius: 4px; border: 1px solid #666; background-color: rgba(102, 102, 102, .2); overflow: hidden; }
+  .product-specs .list-group { float: left; padding-top: 30px; padding-bottom: 30px; }
+  .cart .cart-product .list-group { float: left; margin-top: 10px; }
+  .modal-body .list-group { border: 1px solid #ddd; background-color: transparent; }
 .list-group-item { position: relative; display: block; float: left; width: 100%; padding: 10px 30px; margin-bottom: -1px; background-color: transparent; border: none; }
 .cart .cart-product .list-group-item, #orderdetails .cart-product .list-group-item { padding: 5px 10px; }
 .sitemap .list-group-item, .carousel-caption .list-group-item { padding: 0 0 10px 10px; }
@@ -1590,6 +1592,7 @@ a.list-group-item:hover, a.list-group-item:focus { color: #555; text-decoration:
 .list-group-item.disabled .list-group-item-text, .list-group-item.disabled:hover .list-group-item-text, .list-group-item.disabled:focus .list-group-item-text { color: #777; }
 .list-group-item.active, .list-group-item.alt, .list-group-itemWrap.alt, .list-group-item.active:hover, .list-group-item.active:focus, a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus { z-index: 2; color: #fff; background-color: rgba(25, 25, 25, .25); border: none; }
 /*.cart .cart-product .list-group-item.active, #orderdetails .cart-product .list-group-item.active { background-color: #eee; }*/
+  .modal-body .list-group-item.active { background-color: rgba(25, 25, 25, .1); }
 .list-group-item.active .list-group-item-heading, .list-group-item.active:hover .list-group-item-heading, .list-group-item.active:focus .list-group-item-heading, .list-group-item.active .list-group-item-heading > small, .list-group-item.active:hover .list-group-item-heading > small, .list-group-item.active:focus .list-group-item-heading > small, .list-group-item.active .list-group-item-heading > .small, .list-group-item.active:hover .list-group-item-heading > .small, .list-group-item.active:focus .list-group-item-heading > .small { color: inherit; }
 .list-group-item.active .list-group-item-text, .list-group-item.active:hover .list-group-item-text, .list-group-item.active:focus .list-group-item-text { color: #e1edf7; }
 
@@ -1647,6 +1650,7 @@ a.list-group-item:hover, a.list-group-item:focus { color: #555; text-decoration:
 .helpdesk .panel-default:nth-child(even) > .panel-heading { background-color: #ebebeb; }
 
 .panel-empty { float: left; width: 100%; background-color: transparent; border: 1px solid #666; border-radius: 4px; margin: 10px 0 0 0; -webkit-box-shadow: none; box-shadow: none; }
+  .modal-body .panel-empty { border: 1px solid #ddd; }
 .panel-empty.panel-empty-alt .row { background-color: #222; }
 .panel-empty.panel-empty-alt h6, .panel-empty.panel-empty-alt h6 ~ p { color: #fff; }
 .panel-empty h6 { margin-bottom: 10px; }
@@ -1798,6 +1802,16 @@ a.list-group-item.active > .badge, .nav-pills > .active > a > .badge { color: #9
 
 .alert-dismissable .close { top: 0; right: 0; z-index: 2001; padding: 6px 10px; }
 .alert-dismissable .close.btn-empty .icon { height: 16px; width: 16px; }
+
+.progress { height: 20px; margin-bottom: 20px; overflow: hidden; background-color: #f5f5f5; border-radius: 4px; -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1); box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1); }
+.progress-bar { float: left; width: 0; height: 100%; font-size: 12px; line-height: 20px; color: #fff; text-align: center; background-color: #428bca; -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15); box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15); -webkit-transition: width .6s ease; -o-transition: width .6s ease; transition: width .6s ease; }
+.progress-striped .progress-bar, .progress-bar-striped { background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent); 
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent); 
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent); 
+  -webkit-background-size: 40px 40px; background-size: 40px 40px; }
+.progress.active .progress-bar, .progress-bar.active { -webkit-animation: progress-bar-stripes 2s linear infinite; -o-animation: progress-bar-stripes 2s linear infinite; animation: progress-bar-stripes 2s linear infinite; }
+.progress-bar[aria-valuenow="0"] { min-width: 30px; color: #777; background-color: transparent; background-image: none; -webkit-box-shadow: none; box-shadow: none; }
+
 
 /* Dialogs
 ======================================================================================================================================================

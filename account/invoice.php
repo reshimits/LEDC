@@ -77,7 +77,7 @@
             <div class="modal-lg modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h3 class="modal-title text-primary" id="myModalLabel">#100057922 Order Details</h3>
+                        <h3 class="modal-title text-secondary" id="myModalLabel">#100057922 Order Details</h3>
                         <hr>
                     </div>
 
@@ -107,7 +107,7 @@
                                         First Class Mail - Package <br>
                                         1-3 business days<br>
                                         $24.63<br>
-                                        Tracking #: <a href="#" class="text-primary">9400111988223468835993</a></p>
+                                        Tracking #: <a href="#">9400111988223468835993</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -265,7 +265,7 @@
                                                             </div>
                                                             <div class="col-xs-12 col-sm-4">
                                                                 <div class="section wrap">
-                                                                    <p><span class="lead">Sub-Total:</span> <span class="retail text-primary">$879.98</span></p>
+                                                                    <p><span class="lead">Sub-Total:</span> <span class="retail text-secondary">$879.98</span></p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -279,7 +279,7 @@
                         </div>
                     </div>
                     <div class="section modal-scrollUnder"></div>
-                    <div class="modal-footer">
+                    <div class="modal-footer progress-bar progress-bar-striped active">
                         <div class="section half last">
                             <div class="modal-body-titlecopy">
                                 <h5>Order Summary</h5>
@@ -304,7 +304,7 @@
                                 
                                 <div class="col-xs-12">
                                     <hr>
-                                    <h3 class="text-primary">Total: <span class="pull-right">$840.40</span></h3>
+                                    <h3 class="text-secondary">Total: <span class="pull-right">$840.40</span></h3>
                                 </div>
                             </div>
                             </div>
