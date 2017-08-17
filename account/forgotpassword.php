@@ -55,12 +55,9 @@
         
         <div class="jumbotron">
             <div class="featureHeadline col-xs-12">
-                <div class="col-xs-12">
-                    <h1>Forgot Password</h1>
-                    <h5 class="text-white">Please enter your email address below. You will receive a link to reset your password.</h5>
-                </div>
+                <h1>Forgot Password</h1>
+                <h4>Please enter your email address below. You will receive a link to reset your password.</h4>
             </div>
-            <div class="jumbotron-img"></div>
         </div>
 
 
@@ -133,25 +130,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>   
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> 
 
-    <!-- HEADER/NAV size change based on scroll -->
-    <script src="../js/waypoints.min.js"></script>
-    <script>
-        var $head = $( '#header' );
-        $( '.header-waypoint' ).each( function(i) {
-            var $el = $( this ),
-                animClassDown = $el.data( 'animateDown' ),
-                animClassUp = $el.data( 'animateUp' );
-
-            $el.waypoint( function( direction ) {
-                if( direction === 'down' && animClassDown ) {
-                    $head.attr('class', 'header ' + animClassDown);
-                }
-                else if( direction === 'up' && animClassUp ){
-                    $head.attr('class', 'header ' + animClassUp);
-                }
-            }, { offset: '0%' } );
-        } );
-    </script>
 
     <!-- HEADER/NAV toggle MENU BTN -->
     <script type='text/javascript'>
