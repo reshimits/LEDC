@@ -504,7 +504,6 @@
             });
         });
     </script>   
-    
 
     <!-- HEADER/NAV toggle MENU BTN -->
     <script type='text/javascript'>

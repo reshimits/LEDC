@@ -56,7 +56,7 @@
         <div class="jumbotron">
             <div class="featureHeadline col-xs-12">
                 <h1>FAQ</h1>
-                <h4>Lorem Ipsum Si Dolor Blah blah</h4>
+                <h4>Customers Often Ask</h4>
             </div>
         </div>
 
@@ -647,8 +647,31 @@
         }
         $( ".navbar-menu" ).click(function() {
             $(".navbar-menu").toggleClass( "active" );
-            $(".bodyWrap").toggleClass( "active" );
+            // $(".bodyWrap").toggleClass( "active" );
         });
+        $('.navbar-nav .dropdown').on('show.bs.dropdown', function() {
+            $(".bodyWrap").toggleClass('active', true);
+        });
+
+        $('.navbar-nav .dropdown').on('hidden.bs.dropdown', function() {
+            $('.bodyWrap').toggleClass('active', false);
+        });
+
+        // NAV toggle SUB MENU
+        $(".dropdown-menu > li").hover(
+            function() {
+                $('.dropdown-menu-itemContent.toggle').toggleClass("toggle", false);
+                $(this).find('.dropdown-menu-itemContent').toggleClass("toggle", true);
+            },
+            function() {
+                $(this).find('.dropdown-menu-itemContent').toggleClass("toggle", false);
+                $(".dropdown-menu > li:first-child .dropdown-menu-itemContent").toggleClass("toggle", true);
+            });
+        $(".dropdown-menu > li.filler").hover(
+            function() {
+                $(".dropdown-menu > li:first-child .dropdown-menu-itemContent").toggleClass("toggle", true);
+            });    
+
     </script>
 
     <!-- iOS Viewport Units Buggyfill -->
