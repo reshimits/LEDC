@@ -158,9 +158,9 @@
                 <div class="col-xs-12 col-sm-8 col-md-6 col-lg-5">
                     <ul class="list-group">
                         <li class="list-group-item active"><p class="small"><span class="lead text-gray2">Compatible Ballasts:</span> 2 x Morimoto XB35 (35W) <span class="lead text-secondary pull-right">$0.00</span></p></li>
-                        <li class="list-group-item"><p class="small"><span class="lead text-gray2">Ballast Igniters (required):</span> 2 x Morimoto XB Igniter (AMP) <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                        <!-- <li class="list-group-item"><p class="small"><span class="lead text-gray2">Ballast Igniters (required):</span> 2 x Morimoto XB Igniter (AMP) <span class="lead text-secondary pull-right">$0.00</span></p></li>
                         <li class="list-group-item active"><p class="small"><span class="lead text-gray2">H1 HID Bulbs:</span> 2 x H1: XB 4500K <span class="lead text-secondary pull-right">$0.00</span></p></li>
-                        <li class="list-group-item"><p class="small"><span class="lead text-gray2">Wire Harness:</span> 1 x HD Relay <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                        <li class="list-group-item"><p class="small"><span class="lead text-gray2">Wire Harness:</span> 1 x HD Relay <span class="lead text-secondary pull-right">$0.00</span></p></li> -->
                     </ul>
                 </div>
                 <div class="col-xs-12 col-md-4 col-lg-4 cta">
@@ -170,7 +170,7 @@
                                 <div class="row">
                                     <div class="form-group">
                                         <div class="col-xs-12 col-sm-5">
-                                            <p><span class="lead">Item Price:</span> <span class="retail text-muted">$439.99</span></p>
+                                            <p><span class="lead">Item Price:</span> <span class="retail text-muted">$15.00</span></p>
                                         </div>
                                         <div class="col-xs-12 col-sm-7">
                                             <div class="section wrap">

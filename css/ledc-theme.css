@@ -191,7 +191,7 @@ p .small, .p .small, p.small, label { font-size: 11px; font-size: 11.5px; }
 }
 @media (min-width:768px) {
   h1, .h1, .jumbotron h1 { font-size: 70px; letter-spacing: -2px; margin-top: 100px; }
-    .utility .jumbotron .featureHeadline h1, .utility .details h1, .account .jumbotron .featureHeadline h1 { margin-top: 60px; }
+    .productcategory .jumbotron .featureHeadline h1, .utility .jumbotron .featureHeadline h1, .utility .details h1, .account .jumbotron .featureHeadline h1 { margin-top: 60px; }
   h1.productdetail, .h1.productdetail, .productdetail h1, .productdetail .h1, .resources .blockquote h1 { font-size: 40px; }
   h2, .h2 { font-size: 46px; letter-spacing: -1px; }
     .module-buyersguide h2 { font-size: 42px; padding-top: 0; }
@@ -220,6 +220,7 @@ p .small, .p .small, p.small, label { font-size: 11px; font-size: 11.5px; }
 @media (min-width:1200px) {
   h2, .h2 { font-size: 48px; }
   .product.thumbnail h3 { font-size: 32px; }
+  .cart .cart-product .cta p .lead { float: left; width: 100%; }
 }
 
 
@@ -1318,7 +1319,7 @@ background-image: url(../img/icons/icon-arrowL-88e333.svg); background-position:
 ======================================================================================================================================================
 ====================================================================================================================================================== */
 
-.jumbotron { height: 450px; overflow: hidden; padding: 0; margin-bottom: 0; color: inherit; background-color: #eee; width: 100%;
+.jumbotron { height: 400px; overflow: hidden; padding: 0; margin-bottom: 0; color: inherit; background-color: #eee; width: 100%;
   background-position: center center; background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .jumbotron p { margin-bottom: 15px; font-size: 13px; font-weight: inherit; }
 .jumbotron > hr { border-top-color: #d5d5d5; }
@@ -1580,7 +1581,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active { border-color: transpa
 /*.section.wrap.product-specs .section { padding-bottom: 0; }*/
 .list-group { padding: 0; margin-bottom: 0; list-style: none; border-radius: 4px; border: 1px solid #666; background-color: rgba(102, 102, 102, .2); overflow: hidden; }
   .product-specs .list-group { float: left; padding-top: 30px; padding-bottom: 30px; }
-  .cart .cart-product .list-group { float: left; margin-top: 10px; }
+  .cart .cart-product .list-group { float: left; width: 100%; margin-top: 10px; }
   .modal-body .list-group { border: 1px solid #ddd; background-color: transparent; }
 .list-group-item { position: relative; display: block; float: left; width: 100%; padding: 10px 30px; margin-bottom: -1px; background-color: transparent; border: none; }
 .cart .cart-product .list-group-item, #orderdetails .cart-product .list-group-item { padding: 5px 10px; }
