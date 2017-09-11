@@ -9,7 +9,7 @@
     <!-- Basic Page Needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Product Category • LED Concepts</title>
+    <title>Product Detail • LED Concepts</title>
     <meta name="description" content="Google Description Here">
     <meta name="keywords" content="Keywords Here" />
     <meta name="author" content="SHIMITS Design/Development">
