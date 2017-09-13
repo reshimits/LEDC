@@ -686,6 +686,7 @@ background-image: url(../img/icons/icon-arrowL-88e333.svg); background-position:
 .icon-phoneHex { background-image: url(../img/icons/icon-phoneHex.svg); }
 .icon-phoneHex:hover { background-image: url(../img/icons/icon-phoneHexHover.svg); }
 .icon-phone { background-image: url(../img/LEDCicons/icon-phone.svg); }
+.icon-reset { background-image: url(../img/LEDCicons/icon-reset.svg); }
 .icon-resourcesHex-gallery { background-image: url(../img/icons/icon-resourcesHex-gallery.svg); }
 .icon-resourcesHex-guides { background-image: url(../img/icons/icon-resourcesHex-guides.svg); }
 .icon-resourcesHex-hidplanet { background-image: url(../img/icons/icon-resourcesHex-hidplanet.svg); }
@@ -2026,6 +2027,12 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 .section.quickstartguide .form-wrap { padding: 0; background-color: #282828; background-color: rgba(0, 0, 0, .5); border: 1px solid #fedd10; border-radius: 4px; }
 .section.quickstartguide .form-wrap .col-xs-12 { padding-top: 12px; padding-bottom: 10px; }
 .section.quickstartguide .form-wrap .col-xs-12.active { background-color: #fedd10; background-color: rgba(254, 221, 16, .7); }
+.section.quickstartguide .btn-primary { width: 110px; margin-bottom: 15px; }
+.section.quickstartguide .btn-default { width: 110px; }
+@media (max-width:767px) { 
+  .section.quickstartguide .form-wrap { margin-bottom: 10px; }
+  .section.quickstartguide .btn-primary { float: right; }
+}
 .section.texturedEdge, .section.modal-scrollUnder { position: relative; padding-bottom: 0; margin-top: -30px; background-color: transparent; background-image: url(../img/element-texturedEdge.svg); background-position: center top; background-repeat: no-repeat; -webkit-background-size: auto 35px; -moz-background-size: auto 35px; background-size: auto 35px; }
 .section.modal-scrollUnder { background-image: url(../img/bg-gradientScrollUnder.png); background-position: left bottom; background-repeat: repeat-x; -webkit-background-size: auto 35px; -moz-background-size: auto 35px; background-size: auto 35px; }
 .section.hexDownEdge { height: 50px; position: relative; z-index: 1000; padding-bottom: 0; margin-top: -2px; background-color: transparent; background-image: url(../img/bg-sectionBreak.svg); background-position: left top; background-repeat: repeat-x; -webkit-background-size: 60px auto; -moz-background-size: 60px auto; background-size: 60px auto; }
