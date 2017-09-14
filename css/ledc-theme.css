@@ -639,7 +639,12 @@ background-image: url(../img/icons/icon-arrowL-88e333.svg); background-position:
 
 .icon-acct { background-image: url(../img/LEDCicons/icon-acct.svg); background-position: center top; }
 .active .icon-acct { background-image: url(../img/LEDCicons/icon-acct-active.svg); background-position: center top; }
-.icon-amazon { background-image: url(../img/icons/icon-amazon.svg); }
+.icon-affirm { background-image: url(../img/LEDCicons/icon-affirm.svg); }
+.icon-affirmFull { background-image: url(../img/LEDCicons/icon-affirmFull.svg); }
+  .notice-affirm .btn-empty .icon.icon-affirmFull { width: 50px; height: 15px; }
+  .notice-affirm .btn-empty { padding: 0 5px; }
+  .notice-affirm .text-affirm { color: #00c8e5; } 
+.icon-amazon { background-image: url(../img/LEDCicons/icon-amazon.svg); }
 .icon-arrowDown { background-image: url(../img/icons/icon-arrowDown.svg); background-position: center top; }
 .icon-arrowDown-fff { background-image: url(../img/icons/icon-arrowDown-fff.svg); background-position: center top; }
 .icon-arrowR-666 { background-image: url(../img/LEDCicons/icon-arrowR-666.svg); background-position: center top; }
@@ -682,6 +687,7 @@ background-image: url(../img/icons/icon-arrowL-88e333.svg); background-position:
 .icon-new { background-image: url(../img/icons/icon-new.svg); }
 .icon-news { background-image: url(../img/icons/icon-news.svg); }
 .icon-notificationX { background-image: url(../img/icons/icon-notificationX.svg); }
+.icon-paypal { background-image: url(../img/LEDCicons/icon-paypal.svg); }
 .icon-pdf { background-image: url(../img/icons/icon-pdf.svg); }
 .icon-phoneHex { background-image: url(../img/icons/icon-phoneHex.svg); }
 .icon-phoneHex:hover { background-image: url(../img/icons/icon-phoneHexHover.svg); }
@@ -776,8 +782,16 @@ background-image: url(../img/icons/icon-arrowL-88e333.svg); background-position:
   .cart .cart-product .input-group.spinner { width: 100%; }
 }
 
-.btn.amazon { color: #f90; border-color: #f90; }
+.btn.amazon, .btn.paypal, .btn.affirm { background: -webkit-linear-gradient(#fff, #e5e5e5);
+    background: -o-linear-gradient(#fff, #e5e5e5);
+    background: -moz-linear-gradient(#fff, #e5e5e5);
+    background: linear-gradient(#fff, #e5e5e5); }
+.btn.amazon:hover, .btn.paypal:hover, .btn.affirm:hover { background: #e5e5e5; } 
+.btn.amazon { color: #f90; }
 .amazon .icon-amazon { height: 24px; width: 24px; }
+.btn.paypal { color: #179bd7; }
+.btn.affirm { color: #00c8e5; }
+    
 .input-group-btn { z-index: 1000; }
 
 /* Navs
@@ -1994,6 +2008,7 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 
 .section, .section.double { width: 100%; float: left; padding: 50px 0; /*overflow: hidden;*/ }
 .section.half { padding: 30px 0; }
+.section.halftop { padding: 30px 0 50px 0; }
 
 .section.short, .account .tab-contentWrap { min-height: 400px; padding-bottom: 50px; }
 .invoice #orderdetails .modal-lg { padding-bottom: 80px; margin-bottom: 0; }

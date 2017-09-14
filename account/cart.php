@@ -229,23 +229,33 @@
 
 
         <div class="section wrap checkout">
-            <div class="section last checkoutmethod">
+            <div class="section checkoutmethod">
                 <div class="container">
                     <div class="col-xs-12">
-                        <div class="section">
+                        <div class="section last">
                             <h3>Checkout Method</h3>
                             <div class="row">
-                                <div class="col-xs-12 col-sm-3">
+                                <div class="col-xs-12 col-sm-4">
                                     <div type="button" class="btn btn-block btn-dark guest">Cont<span class="hidden-sm">inue</span> as Guest</div>
                                 </div>
-                                <div class="col-xs-12 col-sm-3">
+                                <div class="col-xs-12 col-sm-4">
                                     <div data-toggle="modal" data-target="#login" type="button" class="btn btn-block btn-default">Register</div>
                                 </div>
-                                <div class="col-xs-12 col-sm-3">
+                                <div class="col-xs-12 col-sm-4">
                                     <div data-toggle="modal" data-target="#login" type="button" class="btn btn-block btn-primary">Log In</div>
                                 </div>
-                                <div class="col-xs-12 col-sm-3">
-                                    <div type="button" class="btn btn-block btn-default amazon"><span class="icon icon-amazon icon-before"></span>Amazon <span class="hidden-sm">Pay</span></div>
+                            </div>
+                        </div>
+                        <div class="section halftop">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-4">
+                                    <div type="button" class="btn btn-block btn-default amazon"><span class="icon icon-amazon icon-before"></span>Amazon <i class="text-weightRegular small">Pay</i></div>
+                                </div>
+                                <div class="col-xs-12 col-sm-4">
+                                    <div type="button" class="btn btn-block btn-default paypal"><span class="icon icon-paypal icon-before"></span>PayPal <i class="hidden-sm text-weightRegular small">Checkout</i></div>
+                                </div>
+                                <div class="col-xs-12 col-sm-4">
+                                    <div type="button" class="btn btn-block btn-default affirm"><span class="icon icon-affirm icon-before"></span>Affirm <i class="text-weightRegular small">Monthly Pay<span class="hidden-sm">ments</span></i></div>
                                 </div>
                             </div>
                         </div>
