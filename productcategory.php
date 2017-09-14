@@ -42,7 +42,7 @@
 <!-- Changing the "CATEGORY" class along with the "CATEGORY-SUBCATEGORY" class will change the h4, and banner image -->
 
 <!-- <body class="productcategory fittedledaccents fittedledaccents-fittedhalokits"> -->
-<!-- <body class="productcategory fittedledaccents fittedledaccents-fitteddrlboards"> -->
+<body class="productcategory fittedledaccents fittedledaccents-fitteddrlboards">
 <!-- <body class="productcategory universalledaccents universalledaccents-colorchanginghalosstrips"> -->
 <!-- <body class="productcategory universalledaccents universalledaccents-colorchangingaccessories"> -->
 <!-- <body class="productcategory universalledaccents universalledaccents-switchbackhalosstrips"> -->
@@ -63,13 +63,13 @@
 <!-- <body class="productcategory projectorkits projectorkits-fittedretrofitkits"> -->
 <!-- <body class="productcategory projectorkits projectorkits-headlightprojectors"> -->
 <!-- <body class="productcategory projectorkits projectorkits-projectorshrouds"> -->
-<body class="productcategory projectorkits projectorkits-customlensetching">
+<!-- <body class="productcategory projectorkits projectorkits-customlensetching"> -->
 <!-- <body class="productcategory offroad offroad-ledlightbarscubes"> -->
 <!-- <body class="productcategory offroad offroad-lightbarhalos"> -->
 <!-- <body class="productcategory offroad offroad-rocklights"> -->
 <!-- <body class="productcategory installaccessories installaccessories-wiringparts"> -->
 <!-- <body class="productcategory installaccessories installaccessories-buildmaterials"> -->
-<body class="productcategory closeouts">
+<!-- <body class="productcategory closeouts"> -->
 
 
 
@@ -102,8 +102,8 @@
 
         <div class="section">
             <div class="container">
-                <ul class="row productGrid">
                 
+                <ul class="row productGrid">
                     <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
                         <a href="productdetail.php" class="thumb-top">
                             <div class="caption-top">
