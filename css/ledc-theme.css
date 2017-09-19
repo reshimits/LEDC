@@ -1219,7 +1219,7 @@ background-image: url(../img/icons/icon-arrowL-88e333.svg); background-position:
 }
 
 .form-group.has-suggestions { position: relative; }
-.form-group.has-suggestions .dropdown-menu { display: block; width: 100%; min-height: 0px; font-size: 14px; background-color: #eee; border: none; border-radius: 0 0 4px 4px; }
+.form-group.has-suggestions .dropdown-menu { display: block; position: relative; height: 120px; overflow: scroll; width: 100%; min-height: 0px; font-size: 14px; background-color: #eee; border: none; border-radius: 0 0 4px 4px; }
 .form-group.has-suggestions .dropdown-menu > li { display: block; clear: both; font-weight: normal; line-height: 1.4; color: #333; white-space: nowrap; padding: 8px 20px; }
 .form-group.has-suggestions .dropdown-menu > li:hover { color: #666; }
 
@@ -2248,7 +2248,7 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 .testimonialTiles { position: relative; }
 .testimonialTiles li { list-style: none; -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
 .wookmark-placeholder { -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
-.testimonialTiles li { display: none; /* * Hide items initially to avoid a flicker effect * */ cursor: pointer; }
+.testimonialTiles li { /* display: none; * Hide items initially to avoid a flicker effect * */ cursor: pointer; }
 .testimonialTiles li.inactive { visibility: hidden; opacity: 0; }
 .testimonialTiles .panel-empty { background-color: rgba(34, 34, 34, .5); }
 @media (min-width:768px) {
