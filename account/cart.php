@@ -791,27 +791,21 @@
     <!-- Javascript [secondary]
     ================================================== -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>   
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> 
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    
+    <!-- For performance reasons, the Tooltip and Popover data-apis are opt-in, meaning you must initialize them yourself. -->
+    <script type="text/javascript">
+        $('.btn').popover('hide');
+        $('.btn').tooltip('hide');
 
-    <!-- HEADER/NAV size change based on scroll -->
-    <script src="../js/waypoints.min.js"></script>
-    <script>
-        var $head = $( '#header' );
-        $( '.header-waypoint' ).each( function(i) {
-            var $el = $( this ),
-                animClassDown = $el.data( 'animateDown' ),
-                animClassUp = $el.data( 'animateUp' );
-
-            $el.waypoint( function( direction ) {
-                if( direction === 'down' && animClassDown ) {
-                    $head.attr('class', 'header ' + animClassDown);
-                }
-                else if( direction === 'up' && animClassUp ){
-                    $head.attr('class', 'header ' + animClassUp);
-                }
-            }, { offset: '0%' } );
-        } );
-    </script>
+        $(document).ready(function(){
+            $('.btn').popover();
+            $('.btn').on('click', function (e) {
+                $('.btn').not(this).popover('hide');
+            });
+        });
+    </script>   
+    
 
     <!-- HEADER/NAV toggle MENU BTN -->
     <script type='text/javascript'>
@@ -821,8 +815,31 @@
         }
         $( ".navbar-menu" ).click(function() {
             $(".navbar-menu").toggleClass( "active" );
-            $(".bodyWrap").toggleClass( "active" );
+            // $(".bodyWrap").toggleClass( "active" );
         });
+        $('.navbar-nav .dropdown').on('show.bs.dropdown', function() {
+            $(".bodyWrap").toggleClass('active', true);
+        });
+
+        $('.navbar-nav .dropdown').on('hidden.bs.dropdown', function() {
+            $('.bodyWrap').toggleClass('active', false);
+        });
+
+        // NAV toggle SUB MENU
+        $(".dropdown-menu > li").hover(
+            function() {
+                $('.dropdown-menu-itemContent.toggle').toggleClass("toggle", false);
+                $(this).find('.dropdown-menu-itemContent').toggleClass("toggle", true);
+            },
+            function() {
+                $(this).find('.dropdown-menu-itemContent').toggleClass("toggle", false);
+                $(".dropdown-menu > li:first-child .dropdown-menu-itemContent").toggleClass("toggle", true);
+            });
+        $(".dropdown-menu > li.filler").hover(
+            function() {
+                $(".dropdown-menu > li:first-child .dropdown-menu-itemContent").toggleClass("toggle", true);
+            });    
+
     </script>
 
     <!-- iOS Viewport Units Buggyfill -->
