@@ -1193,7 +1193,8 @@ background-image: url(../img/icons/icon-arrowL-88e333.svg); background-position:
 .dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus { color: #777; }
 .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus { text-decoration: none; cursor: not-allowed; background-color: transparent; background-image: none; filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); }
 
-.header .navbar-utility .btn-group .dropdown-menu > li:first-child { display: none; }
+/*CSS Needed for local server but not LEDC server*/
+/*.header .navbar-utility .btn-group .dropdown-menu > li:first-child { display: none; }
 .header .navbar-utility .btn-group .dropdown-menu > li:nth-child(2) { display: none; }
 .header .navbar-utility .btn-group .dropdown-menu > li:nth-child(3) { display: block; }
 .header .navbar-utility .btn-group .dropdown-menu > li.divider { display: block; }
@@ -1203,7 +1204,7 @@ background-image: url(../img/icons/icon-arrowL-88e333.svg); background-position:
 .header .navbar-utility .btn-group.active .dropdown-menu > li:nth-child(2) { display: block; }
 .header .navbar-utility .btn-group.active .dropdown-menu > li:nth-child(3) { display: none; }
 .header .navbar-utility .btn-group.active .dropdown-menu > li:nth-child(5) { display: block; }
-.header .navbar-utility .btn-group.active .dropdown-menu > li:nth-child(6) { display: none; }
+.header .navbar-utility .btn-group.active .dropdown-menu > li:nth-child(6) { display: none; }*/
 
 
 .open > .dropdown-menu { display: block; }
