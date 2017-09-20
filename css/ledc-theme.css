@@ -1506,9 +1506,9 @@ background-image: url(../img/icons/icon-arrowL-88e333.svg); background-position:
 .productcategory.installaccessories .featureHeadline h1.installaccessories,
 .productcategory.closeouts .featureHeadline h1.closeouts { display: block; }
 
-.quickstartguide.vehicleonly { display: none; }
+/*.quickstartguide.vehicleonly { display: none; }
 .productcategory.fittedledaccents .quickstartguide { display: none; }
-.productcategory.fittedledaccents .quickstartguide.vehicleonly { display: block; }
+.productcategory.fittedledaccents .quickstartguide.vehicleonly { display: block; }*/
 
 .thumbnail { display: block; padding: 0; margin-bottom: 0; line-height: 1.4; background-color: transparent; border: none; border-radius: 0; -webkit-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
 .thumbnail > img, .thumbnail a > img { margin-right: auto; margin-left: auto; }

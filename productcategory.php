@@ -41,9 +41,9 @@
 <!-- Apply id="wholesaleAcct" if user is logged in as Wholesaler -->
 <!-- Changing the "CATEGORY" class along with the "CATEGORY-SUBCATEGORY" class will change the h4, and banner image -->
 
-<!-- <body class="productcategory fittedledaccents fittedledaccents-fittedhalokits"> -->
+<body class="productcategory fittedledaccents fittedledaccents-fittedhalokits">
 <!-- <body class="productcategory fittedledaccents fittedledaccents-fitteddrlboards"> -->
-<body class="productcategory universalledaccents universalledaccents-colorchanginghalosstrips">
+<!-- <body class="productcategory universalledaccents universalledaccents-colorchanginghalosstrips"> -->
 <!-- <body class="productcategory universalledaccents universalledaccents-colorchangingaccessories"> -->
 <!-- <body class="productcategory universalledaccents universalledaccents-switchbackhalosstrips"> -->
 <!-- <body class="productcategory ledaccessories ledaccessories-fitteddrlboards"> -->
