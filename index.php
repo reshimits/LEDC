@@ -67,39 +67,44 @@
 
 
         <div class="section first quickstartguide">
-            <div class="container-fluid">
-                <div class="col-xs-12 col-md-8 col-md-offset-2">
-                    <div class="lead col-xs-12 col-md-6">
-                        <h2>Custom Starts Here:</h2>
-                    </div> 
-                </div>
-                <div class="form-wrap col-xs-12 col-md-8 col-md-offset-2">
-                    <form class="form-horizontal">
-                        <fieldset>
-                            <div class="col-xs-12 col-sm-3 col-md-3 active">
-                                <select class="form-control drop required" id="select">
-                                    <option value="">YEAR</option>
-                                    <option value="2016">2016</option>
-                            
-                                </select>
-                            </div>
-                            <div class="col-xs-12 col-sm-4 col-md-4">
-                                <select class="form-control drop required disabled" id="select">
-                                    <option value="">MAKE</option>
-                                    
-                                </select>
-                            </div>
-                            <div class="col-xs-12 col-sm-5 col-md-5">
-                                <select class="form-control drop required disabled" id="select">
-                                    <option value="">MODEL</option>
-                                    
-                                </select>
-                            </div>
-                        </fieldset>
-                    </form> 
+                <div class="container-fluid">
+                    <div class="col-xs-12 col-md-8 col-md-offset-2">
+                        <div class="lead col-xs-12 col-md-6">
+                            <h2>Custom Starts Here:</h2>
+                        </div> 
+                    </div>
+                    <div class="form-wrap col-xs-12 col-sm-10 col-md-7 col-md-offset-2">
+                        <form class="form-horizontal">
+                            <fieldset>
+                                <div class="col-xs-12 col-sm-3 active">
+                                    <select class="form-control drop required" id="select">
+                                        <option value="">YEAR</option>
+                                        <option value="2016">2016</option>
+                                
+                                    </select>
+                                </div>
+                                <div class="col-xs-12 col-sm-4">
+                                    <select class="form-control drop required disabled" id="select">
+                                        <option value="">MAKE</option>
+                                        
+                                    </select>
+                                </div>
+                                <div class="col-xs-12 col-sm-5 col-md-5">
+                                    <select class="form-control drop required disabled" id="select">
+                                        <option value="">MODEL</option>
+                                        
+                                    </select>
+                                </div>
+
+                            </fieldset>
+                        </form> 
+                    </div>
+                    <div class="col-xs-12 col-sm-2 col-xlg-1">
+                        <div type="button" class="btn btn-primary continue"><span class="icon icon-arrowR-666 icon-after"></span> Submit</div>
+                        <div type="button" class="btn btn-default"><span class="icon icon-reset icon-before"></span> Reset</div>
+                    </div>
                 </div>
             </div>
-        </div>
 
         <div class="section double summary">
             <div class="section first">
