@@ -763,8 +763,10 @@ background-image: url(../img/icons/icon-arrowL-88e333.svg); background-position:
 /*.icon-social.youtube:hover .icon-youtube { background-image: url(../img/icons/icon-youtubeHover.svg); }*/
 .btn.dealer-badge { height: 40px; padding: 0; border-radius: 0; margin-top: 10px; margin-bottom: 10px; }
 .btn.dealer-badge .img-responsive { margin-top: -10px; }
-@media (min-width:992px) {
+@media (min-width:768px) {
   .btn.dealer-badge { padding-left: 7px; margin: 0; border-left: 1px solid #666; }
+}
+@media (min-width:992px) {
   .icon-carouselNext, .icon-carouselPrev { width: 80px; height: 80px; }
 }
 .section.product-specs .icon { height: 70px; width: 70px; }
