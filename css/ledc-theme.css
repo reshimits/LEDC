@@ -705,7 +705,9 @@ background-image: url(../img/icons/icon-arrowL-88e333.svg); background-position:
 .icon-sale { height: 20px; width: 20px; background-image: url(../img/icons/icon-sale.svg); }
 .icon-search { height: 20px; width: 20px; background-image: url(../img/LEDCicons/icon-search.svg); }
 .icon-securecheckout { background-image: url(../img/LEDCicons/icon-securecheckout.svg); }
-
+.icon-trs { background-image: url(../img/logo-trs-hex.svg); }
+  .notice-trs .btn-empty .icon { width: 25px; height: 25px; }
+  .notice-trs .btn-empty { padding: 0 5px; }
 .icon-brand { height: 100%; width: 100%; -webkit-transition: all .35s ease; -o-transition: all .35s ease; transition: all .35s ease; }
 
 .icon-brand.colormorph { background-image: url(../img/brand-colormorph.svg); }
@@ -1846,6 +1848,8 @@ a.list-group-item.active > .badge, .nav-pills > .active > a > .badge { color: #9
 .alert-error p, .error-msg span { color: #222; /*text-shadow: 1px 1px #94240d;*/ }
 .alert-success, .success-msg { color: #222; background-color: #4ebb00; border: none; }
 .alert-success p, .success-msg span { color: #222; /*text-shadow: 1px 1px #3d9000;*/ }
+.alert-primary, .primary-msg { color: #666; background-color: #ffc816; border: none; }
+.alert-primary p, .primary-msg span { color: #666; }
 
 .alert-dismissable .close { top: 0; right: 0; z-index: 2001; padding: 6px 10px; }
 .alert-dismissable .close.btn-empty .icon { height: 16px; width: 16px; }
@@ -1880,6 +1884,8 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 .modal-header hr { height: 8px; border: none; margin-top: 10px; margin-bottom: 0; background-image: url(../img/element-texturedHR.svg); background-position: center bottom; background-repeat: no-repeat; -webkit-background-size: 100% 8px; -moz-background-size: 100% 8px; -o-background-size: 100% 8px; background-size: 100% 8px; }
 .modal-header .close { margin-top: -10px; padding-right: 0; }
 .modal-title { margin: 0; line-height: 1; }
+.modal-subheader { float: left; position: relative; z-index: 1000; width: 100%; padding: 0px 30px 0px 30px; border-bottom: none; 
+  -webkit-box-shadow: 0 10px 15px rgba(255, 255, 255, 1); box-shadow: 0 10px 15px rgba(255, 255, 255, 1); background-color: #ffc816; }
 .modal-bodyWrap { float: left; left: 0; position: relative; max-height: 60vh; overflow: scroll; -webkit-overflow-scrolling: touch;  
   content: 'viewport-units-buggyfill; max-height: 60vh'; }
 /*ORIGINAL CODE - NON-WORKING TRANSITION*/
