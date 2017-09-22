@@ -236,7 +236,7 @@
             <div class="section checkoutmethod">
                 <div class="container">
                     <div class="col-xs-12">
-                        <div class="section last">
+                        <!-- <div class="section last">
                             <h3>Checkout Method</h3>
                             <div class="row">
                                 <div class="col-xs-12 col-sm-4">
@@ -260,6 +260,27 @@
                                 </div>
                                 <div class="col-xs-12 col-sm-4">
                                     <div type="button" class="btn btn-block btn-default affirm"><span class="icon icon-affirm icon-before"></span>Affirm <i class="text-weightRegular small">Monthly Pay<span class="hidden-sm">ments</span></i></div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="section last">
+                            <h3>Checkout Method</h3>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-5 col-md-6 col-lg-5">
+                                    <p><span class="lead text-primary">Credit Card:</span></p>
+                                    <div class="btn-group" role="group" aria-label="...">
+                                        <div type="button" class="btn btn-default">Log In</div>
+                                        <div type="button" class="btn btn-default">Register</div>
+                                        <div type="button" class="btn btn-default"><span class="hidden-xs hidden-sm">Continue as </span>Guest</div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-7 col-md-6 col-lg-7 expresscheckout">
+                                    <p><span class="lead text-primary">Express Options:</span></p>
+                                    <div class="btn-group" role="group" aria-label="...">
+                                        <div type="button" class="btn btn-default amazon"><span class="icon icon-amazon icon-before"></span><span class="hidden-xs">Amazon <i class="hidden-xs hidden-sm hidden-md text-weightRegular small">Pay</i></span></div>
+                                        <div type="button" class="btn btn-default paypal"><span class="icon icon-paypal icon-before"></span><span class="hidden-xs">PayPal <i class="hidden-xs hidden-sm hidden-md text-weightRegular small">Checkout</i></span></div>
+                                        <div type="button" class="btn btn-default affirm"><span class="icon icon-affirm icon-before"></span><span class="hidden-xs">Affirm <i class="hidden-xs hidden-sm hidden-md text-weightRegular small">Monthly Pay</i></span></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
