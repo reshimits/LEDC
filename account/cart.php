@@ -271,7 +271,7 @@
                                     <div class="btn-group" role="group" aria-label="...">
                                         <div type="button" class="btn btn-default">Log In</div>
                                         <div type="button" class="btn btn-default">Register</div>
-                                        <div type="button" class="btn btn-default"><span class="hidden-xs hidden-sm">Continue as </span>Guest</div>
+                                        <div type="button" class="btn btn-default guest"><span class="hidden-xs hidden-sm">Continue as </span>Guest</div>
                                     </div>
                                 </div>
                                 <div class="col-xs-12 col-sm-7 col-md-6 col-lg-7 expresscheckout">
