@@ -1369,7 +1369,7 @@ background-image: url(../img/icons/icon-arrowL-88e333.svg); background-position:
   .account .jumbotron .featureHeadline h1, .utility .jumbotron .featureHeadline h1 { margin: 0; }
 }*/
 
-.home .jumbotron, .styleguide .jumbotron { height: 450px; overflow: hidden; margin-bottom: -266px; }
+.home .jumbotron, .styleguide .jumbotron { height: 450px; overflow: hidden; margin-bottom: -297px; }
 .productcategory .jumbotron .featureHeadline, .account .jumbotron .featureHeadline, .utility .jumbotron .featureHeadline { margin-bottom: 50px; }
 .jumbotron .featureHeadline img { width: 100%; height: auto; }
 
@@ -2074,6 +2074,7 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 .section.quickstartguide .btn-primary { width: 110px; margin-bottom: 15px; }
 .section.quickstartguide .btn-default { width: 110px; }
 @media (max-width:767px) { 
+  .section.quickstartguide { padding-bottom: 20px; }
   .section.quickstartguide .form-wrap { margin-bottom: 10px; }
   .section.quickstartguide .btn-primary { float: right; }
 }
