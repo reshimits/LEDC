@@ -957,6 +957,7 @@ background-image: url(../img/icons/icon-arrowL-88e333.svg); background-position:
   .bodyWrap.active { -webkit-filter: blur(5px); filter: blur(5px); }
 
 @media (max-width:767px) {
+  .header .navbar-utility { z-index: 2001; }
   .header .navbar-utility .pull-right { float: none !important; text-align: center; }
 }
 @media (min-width:768px) {
