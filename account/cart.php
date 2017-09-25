@@ -581,61 +581,64 @@
                                                     <input type="radio" name="optionsRadios" id="" placeholder="option1" checked="">
                                                     <p class="small"><span class="text-uppercase">Credit Card</span></p>
                                                     <div class="reveal-if-active">
-                                                        <div class="form-group">
-                                                            <div class="col-sm-6">
-                                                                <select class="form-control drop" id="select">
-                                                                    <option value="">Credit Card Type</option>
-                                                                    <option value="#">Visa</option>
-                                                                    <option value="#">Mastercard</option>
-                                                                    <option value="#">American Express</option> 
-                                                                    <option value="#">Discover</option>   
-                                                                </select>
+                                                        
+                                                        <div id="payment_form_gene_braintree_creditcard" style="" class="form-list">
+                                                            <div id="credit-card-form" class="form-group">
+                                                                <div class="credit-card-loading hidden">
+                                                                    <div class="col-xs-12 pagination-loader">
+                                                                        <div class="panel panel-empty text-center">
+                                                                            <div class="btn btn-empty btn-hexicon">
+                                                                                <span class="icon icon-loaderPie"></span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-list braintree-hostedfield">
+                                                                    <div class="form-group">
+                                                                        <div class="col-xs-2">
+                                                                            <div class="card-type"><img src="../../2016/img/icon-creditcard-amex.svg" id="card-type-image" class="img-responsive"></div>
+                                                                        </div>
+                                                                        <div class="input-box card-number col-xs-10">
+                                                                            <div id="card-number" class="form-control"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group">
+                                                                        <div class="input-box col-xs-4">
+                                                                            <div class="v-fix">
+                                                                                <div id="expiration-month" class="braintree-input-field braintree-expiration form-control">
+                                                                                    
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-xs-4">
+                                                                            <div class="v-fix">
+                                                                                <div id="expiration-year" class="braintree-input-field braintree-expiration form-control">
+                                                                                    
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-xs-4 input-box">
+                                                                            <div class="v-fix">
+                                                                                <div id="cvv" class="braintree-input-field braintree-cvv form-control">
+                                                                                    
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="braintree-avs-postal-code" style="display: none;">
+                                                                        <label for="postal-code">Postal Code</label>
+                                                                        <div id="postal-code" class="braintree-input-field braintree-postal-code"></div>
+                                                                    </div>
+                                                                </div>
                                                             </div>
-                                                            <div class="col-sm-6">
-                                                                <input type="text" class="form-control" id="inputDefault" placeholder="Credit Card Number">
+
+                                                            <div id="braintree-hosted-submit">
+                                                                <!-- Fields for the payment method -->
+                                                                <input type="text" name="payment[payment_method_nonce]" value="" id="creditcard-payment-nonce" class="validate-fire-hosted" autocomplete="off">
                                                             </div>
+                                                            <input type="hidden" name="payment[submit_after_payment]" value="1" id="braintree-submit-after-payment">
                                                         </div>
-                                                        <div class="form-group">
-                                                            <div class="col-sm-6">
-                                                                <select class="form-control drop" id="select">
-                                                                    <option value="">Expiration Month</option>
-                                                                    <option value="jan">January</option>
-                                                                    <option value="feb">February</option>
-                                                                    <option value="mar">March</option> 
-                                                                    <option value="apr">April</option> 
-                                                                    <option value="may">May</option>
-                                                                    <option value="jun">June</option>
-                                                                    <option value="jul">July</option> 
-                                                                    <option value="aug">August</option> 
-                                                                    <option value="sep">September</option>
-                                                                    <option value="oct">October</option>
-                                                                    <option value="nov">November</option> 
-                                                                    <option value="dec">December</option> 
-                                                                </select>
-                                                            </div>
-                                                            <div class="col-sm-3">
-                                                                <select class="form-control drop" id="select">    
-                                                                    <option value="">Expiration Year</option>
-                                                                    <option value="15">2015</option>
-                                                                    <option value="16">2016</option>
-                                                                    <option value="17">2017</option>
-                                                                    <option value="18">2018</option>
-                                                                    <option value="19">2019</option>
-                                                                    <option value="20">2020</option>
-                                                                    <option value="21">2021</option>
-                                                                    <option value="22">2022</option>
-                                                                    <option value="23">2023</option>
-                                                                    <option value="24">2024</option>
-                                                                    <option value="25">2025</option>
-                                                                    <option value="26">2026</option>
-                                                                    <option value="27">2027</option>
-                                                                    <option value="28">2028</option>   
-                                                                </select>
-                                                            </div>
-                                                            <div class="col-sm-3">
-                                                                <input type="text" class="form-control" id="inputDefault" placeholder="CVV2">
-                                                            </div>
-                                                        </div>
+
                                                     </div>
                                                 </label>
                                             </div>
