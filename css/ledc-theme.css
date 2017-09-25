@@ -1445,7 +1445,7 @@ background-image: url(../img/icons/icon-arrowL-88e333.svg); background-position:
 .resources.guides .jumbotron { background-image: url(../img/hero-guides.jpg); }
 .resources.tech .jumbotron { background-image: url(../img/hero-tech.jpg); }*/
 
-/*.utility.partners .jumbotron.content { height: 300px; } */
+.utility.partners .jumbotron.content { height: 300px; } 
 .utility.partners .partnersMap { width: 100%; height: 100%; }
 .utility.partners .partnersMap .infoWindowContainer { color: #666; }
 .utility.partners .partnersMap .infoWindowContainer .infoWindowTitle { color: #333; }
