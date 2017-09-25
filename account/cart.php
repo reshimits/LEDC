@@ -583,7 +583,7 @@
                                                     <div class="reveal-if-active">
                                                         
                                                         <div id="payment_form_gene_braintree_creditcard" style="" class="form-list">
-                                                            <div id="credit-card-form" class="form-group">
+                                                            <div id="credit-card-form" class="section wrap">
                                                                 <div class="credit-card-loading hidden">
                                                                     <div class="col-xs-12 pagination-loader">
                                                                         <div class="panel panel-empty text-center">
