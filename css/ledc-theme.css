@@ -1375,7 +1375,7 @@ background-image: url(../img/icons/icon-arrowL-88e333.svg); background-position:
 .productcategory .jumbotron .featureHeadline, .account .jumbotron .featureHeadline, .utility .jumbotron .featureHeadline { margin-bottom: 50px; }
 .jumbotron .featureHeadline img { width: 100%; height: auto; }
 
-.home .jumbotron { background-image: url(../img/feature201711.jpg); }
+.home .jumbotron { background-image: url(../img/feature201711blackfriday.jpg); }
 .productcategory .jumbotron { position: relative; overflow: hidden; padding: 0; }
 
 .section.module-buyersguide { position: absolute; top: 0px; left: 0px; z-index: 0; }
