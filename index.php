@@ -57,13 +57,24 @@
 
     <div class="bodyWrap">
         
-        <div class="jumbotron">
-            <!-- <div class="col-xs-12"><h1>Halos</br> so savage</h1></div>
+        
+            <div class="jumbotron feature1">
+                <div class="featureHeadline col-xs-12 col-xlg-10 col-xlg-offset-1 col-2xlg-8 col-2xlg-offset-2 text-center">
+                    <img src="img/feature201801headline.svg" alt="" border="0"/>
+                    <a href="#" type="button" class="btn btn-feature btn-lg">Upgrade Your Bulbs</a>
+                    <div class="col-xs-12 col-sm-10 col-sm-offset-1"><hr class="aligncenter"></div>
+                </div>
+                <div class="jumbotron-img"></div>
+                
+            </div>
+
+        <!-- <div class="jumbotron">
+            <div class="col-xs-12"><h1>Halos</br> so savage</h1></div>
             <div class="col-xs-12 cta">
                 <a href="#" type="button" class="btn btn-ghost btn-lg pull-left">Upgrade Your Bulbs</a>
                 <a href="#" type="button" class="btn btn-ghost btn-lg pull-right">Stylize with Halos</a>
-            </div> -->
-        </div>
+            </div>
+        </div> -->
 
 
         <div class="section first quickstartguide">

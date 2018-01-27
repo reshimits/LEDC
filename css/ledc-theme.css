@@ -1375,7 +1375,31 @@ background-image: url(../img/icons/icon-arrowL-88e333.svg); background-position:
 .productcategory .jumbotron .featureHeadline, .account .jumbotron .featureHeadline, .utility .jumbotron .featureHeadline { margin-bottom: 50px; }
 .jumbotron .featureHeadline img { width: 100%; height: auto; }
 
-.home .jumbotron { background-image: url(../img/feature201712.jpg); }
+/*.home .jumbotron { background-image: url(../img/feature201712.jpg); }*/
+
+.jumbotron .jumbotron-img { height: 100%; background-position: center center; background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.home .jumbotron.feature1 .jumbotron-img, .styleguide .jumbotron.feature1 .jumbotron-img { background-image: url(../img/feature201801.jpg); }
+.home .jumbotron.feature1 hr { margin-top: -25px; border-top: 2px solid #4f4df5; }
+.home .jumbotron .btn-feature { z-index: 2000; margin-top: -10px; color: #fff; background: -webkit-linear-gradient(#7a79ff, #4f4df5);
+    background: -o-linear-gradient(#7a79ff, #4f4df5);
+    background: -moz-linear-gradient(#7a79ff, #4f4df5);
+    background: linear-gradient(#7a79ff, #4f4df5); border-color: #3634c3; }
+.home .jumbotron .btn-feature:hover, .home .jumbotron .btn-feature:focus, .home .jumbotron .btn-feature.focus, .home .jumbotron .btn-feature:active, .home .jumbotron .btn-feature.active, .open > .dropdown-toggle.home .jumbotron .btn-feature { color: #fff; background: #4f4df5; border-color: #3634c3; }
+.home .jumbotron .btn-feature:active, .home .jumbotron .btn-feature.active, .open > .dropdown-toggle.home .jumbotron .btn-feature { background-image: none; }
+
+@media (min-width:768px) {
+  .home .jumbotron.feature1 hr { margin-top: -35px; }
+  .home .jumbotron .btn-feature { margin-top: -50px; }
+}
+@media (min-width:992px) {
+  .home .jumbotron.feature1 hr { margin-top: -50px; }
+  .home .jumbotron .btn-feature { margin-top: -80px; }
+}
+@media (min-width:1200px) {
+  .home .jumbotron.feature1 hr { margin-top: -60px; }
+  .home .jumbotron .btn-feature { margin-top: -100px; }
+}
+
 .productcategory .jumbotron { position: relative; overflow: hidden; padding: 0; }
 
 .section.module-buyersguide { position: absolute; top: 0px; left: 0px; z-index: 0; }
