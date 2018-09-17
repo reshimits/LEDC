@@ -39,7 +39,7 @@
 </head>
 
 <!-- Apply id="wholesaleAcct" if user is logged in as Wholesaler -->
-<body class="utility cart invoice">
+<body class="utility cart checkout invoice">
 
     <!-- Header
     ================================================== -->
@@ -54,10 +54,27 @@
 
     <div class="bodyWrap">
         
-        <div class="jumbotron">
-            <div class="featureHeadline col-xs-12">
-                <h1>Invoice</h1>
-                <h4>Thank you for your order!</h4>
+        <div class="jumbotron header-waypoint" data-animate-down="header-small" data-animate-up="header-large"">
+            <div class="featureHeadline section wrap">
+                <div class="col-xs-12">
+                    <!-- <h1>Checkout:</h1> -->
+                    <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+                        <div class="col-xs-4 col-sm-3">
+                            <div class="btn btn-empty btn-hexicon" data-bind="css: { active: currentCheckoutStageId() === 'shipping' }"><span class="icon icon-checkoutShippingHex"></span></div>
+                            <p class="hidden-xs"><span class="lead">Customer Info</span></p>
+                        </div>
+                        <div class="col-xs-2 col-lg-2 hidden-xs"><hr class="aligncenter"></div>
+                        <div class="col-xs-4 col-sm-2" data-bind="css: { active: currentCheckoutStageId() === 'reviewAndPayment' }">
+                            <div class="btn btn-empty btn-hexicon"><span class="icon icon-checkoutPaymentHex"></span></div>
+                            <p class="hidden-xs"><span class="lead">Payment</span></p>
+                        </div>
+                        <div class="col-xs-2 col-lg-2 hidden-xs"><hr class="aligncenter"></div>
+                        <div class="col-xs-4 col-sm-3">
+                            <div class="btn btn-empty btn-hexicon" data-bind="css: { active: currentCheckoutStageId() === 'placeOrder' }"><span class="icon icon-checkoutCompleteHex active"></span></div>
+                            <p class="hidden-xs"><span class="lead">Place Order</span></p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
